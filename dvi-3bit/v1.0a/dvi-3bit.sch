@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:hdmi-3bit-cache
+LIBS:dvi-3bit-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "iCEBreaker PMOD - HDMI 3bit"
+Title "iCEBreaker PMOD - 3bit DVI"
 Date ""
 Rev "V0.1a"
 Comp "1BitSquared"
@@ -1378,4 +1378,5 @@ Wire Wire Line
 Connection ~ 6700 4700
 Wire Wire Line
 	6700 4700 6700 5000
+NoConn ~ 7650 2500
 $EndSCHEMATC

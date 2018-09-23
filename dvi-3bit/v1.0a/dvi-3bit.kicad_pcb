@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "iCEBreaker PMOD - Tristate LED")
+    (title "iCEBreaker PMOD - 3bit DVI")
     (rev V1.0a)
     (company 1BitSquared)
     (comment 1 "(C) 2018 Piotr Esden-Tempski <piotr@esden.net>")
@@ -1599,7 +1599,7 @@
   (gr_text V1.0a (at 64.7 39.95 270) (layer B.SilkS) (tstamp 5BA965BF)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
-  (gr_text "iCEBreaker PMOD\n3bit HDMI" (at 60.85 40.1 270) (layer B.SilkS) (tstamp 5BA965AD)
+  (gr_text "iCEBreaker PMOD\n3bit DVI" (at 60.85 40.1 270) (layer B.SilkS) (tstamp 5BA965AD)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_arc (start 66 31) (end 67 31) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BA965D1))
