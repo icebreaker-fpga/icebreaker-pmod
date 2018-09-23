@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 54)
+    (drawings 57)
     (tracks 268)
     (zones 0)
     (modules 32)
@@ -543,6 +543,11 @@
       (net 1 GND))
     (pad SH thru_hole circle (at -7.85 5 90) (size 1.9 1.9) (drill 1.3) (layers *.Cu *.Mask)
       (net 1 GND))
+    (model ${KIPRJMOD}/../../lib/pkl/packages3d/pkl_connectors.3dshapes/HDMI-10029449-111RLF.stp
+      (offset (xyz 0 -1.7 3.45))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 180 0 0))
+    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical (layer F.Cu) (tedit 5BA6B2E6) (tstamp 5BA6C28E)
@@ -1560,6 +1565,15 @@
     )
   )
 
+  (gr_text "1BitSquared 2018" (at 55.35 40.2 270) (layer B.SilkS) (tstamp 5BA896F0)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (gr_text CC-BY-SA (at 53.6 40.25 270) (layer B.SilkS) (tstamp 5BA896EA)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (gr_text "1B2 2018" (at 56.55 31.1) (layer F.SilkS) (tstamp 5BA896E5)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
   (gr_line (start 37.7 33.85) (end 39.45 33.85) (layer B.SilkS) (width 0.2) (tstamp 5BA86810))
   (gr_line (start 34.8 33.1) (end 35.7 32.2) (layer B.SilkS) (width 0.2) (tstamp 5BA86666))
   (gr_line (start 35.7 32.2) (end 38.05 32.2) (layer B.SilkS) (width 0.2) (tstamp 5BA864BE))
