@@ -17,15 +17,15 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J1
 U 1 1 5ADECDD2
-P 1800 4300
-F 0 "J1" H 1850 4720 50  0000 C CNN
-F 1 "PMOD" H 1850 4627 50  0000 C CNN
-F 2 "pkl_connectors:PMODHeader_2x06_P2.54mm_Horizontal" H 1800 4300 50  0001 C CNN
-F 3 "~" H 1800 4300 50  0001 C CNN
-F 4 "conn-th-01in-6-2-hdr-ra" H 1800 4300 50  0001 C CNN "Key"
-F 5 "ANY" H 1800 4300 50  0001 C CNN "Source"
-	1    1800 4300
-	1    0    0    -1  
+P 1900 4300
+F 0 "J1" H 1950 4720 50  0000 C CNN
+F 1 "PMOD" H 1950 4627 50  0000 C CNN
+F 2 "pkl_connectors:PMODHeader_2x06_P2.54mm_Horizontal" H 1900 4300 50  0001 C CNN
+F 3 "~" H 1900 4300 50  0001 C CNN
+F 4 "conn-th-01in-6-2-hdr-ra" H 1900 4300 50  0001 C CNN "Key"
+F 5 "ANY" H 1900 4300 50  0001 C CNN "Source"
+	1    1900 4300
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	1600 4500 1400 4500
@@ -33,8 +33,6 @@ Wire Wire Line
 	1400 4500 1400 4800
 Wire Wire Line
 	1600 4600 1500 4600
-Wire Wire Line
-	1500 4600 1500 3800
 Wire Wire Line
 	2100 4600 2200 4600
 Wire Wire Line
@@ -1379,4 +1377,6 @@ Connection ~ 6700 4700
 Wire Wire Line
 	6700 4700 6700 5000
 NoConn ~ 7650 2500
+Wire Wire Line
+	1500 4600 1500 3800
 $EndSCHEMATC
