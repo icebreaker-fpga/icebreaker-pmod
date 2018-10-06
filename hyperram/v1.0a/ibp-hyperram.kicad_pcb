@@ -626,7 +626,7 @@
     )
   )
 
-  (gr_text "V1.0a\n1BitSquared 2018" (at 57.6 63) (layer B.SilkS) (tstamp 5BB9433D)
+  (gr_text "V1.0a\n(C) 2018\n1BitSquared" (at 57.4 62.5) (layer B.SilkS) (tstamp 5BB9433D)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify left mirror))
   )
   (gr_text NC (at 52.285 56.7) (layer F.SilkS) (tstamp 5AAF32B6)
@@ -755,7 +755,7 @@
   (gr_text CC-BY-SA (at 43.6 63.94) (layer F.SilkS) (tstamp 5AABB42B)
     (effects (font (size 0.75 0.75) (thickness 0.1875)))
   )
-  (gr_text "V1.0a\n1BitSquared 2018" (at 57.7 63) (layer F.SilkS) (tstamp 5AABB427)
+  (gr_text "V1.0a\n(C) 2018\n1BitSquared" (at 57.4 62.5) (layer F.SilkS) (tstamp 5AABB427)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify right))
   )
   (gr_text "64MBit DRAM PMOD" (at 49 24.045) (layer B.SilkS) (tstamp 5AAD9945)
