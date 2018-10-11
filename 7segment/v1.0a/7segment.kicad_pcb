@@ -21,8 +21,6 @@
 
   (layers
     (0 F.Cu signal)
-    (1 In1.Cu signal)
-    (2 In2.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -951,7 +949,7 @@
   (segment (start 56.65 32.89) (end 56.96 32.58) (width 0.2) (layer B.Cu) (net 22))
   (segment (start 56.65 34.75) (end 56.65 32.89) (width 0.2) (layer B.Cu) (net 22))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5ADFCB08) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BCADF15) (hatch edge 0.508)
     (connect_pads (clearance 0.15))
     (min_thickness 0.15)
     (fill yes (arc_segments 16) (thermal_gap 0.15) (thermal_bridge_width 0.2))
@@ -1117,7 +1115,7 @@
       )
     )
   )
-  (zone (net 2) (net_name +3V3) (layer B.Cu) (tstamp 5ADFCB05) (hatch edge 0.508)
+  (zone (net 2) (net_name +3V3) (layer B.Cu) (tstamp 5BCADF12) (hatch edge 0.508)
     (connect_pads (clearance 0.15))
     (min_thickness 0.15)
     (fill yes (arc_segments 16) (thermal_gap 0.15) (thermal_bridge_width 0.2))
