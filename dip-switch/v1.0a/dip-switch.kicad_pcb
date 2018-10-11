@@ -452,10 +452,10 @@
       (net 7 /DIP8))
     (pad 16 thru_hole oval (at 7.62 0 90) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 2 +3V3))
-    (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm.wrl
+    (model ${KISYS3DMOD}/Button_Switch_THT.3dshapes/SW_DIP_x8_W7.62mm_Slide.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -910,7 +910,7 @@
   (segment (start 38.8 40.6686) (end 43.3314 45.2) (width 0.2) (layer F.Cu) (net 10))
   (segment (start 43.3314 45.2) (end 53.23 45.2) (width 0.2) (layer F.Cu) (net 10))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BCADF15) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BCBAAFD) (hatch edge 0.508)
     (connect_pads (clearance 0.15))
     (min_thickness 0.15)
     (fill yes (arc_segments 16) (thermal_gap 0.15) (thermal_bridge_width 0.2))
@@ -1051,7 +1051,7 @@
       )
     )
   )
-  (zone (net 2) (net_name +3V3) (layer B.Cu) (tstamp 5BCADF12) (hatch edge 0.508)
+  (zone (net 2) (net_name +3V3) (layer B.Cu) (tstamp 5BCBAAFA) (hatch edge 0.508)
     (connect_pads (clearance 0.15))
     (min_thickness 0.15)
     (fill yes (arc_segments 16) (thermal_gap 0.15) (thermal_bridge_width 0.2))
