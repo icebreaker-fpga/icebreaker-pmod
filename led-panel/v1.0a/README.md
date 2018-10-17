@@ -1,0 +1,1 @@
+This PMOD can be used with 32x32 LED panels. It is missing one additional address line when used with 64x64 panels. See next version of the hardware if you need a LED panel driver for the bigger panels.
