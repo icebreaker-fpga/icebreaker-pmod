@@ -97,15 +97,15 @@ Wire Wire Line
 Text Label 5200 4600 0    50   ~ 0
 iA2
 Text Label 4100 4600 2    50   ~ 0
-i~SCLK
+iSCLK
 Text Label 5200 4500 0    50   ~ 0
 iA1
 Text Label 4100 4500 2    50   ~ 0
-i~LATCH
+iLATCH
 Text Label 5200 4400 0    50   ~ 0
 iA0
 Text Label 4100 4400 2    50   ~ 0
-i~BLANK
+iBLANK
 Text Label 5200 2500 0    50   ~ 0
 iB0
 Text Label 4100 2500 2    50   ~ 0
@@ -186,11 +186,11 @@ A2x
 Text Label 9800 3400 0    50   ~ 0
 A3x
 Text Label 9000 3500 2    50   ~ 0
-~SCLK~x
+SCLKx
 Text Label 9800 3500 0    50   ~ 0
-~LATCH~x
+LATCHx
 Text Label 9000 3600 2    50   ~ 0
-~BLANK~x
+BLANKx
 $Comp
 L power:+3V3 #PWR0102
 U 1 1 5BAA8EAE
@@ -500,7 +500,7 @@ iB1
 Text Label 6100 2800 2    50   ~ 0
 iA0
 Text Label 6100 2900 2    50   ~ 0
-i~BLANK
+iBLANK
 Text Label 7100 2200 0    50   ~ 0
 R0
 Text Label 7100 2300 0    50   ~ 0
@@ -516,7 +516,7 @@ B1
 Text Label 7100 2800 0    50   ~ 0
 A0
 Text Label 7100 2900 0    50   ~ 0
-~BLANK
+BLANK
 Wire Wire Line
 	7100 1900 7200 1900
 Text Label 7200 1900 0    50   ~ 0
@@ -662,21 +662,21 @@ Wire Wire Line
 Wire Wire Line
 	7000 4700 7100 4700
 Text Label 6100 4300 2    50   ~ 0
-i~LATCH
+iLATCH
 Text Label 6100 4400 2    50   ~ 0
 iA1
 Text Label 6100 4500 2    50   ~ 0
-i~SCLK
+iSCLK
 Text Label 6100 4600 2    50   ~ 0
 iA2
 Text Label 6100 4700 2    50   ~ 0
 iA3
 Text Label 7100 4300 0    50   ~ 0
-~LATCH
+LATCH
 Text Label 7100 4400 0    50   ~ 0
 A1
 Text Label 7100 4500 0    50   ~ 0
-~SCLK
+SCLK
 Text Label 7100 4600 0    50   ~ 0
 A2
 Text Label 7100 4700 0    50   ~ 0
@@ -906,9 +906,9 @@ A0
 Text Label 8100 3400 2    50   ~ 0
 A2
 Text Label 8100 3500 2    50   ~ 0
-~SCLK
+SCLK
 Text Label 8100 3600 2    50   ~ 0
-~BLANK
+BLANK
 Wire Wire Line
 	8300 3100 8100 3100
 Wire Wire Line
@@ -948,7 +948,7 @@ A1
 Text Label 10600 3400 0    50   ~ 0
 A3
 Text Label 10600 3500 0    50   ~ 0
-~LATCH
+LATCH
 Wire Wire Line
 	10400 3200 10600 3200
 Wire Wire Line

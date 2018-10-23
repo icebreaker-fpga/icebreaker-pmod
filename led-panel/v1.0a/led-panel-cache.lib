@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_02x01
+# Connector_Generic_Conn_02x01
 #
-DEF Connector_Generic:Conn_02x01 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x01 J 0 40 Y N 1 F N
 F0 "J" 50 100 50 H V C CNN
-F1 "Connector_Generic:Conn_02x01" 50 -100 50 H V C CNN
+F1 "Connector_Generic_Conn_02x01" 50 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -20,11 +20,11 @@ X Pin_2 2 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x06_Top_Bottom
+# Connector_Generic_Conn_02x06_Top_Bottom
 #
-DEF Connector_Generic:Conn_02x06_Top_Bottom J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x06_Top_Bottom J 0 40 Y N 1 F N
 F0 "J" 50 300 50 H V C CNN
-F1 "Connector_Generic:Conn_02x06_Top_Bottom" 50 -400 50 H V C CNN
+F1 "Connector_Generic_Conn_02x06_Top_Bottom" 50 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -59,11 +59,11 @@ X Pin_9 9 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x08_Odd_Even
+# Connector_Generic_Conn_02x08_Odd_Even
 #
-DEF Connector_Generic:Conn_02x08_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x08_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic:Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
+F1 "Connector_Generic_Conn_02x08_Odd_Even" 50 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -106,11 +106,11 @@ X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device:pkl_C
+# pkl_device_pkl_C
 #
-DEF pkl_device:pkl_C C 0 10 N Y 1 F N
+DEF pkl_device_pkl_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "pkl_device:pkl_C" 25 -100 50 H V L CNN
+F1 "pkl_device_pkl_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -128,11 +128,11 @@ X ~ 2 0 -100 60 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device:pkl_R_Small
+# pkl_device_pkl_R_Small
 #
-DEF pkl_device:pkl_R_Small R 0 10 N N 1 F N
+DEF pkl_device_pkl_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "pkl_device:pkl_R_Small" 30 -40 50 H V L CNN
+F1 "pkl_device_pkl_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -146,11 +146,11 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_misc:74LVC4245A
+# pkl_misc_74LVC4245A
 #
-DEF pkl_misc:74LVC4245A U 0 40 Y Y 1 F N
+DEF pkl_misc_74LVC4245A U 0 40 Y Y 1 F N
 F0 "U" 0 500 50 H V C CNN
-F1 "pkl_misc:74LVC4245A" 0 400 50 H V C CNN
+F1 "pkl_misc_74LVC4245A" 0 400 50 H V C CNN
 F2 "" 0 -200 50 H I C CNN
 F3 "" 0 -200 50 H I C CNN
 DRAW
@@ -236,11 +236,11 @@ X A6 9 -400 -650 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_misc:pkl_jumper_nc
+# pkl_misc_pkl_jumper_nc
 #
-DEF pkl_misc:pkl_jumper_nc J 0 40 Y Y 1 F N
+DEF pkl_misc_pkl_jumper_nc J 0 40 Y Y 1 F N
 F0 "J" 0 -100 50 H V C CNN
-F1 "pkl_misc:pkl_jumper_nc" 0 150 50 H V C CNN
+F1 "pkl_misc_pkl_jumper_nc" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -252,11 +252,11 @@ X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -268,11 +268,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -283,11 +283,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
