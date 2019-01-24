@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-fee4fd1~66~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.2)
+    (last_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
@@ -70,7 +70,8 @@
     (pad_size 1.7 1.7)
     (pad_drill 1)
     (pad_to_mask_clearance 0.05)
-    (aux_axis_origin 0 0)
+    (solder_mask_min_width 0.25)
+    (aux_axis_origin 30 50.3)
     (grid_origin 34.1 40.2)
     (visible_elements FFFFFF1F)
     (pcbplotparams
