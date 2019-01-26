@@ -138,6 +138,7 @@ F 1 "HDMI_A_1.4" H 9830 3654 50  0000 L CNN
 F 2 "pkl_connectors:HDMI-10029449-111RLF" H 9425 3700 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 9425 3700 50  0001 C CNN
 F 4 "ANY" H 9400 3700 50  0001 C CNN "Source"
+F 5 "conn-hdmi-10029449-111rlf" H 0   0   50  0001 C CNN "Key"
 	1    9400 3700
 	1    0    0    -1  
 $EndComp
@@ -150,6 +151,7 @@ F 1 "TFP410" H 5800 5837 50  0000 C CNN
 F 2 "pkl_housings_qfp:TQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm" H 5850 1250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tfp410.pdf" H 5850 1250 50  0001 C CNN
 F 4 "ANY" H 5800 3600 50  0001 C CNN "Source"
+F 5 "ic-tqfp64-tfp410" H 0   0   50  0001 C CNN "Key"
 	1    5800 3600
 	1    0    0    -1  
 $EndComp
@@ -535,10 +537,10 @@ L pkl_device:pkl_R_Small R9
 U 1 1 5B0DC406
 P 6900 2200
 F 0 "R9" H 6959 2247 50  0000 L CNN
-F 1 "500E" H 6959 2154 50  0000 L CNN
+F 1 "510E" H 6959 2154 50  0000 L CNN
 F 2 "pkl_dipol:R_0402" H 6959 2107 60  0001 L CNN
 F 3 "" H 6900 2200 60  0000 C CNN
-F 4 "res-0402-500" H 6900 2200 50  0001 C CNN "Key"
+F 4 "res-0402-510" H 6900 2200 50  0001 C CNN "Key"
 F 5 "ANY" H 6900 2200 50  0001 C CNN "Source"
 	1    6900 2200
 	1    0    0    -1  
@@ -625,7 +627,7 @@ F 0 "L1" V 8190 3400 50  0000 C CNN
 F 1 "600" V 8097 3400 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" H 8049 3307 60  0001 L CNN
 F 3 "" V 8000 3400 60  0000 C CNN
-F 4 "ind-0402-600" H 8000 3400 50  0001 C CNN "Key"
+F 4 "ferrite-0402-600" H 8000 3400 50  0001 C CNN "Key"
 F 5 "ANY" H 8000 3400 50  0001 C CNN "Source"
 	1    8000 3400
 	0    -1   -1   0   
@@ -742,7 +744,7 @@ F 0 "L2" V 8190 4300 50  0000 C CNN
 F 1 "600" V 8097 4300 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" H 8049 4207 60  0001 L CNN
 F 3 "" V 8000 4300 60  0000 C CNN
-F 4 "ind-0402-600" H 8000 4300 50  0001 C CNN "Key"
+F 4 "ferrite-0402-600" H 8000 4300 50  0001 C CNN "Key"
 F 5 "ANY" H 8000 4300 50  0001 C CNN "Source"
 	1    8000 4300
 	0    -1   -1   0   
@@ -813,7 +815,7 @@ F 0 "L3" V 8190 5200 50  0000 C CNN
 F 1 "600" V 8097 5200 50  0000 C CNN
 F 2 "pkl_dipol:L_0402" H 8049 5107 60  0001 L CNN
 F 3 "" V 8000 5200 60  0000 C CNN
-F 4 "ind-0402-600" H 8000 5200 50  0001 C CNN "Key"
+F 4 "ferrite-0402-600" H 8000 5200 50  0001 C CNN "Key"
 F 5 "ANY" H 8000 5200 50  0001 C CNN "Source"
 	1    8000 5200
 	0    -1   -1   0   
@@ -1096,7 +1098,7 @@ F 0 "J4" H 1850 2820 50  0000 C CNN
 F 1 "5V" H 1850 2727 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 1800 2600 50  0001 C CNN
 F 3 "~" H 1800 2600 50  0001 C CNN
-F 4 "conn-th-01in-6-2-hdr-ra" H 1800 2600 50  0001 C CNN "Key"
+F 4 "conn-th-01in-2-1-rec" H 1800 2600 50  0001 C CNN "Key"
 F 5 "ANY" H 1800 2600 50  0001 C CNN "Source"
 	1    1800 2600
 	1    0    0    -1  
@@ -1330,7 +1332,6 @@ Wire Wire Line
 Connection ~ 6700 4700
 Wire Wire Line
 	6700 4700 6700 5000
-NoConn ~ 7650 2500
 Wire Wire Line
 	1500 4600 1500 3800
 $Comp

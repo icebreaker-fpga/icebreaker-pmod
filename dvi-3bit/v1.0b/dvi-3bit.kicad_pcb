@@ -45,7 +45,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.3)
@@ -1678,7 +1678,7 @@
   (gr_line (start 66 50.3) (end 31 50.3) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 31 49.3) (end 30 49.3) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 66 49.3) (end 66 50.3) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BA965D7))
-  (gr_text "3bit HDMI" (at 47.5 49.5) (layer F.SilkS) (tstamp 5ADFCA97)
+  (gr_text "3bit DVI" (at 47.5 49.5) (layer F.SilkS) (tstamp 5ADFCA97)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text V1.0b (at 54.1 49.5) (layer F.SilkS) (tstamp 5ADFCA91)

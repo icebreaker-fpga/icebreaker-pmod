@@ -1959,7 +1959,7 @@
   (gr_line (start 69 50.4) (end 48.7 50.4) (layer Edge.Cuts) (width 0.15) (tstamp 5BA8C2FA))
   (gr_arc (start 31 59.6) (end 30 59.6) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BA8C7CA))
   (gr_arc (start 69 49.4) (end 69 50.4) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5BA8C2F7))
-  (gr_text "12bit HDMI" (at 50.5 49.5) (layer F.SilkS) (tstamp 5ADFCA97)
+  (gr_text "12bit DVI" (at 50.5 49.5) (layer F.SilkS) (tstamp 5ADFCA97)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_text V1.0b (at 57.1 49.5) (layer F.SilkS) (tstamp 5ADFCA91)

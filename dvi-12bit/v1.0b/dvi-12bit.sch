@@ -1440,10 +1440,10 @@ B1
 Text Label 4900 3700 2    60   ~ 0
 B0
 $Comp
-L pkl_misc:pkl_double_jumper_ncno J?
+L pkl_misc:pkl_double_jumper_ncno J5
 U 1 1 5C5DF288
 P 9400 2400
-F 0 "J?" H 9250 2500 50  0000 C CNN
+F 0 "J5" H 9250 2500 50  0000 C CNN
 F 1 "3v3_5v_sel" H 9650 2500 50  0000 C CNN
 F 2 "pkl_jumpers:J_NCNO_0903_30" H 9350 2400 50  0001 C CNN
 F 3 "" H 9350 2400 50  0001 C CNN
@@ -1455,10 +1455,10 @@ Wire Wire Line
 Wire Wire Line
 	9700 2400 9700 2250
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0128
 U 1 1 5C5F0282
 P 9100 2250
-F 0 "#PWR?" H 9100 2100 50  0001 C CNN
+F 0 "#PWR0128" H 9100 2100 50  0001 C CNN
 F 1 "+3V3" H 9115 2426 50  0000 C CNN
 F 2 "" H 9100 2250 50  0001 C CNN
 F 3 "" H 9100 2250 50  0001 C CNN

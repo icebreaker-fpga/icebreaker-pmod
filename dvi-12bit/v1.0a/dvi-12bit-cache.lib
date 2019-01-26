@@ -1,11 +1,69 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:HDMI_A_1.4
+# Connector_Generic_Conn_02x01
 #
-DEF Connector:HDMI_A_1.4 J 0 20 Y Y 1 F N
+DEF Connector_Generic_Conn_02x01 J 0 40 Y N 1 F N
+F0 "J" 50 100 50 H V C CNN
+F1 "Connector_Generic_Conn_02x01" 50 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 150 -50 1 1 10 f
+S 150 5 100 -5 1 1 6 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic_Conn_02x06_Top_Bottom
+#
+DEF Connector_Generic_Conn_02x06_Top_Bottom J 0 40 Y N 1 F N
+F0 "J" 50 300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x06_Top_Bottom" 50 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 150 -350 1 1 10 f
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_10 10 300 -100 150 L 50 50 1 1 P
+X Pin_11 11 300 -200 150 L 50 50 1 1 P
+X Pin_12 12 300 -300 150 L 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+X Pin_6 6 -200 -300 150 R 50 50 1 1 P
+X Pin_7 7 300 200 150 L 50 50 1 1 P
+X Pin_8 8 300 100 150 L 50 50 1 1 P
+X Pin_9 9 300 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_HDMI_A_1.4
+#
+DEF Connector_HDMI_A_1.4 J 0 20 Y Y 1 F N
 F0 "J" -250 1050 50 H V C CNN
-F1 "Connector:HDMI_A_1.4" 400 1050 50 H V C CNN
+F1 "Connector_HDMI_A_1.4" 400 1050 50 H V C CNN
 F2 "" 25 0 50 H I C CNN
 F3 "" 25 0 50 H I C CNN
 $FPLIST
@@ -42,69 +100,11 @@ X SH SH 300 -1100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x01
+# pkl_device_pkl_C
 #
-DEF Connector_Generic:Conn_02x01 J 0 40 Y N 1 F N
-F0 "J" 50 100 50 H V C CNN
-F1 "Connector_Generic:Conn_02x01" 50 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 5 0 -5 1 1 6 N
-S -50 50 150 -50 1 1 10 f
-S 150 5 100 -5 1 1 6 N
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 300 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_02x06_Top_Bottom
-#
-DEF Connector_Generic:Conn_02x06_Top_Bottom J 0 40 Y N 1 F N
-F0 "J" 50 300 50 H V C CNN
-F1 "Connector_Generic:Conn_02x06_Top_Bottom" 50 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 150 -350 1 1 10 f
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_10 10 300 -100 150 L 50 50 1 1 P
-X Pin_11 11 300 -200 150 L 50 50 1 1 P
-X Pin_12 12 300 -300 150 L 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
-X Pin_6 6 -200 -300 150 R 50 50 1 1 P
-X Pin_7 7 300 200 150 L 50 50 1 1 P
-X Pin_8 8 300 100 150 L 50 50 1 1 P
-X Pin_9 9 300 0 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# pkl_device:pkl_C
-#
-DEF pkl_device:pkl_C C 0 10 N Y 1 F N
+DEF pkl_device_pkl_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "pkl_device:pkl_C" 25 -100 50 H V L CNN
+F1 "pkl_device_pkl_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 30 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -122,11 +122,11 @@ X ~ 2 0 -100 60 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device:pkl_C_Small
+# pkl_device_pkl_C_Small
 #
-DEF pkl_device:pkl_C_Small C 0 10 N N 1 F N
+DEF pkl_device_pkl_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "pkl_device:pkl_C_Small" 10 -80 50 H V L CNN
+F1 "pkl_device_pkl_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -144,11 +144,11 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device:pkl_L_Small
+# pkl_device_pkl_L_Small
 #
-DEF pkl_device:pkl_L_Small L 0 0 N N 1 F N
+DEF pkl_device_pkl_L_Small L 0 0 N N 1 F N
 F0 "L" 60 50 50 H V L CNN
-F1 "pkl_device:pkl_L_Small" 60 -50 50 H V L CNN
+F1 "pkl_device_pkl_L_Small" 60 -50 50 H V L CNN
 F2 "" 0 0 60 V V C CNN
 F3 "" 0 0 60 V V C CNN
 $FPLIST
@@ -168,11 +168,11 @@ X 2 2 0 100 20 D 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pkl_device:pkl_R_Small
+# pkl_device_pkl_R_Small
 #
-DEF pkl_device:pkl_R_Small R 0 10 N N 1 F N
+DEF pkl_device_pkl_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "pkl_device:pkl_R_Small" 30 -40 50 H V L CNN
+F1 "pkl_device_pkl_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -186,11 +186,11 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_device:pkl_VREG_5PIN_FIXED
+# pkl_device_pkl_VREG_5PIN_FIXED
 #
-DEF pkl_device:pkl_VREG_5PIN_FIXED U 0 40 Y Y 1 F N
+DEF pkl_device_pkl_VREG_5PIN_FIXED U 0 40 Y Y 1 F N
 F0 "U" -150 -200 60 H V C CNN
-F1 "pkl_device:pkl_VREG_5PIN_FIXED" 0 200 60 H V C CNN
+F1 "pkl_device_pkl_VREG_5PIN_FIXED" 0 200 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -203,11 +203,11 @@ X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# pkl_misc:pkl_jumper
+# pkl_misc_pkl_jumper
 #
-DEF pkl_misc:pkl_jumper J 0 40 Y Y 1 F N
+DEF pkl_misc_pkl_jumper J 0 40 Y Y 1 F N
 F0 "J" 100 -100 60 H V C CNN
-F1 "pkl_misc:pkl_jumper" 0 150 60 H V C CNN
+F1 "pkl_misc_pkl_jumper" 0 150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -218,11 +218,11 @@ X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_misc:pkl_jumper_nc
+# pkl_misc_pkl_jumper_nc
 #
-DEF pkl_misc:pkl_jumper_nc J 0 40 Y Y 1 F N
+DEF pkl_misc_pkl_jumper_nc J 0 40 Y Y 1 F N
 F0 "J" 0 -100 50 H V C CNN
-F1 "pkl_misc:pkl_jumper_nc" 0 150 50 H V C CNN
+F1 "pkl_misc_pkl_jumper_nc" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -234,11 +234,11 @@ X ~ 2 100 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# pkl_texas:TFP410
+# pkl_texas_TFP410
 #
-DEF pkl_texas:TFP410 U 0 40 Y Y 1 F N
+DEF pkl_texas_TFP410 U 0 40 Y Y 1 F N
 F0 "U" 0 2200 50 H V C CNN
-F1 "pkl_texas:TFP410" 0 -2300 50 H V C CNN
+F1 "pkl_texas_TFP410" 0 -2300 50 H V C CNN
 F2 "" 50 -2350 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tfp410.pdf" 50 -2350 50 H I C CNN
 F4 "ANY" 0 0 50 H I C CNN "Source"
@@ -312,11 +312,11 @@ X EDGE/HTPLG 9 -800 -1100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -328,11 +328,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+5V
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -343,11 +343,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
