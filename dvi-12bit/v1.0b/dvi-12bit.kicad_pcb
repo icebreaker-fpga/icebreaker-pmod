@@ -14,8 +14,8 @@
     (title "iCEBreaker PMOD - 12bit DVI")
     (rev V1.0b)
     (company 1BitSquared)
-    (comment 1 "(C) 2018 Piotr Esden-Tempski <piotr@esden.net>")
-    (comment 2 "(C) 2018 1BitSquared <info@1bitsquared.com>")
+    (comment 1 "(C) 2018-2019 Piotr Esden-Tempski <piotr@esden.net>")
+    (comment 2 "(C) 2018-2019 1BitSquared <info@1bitsquared.com>")
     (comment 3 "License: CC-BY-SA V4.0")
   )
 
@@ -45,7 +45,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.25)
     (user_trace_width 0.3)

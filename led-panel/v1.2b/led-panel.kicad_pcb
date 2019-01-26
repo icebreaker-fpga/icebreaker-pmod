@@ -14,8 +14,8 @@
     (title "iCEBreaker PMOD - LED Panel HUB75E")
     (rev V1.2b)
     (company 1BitSquared)
-    (comment 1 "2018 (C) 1BitSquared <info@1bitsquared.com>")
-    (comment 2 "2018 (C) Piotr Esden-Tempski <piotr@esden.net>")
+    (comment 1 "2018-2019 (C) 1BitSquared <info@1bitsquared.com>")
+    (comment 2 "2018-2019 (C) Piotr Esden-Tempski <piotr@esden.net>")
     (comment 3 "License: CC-BY-SA 4.0")
   )
 
