@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "iCEBreaker PMOD - Hyperram"
+Title "iCEBreaker PMOD - LED Panel HUB75E"
 Date ""
 Rev "V1.2a"
 Comp "1BitSquared"
@@ -22,7 +22,8 @@ F 0 "J4" H 4650 2800 50  0000 L CNN
 F 1 "PMOD" H 4550 2900 50  0000 L CNN
 F 2 "pkl_connectors:PMODHeader_2x06_P2.54mm_Horizontal" H 4700 2500 50  0001 C CNN
 F 3 "~" H 4700 2500 50  0001 C CNN
-F 4 "ANY" H 4700 2500 50  0001 C CNN "Source"
+F 4 "conn-th-01in-6-2-hdr-ra" H 4700 2500 50  0001 C CNN "Key"
+F 5 "ANY" H 4700 2500 50  0001 C CNN "Source"
 	1    4700 2500
 	-1   0    0    -1  
 $EndComp
@@ -124,6 +125,7 @@ F 0 "J6" H 9350 3717 50  0000 C CNN
 F 1 "Conn_02x08_Odd_Even" H 9350 3626 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 9300 3200 50  0001 C CNN
 F 3 "~" H 9300 3200 50  0001 C CNN
+F 4 "conn-th-01in-8-2-hdr" H 9300 3200 50  0001 C CNN "Key"
 	1    9300 3200
 	1    0    0    -1  
 $EndComp
@@ -228,7 +230,7 @@ F 0 "J1" H 4650 3770 50  0000 C CNN
 F 1 "5V" H 4650 3677 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 4600 3550 50  0001 C CNN
 F 3 "~" H 4600 3550 50  0001 C CNN
-F 4 "conn-th-01in-6-2-hdr-ra" H 4600 3550 50  0001 C CNN "Key"
+F 4 "conn-th-01in-2-1-rec" H 4600 3550 50  0001 C CNN "Key"
 F 5 "ANY" H 4600 3550 50  0001 C CNN "Source"
 	1    4600 3550
 	1    0    0    -1  
@@ -609,7 +611,8 @@ F 0 "J2" H 4650 4900 50  0000 L CNN
 F 1 "PMOD" H 4550 5000 50  0000 L CNN
 F 2 "pkl_connectors:PMODHeader_2x06_P2.54mm_Horizontal" H 4700 4600 50  0001 C CNN
 F 3 "~" H 4700 4600 50  0001 C CNN
-F 4 "ANY" H 4700 4600 50  0001 C CNN "Source"
+F 4 "conn-th-01in-6-2-hdr-ra" H 4700 4600 50  0001 C CNN "Key"
+F 5 "ANY" H 4700 4600 50  0001 C CNN "Source"
 	1    4700 4600
 	-1   0    0    -1  
 $EndComp
@@ -641,6 +644,7 @@ F 0 "R5" V 7750 2050 50  0000 C CNN
 F 1 "33E" V 7750 2350 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2200 60  0001 C CNN
 F 3 "" H 7800 2200 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	1    7800 2200
 	0    -1   1    0   
 $EndComp
@@ -652,6 +656,7 @@ F 0 "R5" V 7750 2150 50  0000 C CNN
 F 1 "33E" V 7750 2450 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2300 60  0001 C CNN
 F 3 "" H 7800 2300 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	2    7800 2300
 	0    -1   1    0   
 $EndComp
@@ -663,6 +668,7 @@ F 0 "R5" V 7850 2250 50  0000 C CNN
 F 1 "33E" V 7850 2550 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2400 60  0001 C CNN
 F 3 "" H 7800 2400 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	3    7800 2400
 	0    -1   -1   0   
 $EndComp
@@ -674,6 +680,7 @@ F 0 "R5" V 7750 2350 50  0000 C CNN
 F 1 "33E" V 7750 2650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2500 60  0001 C CNN
 F 3 "" H 7800 2500 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	4    7800 2500
 	0    -1   1    0   
 $EndComp
@@ -685,6 +692,7 @@ F 0 "R6" V 7750 2450 50  0000 C CNN
 F 1 "33E" V 7750 2750 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2600 60  0001 C CNN
 F 3 "" H 7800 2600 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	1    7800 2600
 	0    -1   1    0   
 $EndComp
@@ -696,6 +704,7 @@ F 0 "R6" V 7750 2550 50  0000 C CNN
 F 1 "33E" V 7750 2850 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2700 60  0001 C CNN
 F 3 "" H 7800 2700 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	2    7800 2700
 	0    -1   1    0   
 $EndComp
@@ -707,6 +716,7 @@ F 0 "R6" V 7750 2650 50  0000 C CNN
 F 1 "33E" V 7750 2950 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2800 60  0001 C CNN
 F 3 "" H 7800 2800 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	3    7800 2800
 	0    -1   1    0   
 $EndComp
@@ -718,6 +728,7 @@ F 0 "R6" V 7750 2750 50  0000 C CNN
 F 1 "33E" V 7750 3050 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 2900 60  0001 C CNN
 F 3 "" H 7800 2900 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	4    7800 2900
 	0    -1   1    0   
 $EndComp
@@ -729,6 +740,7 @@ F 0 "R7" V 7750 4150 50  0000 C CNN
 F 1 "33E" V 7750 4450 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4300 60  0001 C CNN
 F 3 "" H 7800 4300 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	1    7800 4300
 	0    -1   1    0   
 $EndComp
@@ -740,6 +752,7 @@ F 0 "R7" V 7750 4250 50  0000 C CNN
 F 1 "33E" V 7750 4550 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4400 60  0001 C CNN
 F 3 "" H 7800 4400 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	2    7800 4400
 	0    -1   1    0   
 $EndComp
@@ -751,6 +764,7 @@ F 0 "R7" V 7750 4350 50  0000 C CNN
 F 1 "33E" V 7750 4650 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4500 60  0001 C CNN
 F 3 "" H 7800 4500 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	3    7800 4500
 	0    -1   1    0   
 $EndComp
@@ -762,6 +776,7 @@ F 0 "R7" V 7750 4450 50  0000 C CNN
 F 1 "33E" V 7750 4750 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4600 60  0001 C CNN
 F 3 "" H 7800 4600 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	4    7800 4600
 	0    -1   1    0   
 $EndComp
@@ -773,6 +788,7 @@ F 0 "R8" V 7750 4550 50  0000 C CNN
 F 1 "33E" V 7750 4850 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4700 60  0001 C CNN
 F 3 "" H 7800 4700 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	1    7800 4700
 	0    -1   1    0   
 $EndComp
@@ -784,6 +800,7 @@ F 0 "R8" V 7750 4650 50  0000 C CNN
 F 1 "33E" V 7750 4950 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4800 60  0001 C CNN
 F 3 "" H 7800 4800 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	2    7800 4800
 	0    -1   1    0   
 $EndComp
@@ -987,6 +1004,7 @@ F 0 "R8" V 7750 4750 50  0000 C CNN
 F 1 "33E" V 7750 5050 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 4900 60  0001 C CNN
 F 3 "" H 7800 4900 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	3    7800 4900
 	0    -1   1    0   
 $EndComp
@@ -998,6 +1016,7 @@ F 0 "R8" V 7750 4850 50  0000 C CNN
 F 1 "33E" V 7750 5150 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 7800 5000 60  0001 C CNN
 F 3 "" H 7800 5000 60  0000 C CNN
+F 4 "res-0402cv-array-4-33" H 0   0   50  0001 C CNN "Key"
 	4    7800 5000
 	0    -1   1    0   
 $EndComp

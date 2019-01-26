@@ -3,7 +3,7 @@
   (general
     (thickness 0.8)
     (drawings 150)
-    (tracks 261)
+    (tracks 272)
     (zones 0)
     (modules 25)
     (nets 59)
@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "iCEBreaker PMOD - Hyperram")
+    (title "iCEBreaker PMOD - LED Panel HUB75E")
     (rev V1.2b)
     (company 1BitSquared)
     (comment 1 "2018 (C) 1BitSquared <info@1bitsquared.com>")
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.2)
     (user_trace_width 0.3)
     (trace_clearance 0.2)
     (zone_clearance 0.25)
@@ -1923,6 +1923,17 @@
   (segment (start 67.25 32) (end 68.4 32) (width 0.3) (layer B.Cu) (net 1))
   (via (at 68.3 56) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 1))
   (segment (start 67.15 56) (end 68.3 56) (width 0.3) (layer B.Cu) (net 1))
+  (segment (start 67.15 56) (end 67.6 56) (width 0.3) (layer B.Cu) (net 1))
+  (via (at 68.3 56.7) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (segment (start 67.6 56) (end 68.3 56.7) (width 0.3) (layer B.Cu) (net 1))
+  (via (at 68.3 55.300006) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (segment (start 68.299994 55.300006) (end 68.3 55.300006) (width 0.3) (layer B.Cu) (net 1))
+  (segment (start 67.6 56) (end 68.299994 55.300006) (width 0.3) (layer B.Cu) (net 1))
+  (segment (start 67.25 32) (end 67.7 32) (width 0.3) (layer B.Cu) (net 1))
+  (via (at 68.4 32.7) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (segment (start 67.7 32) (end 68.4 32.7) (width 0.3) (layer B.Cu) (net 1))
+  (via (at 68.4 31.3) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 1))
+  (segment (start 67.7 32) (end 68.4 31.3) (width 0.3) (layer B.Cu) (net 1))
   (segment (start 44 38.92) (end 47.1 42.02) (width 0.3) (layer B.Cu) (net 2))
   (segment (start 47.1 42.02) (end 47.1 42.85) (width 0.3) (layer B.Cu) (net 2))
   (segment (start 44.37 38.92) (end 46.45 41) (width 0.3) (layer F.Cu) (net 2))

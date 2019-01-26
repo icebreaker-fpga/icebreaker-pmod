@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.1-33cea8e~68~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.2-bee76a0~70~ubuntu18.04.1)
 
   (general
     (thickness 0.8)
@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "iCEBreaker PMOD - Hyperram")
+    (title "iCEBreaker PMOD - LED Panel HUB75E")
     (rev V1.2a)
     (company 1BitSquared)
     (comment 1 "2018 (C) 1BitSquared <info@1bitsquared.com>")
@@ -63,7 +63,7 @@
     (pad_size 0.5 0.6)
     (pad_drill 0)
     (pad_to_mask_clearance 0.05)
-    (solder_mask_min_width 0.25)
+    (solder_mask_min_width 0.05)
     (aux_axis_origin 0 0)
     (grid_origin 37.4 44)
     (visible_elements FFFFFF1F)
@@ -2177,7 +2177,7 @@
   (segment (start 54.1 41.7193) (end 52.7057 40.325) (width 0.2) (layer F.Cu) (net 58))
   (segment (start 54.1 43.4) (end 54.1 41.7193) (width 0.2) (layer F.Cu) (net 58))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BEAA6DD) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5BEAAEED) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
     (fill yes (arc_segments 16) (thermal_gap 0.25) (thermal_bridge_width 0.26))
@@ -2568,7 +2568,7 @@
       )
     )
   )
-  (zone (net 2) (net_name +3V3) (layer B.Cu) (tstamp 5BEAA6DA) (hatch edge 0.508)
+  (zone (net 2) (net_name +3V3) (layer B.Cu) (tstamp 5BEAAEEA) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
     (fill yes (arc_segments 16) (thermal_gap 0.25) (thermal_bridge_width 0.26))
@@ -2739,7 +2739,7 @@
       )
     )
   )
-  (zone (net 4) (net_name /VCCB) (layer B.Cu) (tstamp 5BEAA6D7) (hatch edge 0.508)
+  (zone (net 4) (net_name /VCCB) (layer B.Cu) (tstamp 5BEAAEE7) (hatch edge 0.508)
     (connect_pads (clearance 0.25))
     (min_thickness 0.25)
     (fill yes (arc_segments 16) (thermal_gap 0.25) (thermal_bridge_width 0.26))

@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "iCEBreaker PMOD - Hyperram"
+Title "iCEBreaker PMOD - LED Panel HUB75E"
 Date ""
 Rev "V1.1a"
 Comp "1BitSquared"
