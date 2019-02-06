@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "iCEBreaker PMOD - LED Panel Dual HUB75E Mini")
+    (title "iCEBreaker PMOD - LED Panel Single HUB75E Mini")
     (rev V1.0a)
     (company 1BitSquared)
     (comment 1 "2018-2019 (C) 1BitSquared <info@1bitsquared.com>")
