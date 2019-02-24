@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:hub75e-mini-adapter-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "HUB75E Mini Adapter"
 Date ""
-Rev "V1.0a"
+Rev "V1.0b"
 Comp "1BitSquared"
 Comment1 "2018-2019 (C) 1BitSquared <info@1bitsquared.com>"
 Comment2 "2018-2019 (C) Piotr Esden-Tempski <piotr@esden.net>"
@@ -35,33 +35,33 @@ Wire Wire Line
 Wire Wire Line
 	5500 3000 5400 3000
 Text Label 5400 2800 2    50   ~ 0
-Rx
-Text Label 6200 2800 0    50   ~ 0
-Gx
+R0
+Text Label 6100 2800 0    50   ~ 0
+G0
 Text Label 5400 2900 2    50   ~ 0
-Bx
+B0
 Text Label 5400 3000 2    50   ~ 0
-R1x
-Text Label 6200 3000 0    50   ~ 0
-G1x
+R1
+Text Label 6100 3000 0    50   ~ 0
+G1
 Text Label 5400 3100 2    50   ~ 0
-B1x
+B1
 Text Label 5400 3200 2    50   ~ 0
-A0x
-Text Label 6200 3200 0    50   ~ 0
-A1x
+A0
+Text Label 6100 3200 0    50   ~ 0
+A1
 Text Label 5400 3300 2    50   ~ 0
-A2x
-Text Label 6200 3300 0    50   ~ 0
-A3x
+A2
+Text Label 6100 3300 0    50   ~ 0
+A3
 Text Label 5400 3400 2    50   ~ 0
-SCLKx
-Text Label 6200 3400 0    50   ~ 0
-LATCHx
+SCLK
+Text Label 6100 3400 0    50   ~ 0
+LATCH
 Text Label 5400 3500 2    50   ~ 0
-BLANKx
-Text Label 6200 3100 0    50   ~ 0
-A4x
+BLANK
+Text Label 6100 3100 0    50   ~ 0
+A4
 Wire Wire Line
 	5400 3100 5500 3100
 Wire Wire Line
@@ -73,35 +73,19 @@ Wire Wire Line
 Wire Wire Line
 	5400 3500 5500 3500
 Wire Wire Line
-	6000 2800 6200 2800
+	6000 2800 6100 2800
 Wire Wire Line
-	6000 3000 6200 3000
+	6000 3000 6100 3000
 Wire Wire Line
-	6000 3100 6200 3100
+	6000 3100 6100 3100
 Wire Wire Line
-	6000 3200 6200 3200
+	6000 3200 6100 3200
 Wire Wire Line
-	6000 3300 6200 3300
+	6000 3300 6100 3300
 Wire Wire Line
-	6000 3400 6200 3400
+	6000 3400 6100 3400
 Wire Wire Line
 	6000 2900 6100 2900
-Wire Wire Line
-	6100 2900 6100 3500
-Wire Wire Line
-	6100 3500 6100 3700
-Connection ~ 6100 3500
-$Comp
-L power:GND #PWR03
-U 1 1 5C8CBF07
-P 6100 3700
-F 0 "#PWR03" H 6100 3450 50  0001 C CNN
-F 1 "GND" H 6105 3524 50  0000 C CNN
-F 2 "" H 6100 3700 50  0001 C CNN
-F 3 "" H 6100 3700 50  0001 C CNN
-	1    6100 3700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J1
 U 1 1 5C5ACFC1
@@ -123,33 +107,33 @@ Wire Wire Line
 Wire Wire Line
 	5500 4400 5400 4400
 Text Label 5400 4200 2    50   ~ 0
-Rx
-Text Label 6200 4200 0    50   ~ 0
-Gx
+R0
+Text Label 6100 4200 0    50   ~ 0
+G0
 Text Label 5400 4300 2    50   ~ 0
-Bx
+B0
 Text Label 5400 4400 2    50   ~ 0
-R1x
-Text Label 6200 4400 0    50   ~ 0
-G1x
+R1
+Text Label 6100 4400 0    50   ~ 0
+G1
 Text Label 5400 4500 2    50   ~ 0
-B1x
+B1
 Text Label 5400 4600 2    50   ~ 0
-A0x
-Text Label 6200 4600 0    50   ~ 0
-A1x
+A0
+Text Label 6100 4600 0    50   ~ 0
+A1
 Text Label 5400 4700 2    50   ~ 0
-A2x
-Text Label 6200 4700 0    50   ~ 0
-A3x
+A2
+Text Label 6100 4700 0    50   ~ 0
+A3
 Text Label 5400 4800 2    50   ~ 0
-SCLKx
-Text Label 6200 4800 0    50   ~ 0
-LATCHx
+SCLK
+Text Label 6100 4800 0    50   ~ 0
+LATCH
 Text Label 5400 4900 2    50   ~ 0
-BLANKx
-Text Label 6200 4500 0    50   ~ 0
-A4x
+BLANK
+Text Label 6100 4500 0    50   ~ 0
+A4
 Wire Wire Line
 	5400 4500 5500 4500
 Wire Wire Line
@@ -161,33 +145,25 @@ Wire Wire Line
 Wire Wire Line
 	5400 4900 5500 4900
 Wire Wire Line
-	6000 4200 6200 4200
+	6000 4200 6100 4200
 Wire Wire Line
-	6000 4400 6200 4400
+	6000 4400 6100 4400
 Wire Wire Line
-	6000 4500 6200 4500
+	6000 4500 6100 4500
 Wire Wire Line
-	6000 4600 6200 4600
+	6000 4600 6100 4600
 Wire Wire Line
-	6000 4700 6200 4700
+	6000 4700 6100 4700
 Wire Wire Line
-	6000 4800 6200 4800
+	6000 4800 6100 4800
 Wire Wire Line
 	6000 4300 6100 4300
-Wire Wire Line
-	6100 4300 6100 4900
-Wire Wire Line
-	6100 4900 6100 5100
-Connection ~ 6100 4900
-$Comp
-L power:GND #PWR0101
-U 1 1 5C5ACFE9
-P 6100 5100
-F 0 "#PWR0101" H 6100 4850 50  0001 C CNN
-F 1 "GND" H 6105 4924 50  0000 C CNN
-F 2 "" H 6100 5100 50  0001 C CNN
-F 3 "" H 6100 5100 50  0001 C CNN
-	1    6100 5100
-	1    0    0    -1  
-$EndComp
+Text Label 6100 2900 0    50   ~ 0
+GND0
+Text Label 6100 3500 0    50   ~ 0
+GND1
+Text Label 6100 4300 0    50   ~ 0
+GND0
+Text Label 6100 4900 0    50   ~ 0
+GND1
 $EndSCHEMATC
