@@ -1,4 +1,4 @@
-update=Sun 05 Jan 2020 02:38:24 PM CET
+update=Tue 07 Jan 2020 05:20:40 PM CET
 version=1
 last_client=kicad
 [general]
@@ -240,6 +240,17 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
+Clearance=0.15
+TrackWidth=0.2
+ViaDiameter=0.5
+ViaDrill=0.3
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=HR_DQ_LM1.0
 Clearance=0.15
 TrackWidth=0.2
 ViaDiameter=0.5

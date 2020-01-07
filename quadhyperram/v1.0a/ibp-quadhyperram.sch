@@ -14,10 +14,10 @@ Comment3 "License: CC-BY-SA 4.0"
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_02x06_Top_Bottom J4
+L Connector_Generic:Conn_02x06_Top_Bottom J1
 U 1 1 5AB98614
 P 2000 3300
-F 0 "J4" H 1950 3600 50  0000 L CNN
+F 0 "J1" H 1950 3600 50  0000 L CNN
 F 1 "PMOD" H 1850 3700 50  0000 L CNN
 F 2 "pkl_connectors:PMODHeader_2x06_P2.54mm_Horizontal" H 2000 3300 50  0001 C CNN
 F 3 "~" H 2000 3300 50  0001 C CNN
@@ -181,31 +181,31 @@ F 3 "" H 2300 4200 50  0001 C CNN
 	1    2300 4200
 	1    0    0    -1  
 $EndComp
-Text Label 1500 4600 2    50   ~ 0
-DQ5
-Text Label 2400 4500 0    50   ~ 0
-DQ0
 Text Label 1500 4500 2    50   ~ 0
-DQ6
-Text Label 2400 4400 0    50   ~ 0
-DQ7
-Text Label 1500 4400 2    50   ~ 0
-DQ1
+DQ5
 Text Label 2400 4300 0    50   ~ 0
-~CK
+DQ0
+Text Label 2400 4600 0    50   ~ 0
+DQ6
+Text Label 1500 4600 2    50   ~ 0
+DQ7
 Text Label 1500 4300 2    50   ~ 0
-CK
-Text Label 2400 3400 0    50   ~ 0
-~RESET
-Text Label 1500 3400 2    50   ~ 0
-~CS0
+DQ1
 Text Label 2400 3300 0    50   ~ 0
-RWDS
+~CK
+Text Label 2400 3400 0    50   ~ 0
+CK
 Text Label 1500 3300 2    50   ~ 0
-DQ2
+~RESET
 Text Label 2400 3200 0    50   ~ 0
+~CS0
+Text Label 1500 3400 2    50   ~ 0
+RWDS
+Text Label 2400 4400 0    50   ~ 0
+DQ2
+Text Label 1500 4400 2    50   ~ 0
 DQ3
-Text Label 1500 3200 2    50   ~ 0
+Text Label 2400 4500 0    50   ~ 0
 DQ4
 Wire Wire Line
 	1600 4800 1600 4200
@@ -280,7 +280,7 @@ Text Label 3400 3300 2    50   ~ 0
 CK
 Text Label 3400 3400 2    50   ~ 0
 ~CK
-Text Label 2400 4600 0    50   ~ 0
+Text Label 1500 3200 2    50   ~ 0
 ~CS1
 Wire Wire Line
 	2200 4600 2400 4600
