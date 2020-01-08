@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.8)
-    (drawings 34)
+    (drawings 37)
     (tracks 693)
     (zones 0)
     (modules 23)
@@ -1369,6 +1369,15 @@
     )
   )
 
+  (gr_text VCC (at 44.7 44.3 90) (layer B.SilkS) (tstamp 5E167D7F)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text 3V3 (at 43.3 46.9) (layer B.SilkS) (tstamp 5E167D78)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
+  (gr_text 1V8 (at 43.3 41.8) (layer B.SilkS) (tstamp 5E167D73)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_text "V1.0a\n(C) 2020\n1BitSquared" (at 57.1 62.7) (layer B.SilkS) (tstamp 5BB9433D)
     (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify left mirror))
   )
