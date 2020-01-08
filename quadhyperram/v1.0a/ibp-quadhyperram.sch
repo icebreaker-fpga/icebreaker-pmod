@@ -185,15 +185,15 @@ Text Label 1500 4500 2    50   ~ 0
 DQ5
 Text Label 2400 4300 0    50   ~ 0
 DQ0
-Text Label 2400 4600 0    50   ~ 0
+Text Label 1500 4400 2    50   ~ 0
 DQ6
-Text Label 1500 4600 2    50   ~ 0
-DQ7
 Text Label 1500 4300 2    50   ~ 0
+DQ7
+Text Label 2400 4400 0    50   ~ 0
 DQ1
-Text Label 2400 3300 0    50   ~ 0
-~CK
 Text Label 2400 3400 0    50   ~ 0
+~CK
+Text Label 2400 3300 0    50   ~ 0
 CK
 Text Label 1500 3300 2    50   ~ 0
 ~RESET
@@ -201,11 +201,11 @@ Text Label 2400 3200 0    50   ~ 0
 ~CS0
 Text Label 1500 3400 2    50   ~ 0
 RWDS
-Text Label 2400 4400 0    50   ~ 0
-DQ2
-Text Label 1500 4400 2    50   ~ 0
-DQ3
 Text Label 2400 4500 0    50   ~ 0
+DQ2
+Text Label 2400 4600 0    50   ~ 0
+DQ3
+Text Label 1500 4600 2    50   ~ 0
 DQ4
 Wire Wire Line
 	1600 4800 1600 4200
@@ -505,4 +505,214 @@ Text Label 4900 5300 2    50   ~ 0
 CK
 Text Label 4900 5400 2    50   ~ 0
 ~CK
+$Comp
+L pkl_device:pkl_C C13
+U 1 1 5E178F91
+P 850 1700
+F 0 "C13" H 875 1800 50  0000 L CNN
+F 1 "4u7" H 875 1600 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 888 1550 30  0001 C CNN
+F 3 "" H 850 1700 60  0000 C CNN
+F 4 "cap-cer-0603-4u7" H 850 1700 60  0001 C CNN "Key"
+F 5 "0603" H 850 1700 60  0001 C CNN "Package ID"
+F 6 "ANY" H 850 1700 60  0001 C CNN "Source"
+F 7 "DNP" H 850 1700 50  0001 C CNN "DNP"
+	1    850  1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pkl_device:pkl_VREG_5PIN_FIXED U5
+U 1 1 5E178F9C
+P 1650 1500
+F 0 "U5" H 1500 1300 60  0000 C CNN
+F 1 "VREG_1V8" H 1650 1700 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-23-5" H 1650 1500 60  0001 C CNN
+F 3 "https://www.maxlinear.com/ds/spx3819.pdf" H 1650 1500 60  0001 C CNN
+F 4 "vreg-sot23-5-1v8" H 1650 1500 60  0001 C CNN "Key"
+F 5 "sot23-5" H 1650 1500 60  0001 C CNN "Package ID"
+F 6 "ANY" H 1650 1500 60  0001 C CNN "Source"
+F 7 "DNP" H 1650 1500 50  0001 C CNN "DNP"
+F 8 "Exar" H 1650 1500 50  0001 C CNN "Manufacturer"
+F 9 "SPX3819M5-L-1-8/TR" H 1650 1500 50  0001 C CNN "MFN"
+	1    1650 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_device:pkl_C C15
+U 1 1 5E178FA6
+P 2250 1700
+F 0 "C15" H 2275 1800 50  0000 L CNN
+F 1 "4u7" H 2275 1600 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 2288 1550 30  0001 C CNN
+F 3 "" H 2250 1700 60  0000 C CNN
+F 4 "cap-cer-0603-4u7" H 2250 1700 60  0001 C CNN "Key"
+F 5 "0603" H 2250 1700 60  0001 C CNN "Package ID"
+F 6 "ANY" H 2250 1700 60  0001 C CNN "Source"
+F 7 "DNP" H 2250 1700 50  0001 C CNN "DNP"
+	1    2250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5E178FAD
+P 1650 2000
+F 0 "#PWR0109" H 1650 1750 50  0001 C CNN
+F 1 "GND" H 1650 1850 50  0000 C CNN
+F 2 "" H 1650 2000 60  0000 C CNN
+F 3 "" H 1650 2000 60  0000 C CNN
+F 4 "ANY" H 1650 2000 50  0001 C CNN "Source"
+	1    1650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_device:pkl_C_Small C14
+U 1 1 5E178FB7
+P 1150 1700
+F 0 "C14" H 1160 1770 50  0000 L CNN
+F 1 "470p" H 1160 1620 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1150 1700 60  0001 C CNN
+F 3 "" H 1150 1700 60  0000 C CNN
+F 4 "cap-cer-0402-470p" H 1150 1700 60  0001 C CNN "Key"
+F 5 "0402" H 1150 1700 60  0001 C CNN "Package ID"
+F 6 "ANY" H 1150 1700 60  0001 C CNN "Source"
+F 7 "DNP" H 1150 1700 50  0001 C CNN "DNP"
+	1    1150 1700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 5E178FBE
+P 850 1300
+F 0 "#PWR0110" H 850 1150 50  0001 C CNN
+F 1 "+3V3" H 850 1440 50  0000 C CNN
+F 2 "" H 850 1300 60  0000 C CNN
+F 3 "" H 850 1300 60  0000 C CNN
+F 4 "ANY" H 850 1300 50  0001 C CNN "Source"
+	1    850  1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  1400 1250 1400
+Wire Wire Line
+	1250 1400 1350 1400
+Wire Wire Line
+	1250 1400 1250 1600
+Wire Wire Line
+	1250 1600 1350 1600
+Connection ~ 1250 1400
+Wire Wire Line
+	1950 1600 2050 1600
+Wire Wire Line
+	2050 1900 2050 1600
+Wire Wire Line
+	850  1900 1150 1900
+Wire Wire Line
+	1150 1900 1650 1900
+Wire Wire Line
+	1650 1900 2050 1900
+Wire Wire Line
+	2050 1900 2250 1900
+Wire Wire Line
+	1650 1900 1650 2000
+Wire Wire Line
+	850  1900 850  1800
+Connection ~ 1650 1900
+Wire Wire Line
+	1350 1500 1150 1500
+Wire Wire Line
+	1150 1500 1150 1600
+Wire Wire Line
+	1150 1800 1150 1900
+Connection ~ 1150 1900
+Wire Wire Line
+	850  1300 850  1400
+Wire Wire Line
+	850  1400 850  1600
+Wire Wire Line
+	1950 1400 2050 1400
+Wire Wire Line
+	2050 1400 2250 1400
+Wire Wire Line
+	2250 1400 2250 1600
+Wire Wire Line
+	2250 1900 2250 1800
+Connection ~ 2050 1900
+Wire Wire Line
+	2050 1300 2050 1400
+Connection ~ 2050 1400
+Connection ~ 850  1400
+Wire Notes Line
+	3200 2300 600  2300
+Wire Notes Line
+	600  2300 600  800 
+Wire Notes Line
+	600  800  3200 800 
+Wire Notes Line
+	3200 800  3200 2300
+Text Notes 800  1000 0    50   ~ 0
+DNP - Optional 1v8 supply\nCan be used with S27KS Hyperram chips
+$Comp
+L power:+1V8 #PWR0111
+U 1 1 5E16F7EA
+P 2050 1300
+F 0 "#PWR0111" H 2050 1150 50  0001 C CNN
+F 1 "+1V8" H 2065 1473 50  0000 C CNN
+F 2 "" H 2050 1300 50  0001 C CNN
+F 3 "" H 2050 1300 50  0001 C CNN
+	1    2050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_misc:pkl_double_jumper_ncno J3
+U 1 1 5E1962AE
+P 2700 1400
+F 0 "J3" H 2700 1297 50  0000 C CNN
+F 1 "vcc_sel" H 2700 1206 50  0000 C CNN
+F 2 "pkl_jumpers:J_NCNO_0903_30" H 2650 1400 50  0001 C CNN
+F 3 "" H 2650 1400 50  0001 C CNN
+	1    2700 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR0112
+U 1 1 5E19C151
+P 3000 1300
+F 0 "#PWR0112" H 3000 1150 50  0001 C CNN
+F 1 "+1V8" H 3015 1473 50  0000 C CNN
+F 2 "" H 3000 1300 50  0001 C CNN
+F 3 "" H 3000 1300 50  0001 C CNN
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0113
+U 1 1 5E19C6CD
+P 2400 1300
+F 0 "#PWR0113" H 2400 1150 50  0001 C CNN
+F 1 "+3V3" H 2400 1440 50  0000 C CNN
+F 2 "" H 2400 1300 60  0000 C CNN
+F 3 "" H 2400 1300 60  0000 C CNN
+F 4 "ANY" H 2400 1300 50  0001 C CNN "Source"
+	1    2400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0114
+U 1 1 5E1A1732
+P 2700 1300
+F 0 "#PWR0114" H 2700 1150 50  0001 C CNN
+F 1 "VCC" H 2717 1473 50  0000 C CNN
+F 2 "" H 2700 1300 50  0001 C CNN
+F 3 "" H 2700 1300 50  0001 C CNN
+	1    2700 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1400 3000 1400
+Wire Wire Line
+	3000 1400 3000 1300
+Wire Wire Line
+	2400 1300 2400 1400
+Wire Wire Line
+	2400 1400 2500 1400
 $EndSCHEMATC

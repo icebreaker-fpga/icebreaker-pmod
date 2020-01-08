@@ -40,6 +40,28 @@ X Pin_9 9 300 0 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# pkl_device_pkl_C
+#
+DEF pkl_device_pkl_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "pkl_device_pkl_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 100 60 D 40 40 1 1 P
+X ~ 2 0 -100 60 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # pkl_device_pkl_C_Small
 #
 DEF pkl_device_pkl_C_Small C 0 10 N N 1 F N
@@ -59,6 +81,23 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 75 D 40 40 1 1 P
 X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# pkl_device_pkl_VREG_5PIN_FIXED
+#
+DEF pkl_device_pkl_VREG_5PIN_FIXED U 0 40 Y Y 1 F N
+F0 "U" -150 -200 60 H V C CNN
+F1 "pkl_device_pkl_VREG_5PIN_FIXED" 0 200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 150 200 -150 0 1 0 N
+X IN 1 -300 100 100 R 50 50 1 1 W
+X GND 2 300 -100 100 L 50 50 1 1 W
+X EN 3 -300 -100 100 R 50 50 1 1 I
+X BYP 4 -300 0 100 R 50 50 1 1 w
+X OUT 5 300 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
@@ -100,6 +139,39 @@ X VSSQ E5 -600 -700 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# pkl_misc_pkl_double_jumper_ncno
+#
+DEF pkl_misc_pkl_double_jumper_ncno J 0 40 Y Y 1 F N
+F0 "J" 0 -100 50 H V C CNN
+F1 "pkl_misc_pkl_double_jumper_ncno" 0 -200 50 H V C CNN
+F2 "" -50 0 50 H I C CNN
+F3 "" -50 0 50 H I C CNN
+DRAW
+S 60 30 100 -30 0 1 0 N
+S -100 30 -60 -30 1 1 0 N
+S -40 30 40 -30 1 1 0 N
+P 3 0 1 0 0 50 0 0 -100 0 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 0 100 50 D 50 50 1 1 P
+X ~ 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+1V8
+#
+DEF power_+1V8 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+1V8" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +1V8 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_+3V3
 #
 DEF power_+3V3 #PWR 0 0 Y Y 1 F P
@@ -126,6 +198,20 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VCC
+#
+DEF power_VCC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_VCC" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
