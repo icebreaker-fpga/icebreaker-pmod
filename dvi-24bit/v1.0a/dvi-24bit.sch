@@ -126,7 +126,7 @@ Text Label 1400 5900 2    50   ~ 0
 DE
 Text Label 2300 6000 0    50   ~ 0
 HS
-Text Label 2300 5800 0    50   ~ 0
+Text Label 2300 5900 0    50   ~ 0
 CLK
 $Comp
 L Connector:HDMI_A_1.4 J6
@@ -1235,11 +1235,11 @@ Wire Wire Line
 	2100 4300 2300 4300
 Wire Wire Line
 	2100 4200 2300 4200
-Text Label 2300 5900 0    50   ~ 0
+Text Label 1400 5800 2    50   ~ 0
 D0
 Text Label 2300 5700 0    50   ~ 0
 D3
-Text Label 1400 5800 2    50   ~ 0
+Text Label 2300 5800 0    50   ~ 0
 D1
 Text Label 1400 5700 2    50   ~ 0
 D2
@@ -1339,37 +1339,37 @@ Connection ~ 7800 3800
 Wire Wire Line
 	7800 3800 7800 4300
 $Comp
-L pkl_misc:pkl_double_jumper J8
+L pkl_misc:pkl_double_jumper_ncno J8
 U 1 1 5D36E9CC
 P 4000 6000
 F 0 "J8" H 3900 6050 50  0000 R CNN
 F 1 "sj" H 4200 6050 50  0000 R CNN
-F 2 "pkl_jumpers:J_0903" H 3950 6000 50  0001 C CNN
+F 2 "pkl_jumpers:J_NCNO_0903_15" H 3950 6000 50  0001 C CNN
 F 3 "" H 3950 6000 50  0001 C CNN
 	1    4000 6000
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
-L pkl_misc:pkl_double_jumper J7
+L pkl_misc:pkl_double_jumper_ncno J7
 U 1 1 5D3730B1
 P 3800 6000
 F 0 "J7" H 3700 6050 50  0000 R CNN
 F 1 "sj" H 4000 6050 50  0000 R CNN
-F 2 "pkl_jumpers:J_0903" H 3750 6000 50  0001 C CNN
+F 2 "pkl_jumpers:J_NCNO_0903_15" H 3750 6000 50  0001 C CNN
 F 3 "" H 3750 6000 50  0001 C CNN
 	1    3800 6000
 	0    1    1    0   
 $EndComp
 $Comp
-L pkl_misc:pkl_double_jumper J9
+L pkl_misc:pkl_double_jumper_ncno J9
 U 1 1 5D44E723
 P 4200 6000
 F 0 "J9" H 4100 6050 50  0000 R CNN
 F 1 "sj" H 4400 6050 50  0000 R CNN
-F 2 "pkl_jumpers:J_0903" H 4150 6000 50  0001 C CNN
+F 2 "pkl_jumpers:J_NCNO_0903_15" H 4150 6000 50  0001 C CNN
 F 3 "" H 4150 6000 50  0001 C CNN
 	1    4200 6000
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0129

@@ -284,24 +284,6 @@ X EDGE/HTPLG 9 -800 -1100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# pkl_misc_pkl_double_jumper
-#
-DEF pkl_misc_pkl_double_jumper J 0 40 Y Y 1 F N
-F0 "J" 0 -100 50 H V C CNN
-F1 "pkl_misc_pkl_double_jumper" 0 -200 50 H V C CNN
-F2 "" -50 0 50 H I C CNN
-F3 "" -50 0 50 H I C CNN
-DRAW
-S 60 30 100 -30 0 1 0 N
-S -100 30 -60 -30 1 1 0 N
-S -40 30 40 -30 1 1 0 N
-P 2 0 0 0 0 50 0 30 N
-X ~ 1 -200 0 100 R 50 50 1 1 P
-X ~ 2 0 100 50 D 50 50 1 1 P
-X ~ 3 200 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # pkl_misc_pkl_double_jumper_ncno
 #
 DEF pkl_misc_pkl_double_jumper_ncno J 0 40 Y Y 1 F N
