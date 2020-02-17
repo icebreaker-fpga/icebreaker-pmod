@@ -1,0 +1,71 @@
+#
+# PCF constraints snippet for the HUB75 LED panel single PMOD
+#
+
+# PMOD 1A
+# -------
+
+ # Data for panels with Red on pin 1/5 and Blue on pin 3/7
+#set_io -nowarn hub75_data[2] 2         # P1A.2 Red
+#set_io -nowarn hub75_data[1] 3         # P1A.7 Green
+#set_io -nowarn hub75_data[0] 4         # P1A.1 Blue
+
+ # Data for panels with Red on pin 3/7 and Blue on pin 1/5
+set_io -nowarn hub75_data[2] 4          # P1A.1 Red
+set_io -nowarn hub75_data[1] 3          # P1A.7 Green
+set_io -nowarn hub75_data[0] 2          # P1A.2 Blue
+
+ # Row address
+set_io -nowarn hub75_addr_inc 47        # P1A.3
+set_io -nowarn hub75_addr_rst 48        # P1A.8
+
+ # Control
+set_io -nowarn hub75_clk 46             # P1A.9
+set_io -nowarn hub75_le 44              # P1A.10
+set_io -nowarn hub75_blank 45           # P1A.4
+
+
+# PMOD 1B
+# -------
+
+ # Data for panels with Red on pin 1/5 and Blue on pin 3/7
+#set_io hub75_data[2] 38         # P1B.2 Red
+#set_io hub75_data[1] 42         # P1B.7 Green
+#set_io hub75_data[0] 43         # P1B.1 Blue
+
+ # Data for panels with Red on pin 3/7 and Blue on pin 1/5
+#set_io hub75_data[2] 43         # P1B.1 Red
+#set_io hub75_data[1] 42         # P1B.7 Green
+#set_io hub75_data[0] 38         # P1B.2 Blue
+
+ # Row address
+#set_io hub75_addr_inc 34        # P1B.3
+#set_io hub75_addr_rst 36        # P1B.8
+
+ # Control
+#set_io hub75_clk 32             # P1B.9
+#set_io hub75_le 28              # P1B.10
+#set_io hub75_blank 31           # P1B.4
+
+
+# PMOD 2
+# ------
+
+ # Data for panels with Red on pin 1/5 and Blue on pin 3/7
+#set_io hub75_data[2] 25         # P2.2 Red
+#set_io hub75_data[1] 26         # P2.7 Green
+#set_io hub75_data[0] 27         # P2.1 Blue
+
+ # Data for panels with Red on pin 3/7 and Blue on pin 1/5
+#set_io hub75_data[2] 27         # P2.1 Red
+#set_io hub75_data[1] 26         # P2.7 Green
+#set_io hub75_data[0] 25         # P2.2 Blue
+
+ # Row address
+#set_io hub75_addr_inc 21        # P2.3
+#set_io hub75_addr_rst 23        # P2.8
+
+ # Control
+#set_io hub75_clk 20             # P2.9
+#set_io hub75_le 18              # P2.10
+#set_io hub75_blank 19           # P2.4

@@ -1,0 +1,19 @@
+#
+# PCF constraints snippet for Quad HyperRAM PMOD
+#
+
+set_io hram_dq[0] 43
+set_io hram_dq[1] 38
+set_io hram_dq[2] 34
+set_io hram_dq[3] 31
+set_io hram_dq[4] 28
+set_io hram_dq[5] 32
+set_io hram_dq[6] 36
+set_io hram_dq[7] 42
+set_io hram_rwds 44
+set_io hram_ck 47
+set_io hram_rst_n 46
+set_io hram_cs_n[0] 2
+set_io hram_cs_n[1] 48
+set_io hram_cs_n[2] 4
+set_io hram_cs_n[3] 3
