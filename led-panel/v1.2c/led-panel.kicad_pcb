@@ -1,11 +1,11 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.2-f72e74a~84~ubuntu18.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.5-52549c5~86~ubuntu19.10.1)
 
   (general
     (thickness 0.8)
-    (drawings 151)
+    (drawings 152)
     (tracks 272)
     (zones 0)
-    (modules 25)
+    (modules 26)
     (nets 59)
   )
 
@@ -221,6 +221,30 @@
     (add_net "Net-(R2-Pad2)")
     (add_net "Net-(R3-Pad1)")
     (add_net "Net-(R4-Pad1)")
+  )
+
+  (module pkl_logos:null_Logo_SilkS_5mm locked (layer B.Cu) (tedit 5E7ED123) (tstamp 5BEA8E64)
+    (at 58 44.2 90)
+    (fp_text reference REF** (at 0 -4 90) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_text value null_Logo_SilkS_5mm (at 0 4 90) (layer B.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    )
+    (fp_arc (start -0.4 -0.2) (end -0.7 -0.2) (angle 180) (layer B.SilkS) (width 0.15))
+    (fp_line (start 1 -0.5) (end 1.5 -0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start 1 0.5) (end 1 -0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start 0.2 -0.5) (end 0.7 -0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start 0.2 0.5) (end 0.2 -0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start -0.1 0.5) (end -0.1 -0.2) (layer B.SilkS) (width 0.15))
+    (fp_line (start -0.7 0.5) (end -0.7 -0.2) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1 -0.5) (end -1 0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1.5 0.5) (end -1 -0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start -1.5 -0.5) (end -1.5 0.5) (layer B.SilkS) (width 0.15))
+    (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer B.SilkS) (width 0.2))
+    (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer B.SilkS) (width 0.2))
+    (fp_line (start 2.5 2.5) (end 2.5 -2.5) (layer B.SilkS) (width 0.2))
+    (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer B.SilkS) (width 0.2))
   )
 
   (module Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical (layer F.Cu) (tedit 5C4A655D) (tstamp 5C4C2330)
@@ -1546,6 +1570,9 @@
     )
   )
 
+  (gr_text NULL (at 54.6 44 270) (layer B.SilkS) (tstamp 5BEA88C3)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
+  )
   (dimension 30 (width 0.15) (layer Dwgs.User)
     (gr_text "30.000 mm" (at 74.7 44 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))

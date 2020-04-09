@@ -424,4 +424,8 @@ F 4 "res-0402cv-array-4-330" H 3200 3600 50  0001 C CNN "Key"
 	2    3200 3600
 	0    -1   1    0   
 $EndComp
+Text Notes 6550 5050 0    100  ~ 0
+Dual Inverter
+Text Notes 3450 2800 0    100  ~ 0
+Pmod Connector
 $EndSCHEMATC
