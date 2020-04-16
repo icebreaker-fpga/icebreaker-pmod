@@ -1,0 +1,468 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "iCEBreaker PMOD - Gamepad & Audio - Molex SL Pod"
+Date ""
+Rev "V1.0a"
+Comp "1BitSquared"
+Comment1 "2020 (C) 1BitSquared <info@1bitsquared.com>"
+Comment2 "2020 (C) Piotr Esden-Tempski <piotr@esden.net>"
+Comment3 "License: CC-BY-SA 4.0"
+Comment4 ""
+$EndDescr
+$Comp
+L pkl_device:pkl_C C1
+U 1 1 5BAA8EB6
+P 2550 4900
+F 0 "C1" H 2665 4947 50  0000 L CNN
+F 1 "10u" H 2665 4854 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 2665 4807 30  0001 L CNN
+F 3 "" H 2550 4900 60  0000 C CNN
+F 4 "cap-cer-0603-10u" H 2550 4900 50  0001 C CNN "Key"
+F 5 "ANY" H 2550 4900 50  0001 C CNN "Source"
+	1    2550 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 5C16512D
+P 2550 5000
+F 0 "#PWR0118" H 2550 4750 50  0001 C CNN
+F 1 "GND" H 2555 4824 50  0000 C CNN
+F 2 "" H 2550 5000 50  0001 C CNN
+F 3 "" H 2550 5000 50  0001 C CNN
+	1    2550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J3
+U 1 1 5EAB5279
+P 2550 3950
+F 0 "J3" H 2600 4370 50  0000 C CNN
+F 1 "Gamepads" H 2600 4277 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical" H 2550 3950 50  0001 C CNN
+F 3 "~" H 2550 3950 50  0001 C CNN
+	1    2550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3750 2250 3750
+Wire Wire Line
+	2350 3850 2250 3850
+Wire Wire Line
+	2350 3950 2250 3950
+Wire Wire Line
+	2350 4050 2250 4050
+Wire Wire Line
+	2350 4150 2250 4150
+Wire Wire Line
+	2350 4250 2250 4250
+Wire Wire Line
+	2850 3750 2950 3750
+Wire Wire Line
+	2950 3750 2950 3550
+Wire Wire Line
+	2850 3850 2950 3850
+Wire Wire Line
+	2850 3950 2950 3950
+Wire Wire Line
+	2950 3950 2950 4050
+Wire Wire Line
+	2850 4050 2950 4050
+Connection ~ 2950 4050
+Wire Wire Line
+	2950 4050 2950 4150
+Wire Wire Line
+	2850 4150 2950 4150
+Connection ~ 2950 4150
+Wire Wire Line
+	2950 4150 2950 4250
+Wire Wire Line
+	2850 4250 2950 4250
+Connection ~ 2950 4250
+Wire Wire Line
+	2950 4250 2950 4450
+Text Label 2250 3750 2    60   ~ 0
+CLK
+Text Label 2250 3850 2    60   ~ 0
+LATCH
+Text Label 2250 3950 2    60   ~ 0
+GPD0
+Text Label 2250 4050 2    60   ~ 0
+GPD1
+Text Label 2250 4150 2    60   ~ 0
+GPD2
+Text Label 2250 4250 2    60   ~ 0
+GPD3
+$Comp
+L power:GND #PWR0114
+U 1 1 5EB2F7B3
+P 2950 4450
+F 0 "#PWR0114" H 2950 4200 50  0001 C CNN
+F 1 "GND" H 2958 4276 50  0000 C CNN
+F 2 "" H 2950 4450 50  0000 C CNN
+F 3 "" H 2950 4450 50  0000 C CNN
+	1    2950 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3850 2950 3750
+Connection ~ 2950 3750
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 5E99318F
+P 5350 2050
+F 0 "J1" H 5430 2092 50  0000 L CNN
+F 1 "Gamepad" H 5430 1999 50  0000 L CNN
+F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 2050 50  0001 C CNN
+F 3 "~" H 5350 2050 50  0001 C CNN
+	1    5350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5E994A6D
+P 2950 3550
+F 0 "#PWR0101" H 2950 3400 50  0001 C CNN
+F 1 "VCC" H 2967 3726 50  0000 C CNN
+F 2 "" H 2950 3550 50  0001 C CNN
+F 3 "" H 2950 3550 50  0001 C CNN
+	1    2950 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1850 5050 1750
+$Comp
+L power:VCC #PWR0102
+U 1 1 5E995179
+P 5050 1650
+F 0 "#PWR0102" H 5050 1500 50  0001 C CNN
+F 1 "VCC" H 5067 1826 50  0000 C CNN
+F 2 "" H 5050 1650 50  0001 C CNN
+F 3 "" H 5050 1650 50  0001 C CNN
+	1    5050 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1850 5050 1850
+$Comp
+L pkl_device:pkl_C_Small C2
+U 1 1 5E98AC69
+P 4850 1750
+F 0 "C2" V 5082 1750 50  0000 C CNN
+F 1 "100n" V 4989 1750 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 4850 1750 60  0001 C CNN
+F 3 "" H 4850 1750 60  0000 C CNN
+F 4 "cap-cer-0402-100n" H 4850 1750 60  0001 C CNN "Key"
+F 5 "0402" H 4850 1750 60  0001 C CNN "Package ID"
+F 6 "ANY" H 4850 1750 60  0001 C CNN "Source"
+	1    4850 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E996514
+P 4750 1750
+F 0 "#PWR0103" H 4750 1500 50  0001 C CNN
+F 1 "GND" H 4758 1576 50  0000 C CNN
+F 2 "" H 4750 1750 50  0000 C CNN
+F 3 "" H 4750 1750 50  0000 C CNN
+	1    4750 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 2250 5050 2250
+Wire Wire Line
+	5050 2250 5050 2450
+$Comp
+L power:GND #PWR0104
+U 1 1 5E997024
+P 5050 2450
+F 0 "#PWR0104" H 5050 2200 50  0001 C CNN
+F 1 "GND" H 5058 2276 50  0000 C CNN
+F 2 "" H 5050 2450 50  0000 C CNN
+F 3 "" H 5050 2450 50  0000 C CNN
+	1    5050 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1950 5050 1950
+Wire Wire Line
+	5150 2050 5050 2050
+Wire Wire Line
+	5150 2150 5050 2150
+$Comp
+L power:VCC #PWR0105
+U 1 1 5E9981E4
+P 2550 4800
+F 0 "#PWR0105" H 2550 4650 50  0001 C CNN
+F 1 "VCC" H 2567 4976 50  0000 C CNN
+F 2 "" H 2550 4800 50  0001 C CNN
+F 3 "" H 2550 4800 50  0001 C CNN
+	1    2550 4800
+	1    0    0    -1  
+$EndComp
+Text Label 5050 1950 2    60   ~ 0
+CLK
+Text Label 5050 2050 2    60   ~ 0
+LATCH
+Wire Wire Line
+	4950 1750 5050 1750
+Connection ~ 5050 1750
+Wire Wire Line
+	5050 1750 5050 1650
+Text Label 5050 2150 2    60   ~ 0
+GPD0
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 5E99BFE6
+P 5350 3350
+F 0 "J2" H 5430 3392 50  0000 L CNN
+F 1 "Gamepad" H 5430 3299 50  0000 L CNN
+F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 3350 50  0001 C CNN
+F 3 "~" H 5350 3350 50  0001 C CNN
+	1    5350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3150 5050 3050
+$Comp
+L power:VCC #PWR0106
+U 1 1 5E99BFF1
+P 5050 2950
+F 0 "#PWR0106" H 5050 2800 50  0001 C CNN
+F 1 "VCC" H 5067 3126 50  0000 C CNN
+F 2 "" H 5050 2950 50  0001 C CNN
+F 3 "" H 5050 2950 50  0001 C CNN
+	1    5050 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3150 5050 3150
+$Comp
+L pkl_device:pkl_C_Small C3
+U 1 1 5E99BFFF
+P 4850 3050
+F 0 "C3" V 5082 3050 50  0000 C CNN
+F 1 "100n" V 4989 3050 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 4850 3050 60  0001 C CNN
+F 3 "" H 4850 3050 60  0000 C CNN
+F 4 "cap-cer-0402-100n" H 4850 3050 60  0001 C CNN "Key"
+F 5 "0402" H 4850 3050 60  0001 C CNN "Package ID"
+F 6 "ANY" H 4850 3050 60  0001 C CNN "Source"
+	1    4850 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E99C009
+P 4750 3050
+F 0 "#PWR0107" H 4750 2800 50  0001 C CNN
+F 1 "GND" H 4758 2876 50  0000 C CNN
+F 2 "" H 4750 3050 50  0000 C CNN
+F 3 "" H 4750 3050 50  0000 C CNN
+	1    4750 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 3550 5050 3550
+Wire Wire Line
+	5050 3550 5050 3750
+$Comp
+L power:GND #PWR0108
+U 1 1 5E99C015
+P 5050 3750
+F 0 "#PWR0108" H 5050 3500 50  0001 C CNN
+F 1 "GND" H 5058 3576 50  0000 C CNN
+F 2 "" H 5050 3750 50  0000 C CNN
+F 3 "" H 5050 3750 50  0000 C CNN
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 3250 5050 3250
+Wire Wire Line
+	5150 3350 5050 3350
+Wire Wire Line
+	5150 3450 5050 3450
+Text Label 5050 3250 2    60   ~ 0
+CLK
+Text Label 5050 3350 2    60   ~ 0
+LATCH
+Wire Wire Line
+	4950 3050 5050 3050
+Connection ~ 5050 3050
+Wire Wire Line
+	5050 3050 5050 2950
+Text Label 5050 3450 2    60   ~ 0
+GPD1
+$Comp
+L Connector_Generic:Conn_01x05 J4
+U 1 1 5E99E038
+P 5350 4650
+F 0 "J4" H 5430 4692 50  0000 L CNN
+F 1 "Gamepad" H 5430 4599 50  0000 L CNN
+F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 4650 50  0001 C CNN
+F 3 "~" H 5350 4650 50  0001 C CNN
+	1    5350 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4450 5050 4350
+$Comp
+L power:VCC #PWR0109
+U 1 1 5E99E043
+P 5050 4250
+F 0 "#PWR0109" H 5050 4100 50  0001 C CNN
+F 1 "VCC" H 5067 4426 50  0000 C CNN
+F 2 "" H 5050 4250 50  0001 C CNN
+F 3 "" H 5050 4250 50  0001 C CNN
+	1    5050 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4450 5050 4450
+$Comp
+L pkl_device:pkl_C_Small C4
+U 1 1 5E99E051
+P 4850 4350
+F 0 "C4" V 5082 4350 50  0000 C CNN
+F 1 "100n" V 4989 4350 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 4850 4350 60  0001 C CNN
+F 3 "" H 4850 4350 60  0000 C CNN
+F 4 "cap-cer-0402-100n" H 4850 4350 60  0001 C CNN "Key"
+F 5 "0402" H 4850 4350 60  0001 C CNN "Package ID"
+F 6 "ANY" H 4850 4350 60  0001 C CNN "Source"
+	1    4850 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5E99E05B
+P 4750 4350
+F 0 "#PWR0110" H 4750 4100 50  0001 C CNN
+F 1 "GND" H 4758 4176 50  0000 C CNN
+F 2 "" H 4750 4350 50  0000 C CNN
+F 3 "" H 4750 4350 50  0000 C CNN
+	1    4750 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 4850 5050 4850
+Wire Wire Line
+	5050 4850 5050 5050
+$Comp
+L power:GND #PWR0111
+U 1 1 5E99E067
+P 5050 5050
+F 0 "#PWR0111" H 5050 4800 50  0001 C CNN
+F 1 "GND" H 5058 4876 50  0000 C CNN
+F 2 "" H 5050 5050 50  0000 C CNN
+F 3 "" H 5050 5050 50  0000 C CNN
+	1    5050 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4550 5050 4550
+Wire Wire Line
+	5150 4650 5050 4650
+Wire Wire Line
+	5150 4750 5050 4750
+Text Label 5050 4550 2    60   ~ 0
+CLK
+Text Label 5050 4650 2    60   ~ 0
+LATCH
+Wire Wire Line
+	4950 4350 5050 4350
+Connection ~ 5050 4350
+Wire Wire Line
+	5050 4350 5050 4250
+Text Label 5050 4750 2    60   ~ 0
+GPD2
+$Comp
+L Connector_Generic:Conn_01x05 J5
+U 1 1 5E9B4EF0
+P 5350 5950
+F 0 "J5" H 5430 5992 50  0000 L CNN
+F 1 "Gamepad" H 5430 5899 50  0000 L CNN
+F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 5950 50  0001 C CNN
+F 3 "~" H 5350 5950 50  0001 C CNN
+	1    5350 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5750 5050 5650
+$Comp
+L power:VCC #PWR0112
+U 1 1 5E9B4EFB
+P 5050 5550
+F 0 "#PWR0112" H 5050 5400 50  0001 C CNN
+F 1 "VCC" H 5067 5726 50  0000 C CNN
+F 2 "" H 5050 5550 50  0001 C CNN
+F 3 "" H 5050 5550 50  0001 C CNN
+	1    5050 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5750 5050 5750
+$Comp
+L pkl_device:pkl_C_Small C5
+U 1 1 5E9B4F09
+P 4850 5650
+F 0 "C5" V 5082 5650 50  0000 C CNN
+F 1 "100n" V 4989 5650 50  0000 C CNN
+F 2 "pkl_dipol:C_0402" H 4850 5650 60  0001 C CNN
+F 3 "" H 4850 5650 60  0000 C CNN
+F 4 "cap-cer-0402-100n" H 4850 5650 60  0001 C CNN "Key"
+F 5 "0402" H 4850 5650 60  0001 C CNN "Package ID"
+F 6 "ANY" H 4850 5650 60  0001 C CNN "Source"
+	1    4850 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5E9B4F13
+P 4750 5650
+F 0 "#PWR0113" H 4750 5400 50  0001 C CNN
+F 1 "GND" H 4758 5476 50  0000 C CNN
+F 2 "" H 4750 5650 50  0000 C CNN
+F 3 "" H 4750 5650 50  0000 C CNN
+	1    4750 5650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 6150 5050 6150
+Wire Wire Line
+	5050 6150 5050 6350
+$Comp
+L power:GND #PWR0115
+U 1 1 5E9B4F1F
+P 5050 6350
+F 0 "#PWR0115" H 5050 6100 50  0001 C CNN
+F 1 "GND" H 5058 6176 50  0000 C CNN
+F 2 "" H 5050 6350 50  0000 C CNN
+F 3 "" H 5050 6350 50  0000 C CNN
+	1    5050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 5850 5050 5850
+Wire Wire Line
+	5150 5950 5050 5950
+Wire Wire Line
+	5150 6050 5050 6050
+Text Label 5050 5850 2    60   ~ 0
+CLK
+Text Label 5050 5950 2    60   ~ 0
+LATCH
+Wire Wire Line
+	4950 5650 5050 5650
+Connection ~ 5050 5650
+Wire Wire Line
+	5050 5650 5050 5550
+Text Label 5050 6050 2    60   ~ 0
+GPD3
+$EndSCHEMATC
