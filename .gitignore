@@ -6,3 +6,4 @@
 fp-info-cache
 *.pos
 panel/
+*-cache.lib
