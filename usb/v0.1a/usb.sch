@@ -63,13 +63,14 @@ Wire Wire Line
 Text Notes 4650 3000 0    100  ~ 0
 Pmod Connector
 $Comp
-L pkl_conn:USB_AC_Combo_Receptacle_USB2.0 J?
+L pkl_conn:USB_AC_Combo_Receptacle_USB2.0 J2
 U 2 1 5F0FB0D8
 P 1950 4800
-F 0 "J?" H 1800 5150 50  0000 C CNN
+F 0 "J2" H 1800 5150 50  0000 C CNN
 F 1 "USB_AC_Combo_Receptacle_USB2.0" V 1700 4800 50  0000 C CNN
-F 2 "" H 2100 4800 50  0001 C CNN
+F 2 "pkl_connectors:USB_A_C_Receptacle_AdamTech_USB-C31-A-D-VT-CS1" H 2100 4800 50  0001 C CNN
 F 3 "" H 2100 4800 50  0001 C CNN
+F 4 "conn-usb-ac-combo" H 1950 4800 50  0001 C CNN "Key"
 	2    1950 4800
 	1    0    0    -1  
 $EndComp
@@ -86,10 +87,10 @@ USBA_DP
 Text Label 4800 4900 2    50   ~ 0
 USBA_DM
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 5F106BFE
 P 1950 5200
-F 0 "#PWR?" H 1950 4950 50  0001 C CNN
+F 0 "#PWR02" H 1950 4950 50  0001 C CNN
 F 1 "GND" H 1955 5024 50  0000 C CNN
 F 2 "" H 1950 5200 50  0001 C CNN
 F 3 "" H 1950 5200 50  0001 C CNN
@@ -113,10 +114,10 @@ NoConn ~ 8500 5200
 Text Label 8300 4100 2    50   ~ 0
 USBC_VBUS
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5F10763B
 P 9400 5600
-F 0 "#PWR?" H 9400 5350 50  0001 C CNN
+F 0 "#PWR011" H 9400 5350 50  0001 C CNN
 F 1 "GND" H 9405 5424 50  0000 C CNN
 F 2 "" H 9400 5600 50  0001 C CNN
 F 3 "" H 9400 5600 50  0001 C CNN
@@ -124,10 +125,10 @@ F 3 "" H 9400 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR010
 U 1 1 5F107093
 P 9100 5600
-F 0 "#PWR?" H 9100 5350 50  0001 C CNN
+F 0 "#PWR010" H 9100 5350 50  0001 C CNN
 F 1 "GND" H 9105 5424 50  0000 C CNN
 F 2 "" H 9100 5600 50  0001 C CNN
 F 3 "" H 9100 5600 50  0001 C CNN
@@ -135,13 +136,14 @@ F 3 "" H 9100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_conn:USB_AC_Combo_Receptacle_USB2.0 J?
+L pkl_conn:USB_AC_Combo_Receptacle_USB2.0 J2
 U 1 1 5F0F97BD
 P 9100 4700
-F 0 "J?" H 8670 4639 50  0000 R CNN
+F 0 "J2" H 8670 4639 50  0000 R CNN
 F 1 "USB_AC_Combo_Receptacle_USB2.0" H 8670 4546 50  0000 R CNN
-F 2 "" H 9250 4700 50  0001 C CNN
+F 2 "pkl_connectors:USB_A_C_Receptacle_AdamTech_USB-C31-A-D-VT-CS1" H 9250 4700 50  0001 C CNN
 F 3 "" H 9250 4700 50  0001 C CNN
+F 4 "conn-usb-ac-combo" H 9100 4700 50  0001 C CNN "Key"
 	1    9100 4700
 	-1   0    0    -1  
 $EndComp
@@ -153,8 +155,9 @@ U 1 1 5D99D48B
 P 2350 1300
 F 0 "R1" V 2450 1300 50  0000 C CNN
 F 1 "1.1K" V 2350 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1300 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 2280 1300 50  0001 C CNN
 F 3 "~" H 2350 1300 50  0001 C CNN
+F 4 "res-0402-1k1" H 2350 1300 50  0001 C CNN "Key"
 	1    2350 1300
 	0    1    1    0   
 $EndComp
@@ -166,8 +169,9 @@ U 1 1 5D99E2EC
 P 2350 1850
 F 0 "R2" V 2450 1850 50  0000 C CNN
 F 1 "12K" V 2350 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1850 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 2280 1850 50  0001 C CNN
 F 3 "~" H 2350 1850 50  0001 C CNN
+F 4 "res-0402-12k" H 2350 1850 50  0001 C CNN "Key"
 	1    2350 1850
 	0    1    1    0   
 $EndComp
@@ -193,8 +197,9 @@ U 1 1 5D9C146D
 P 9250 1000
 F 0 "R5" V 9350 1000 50  0000 C CNN
 F 1 "36K" V 9250 1000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1000 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 9180 1000 50  0001 C CNN
 F 3 "~" H 9250 1000 50  0001 C CNN
+F 4 "res-0402-36k" H 9250 1000 50  0001 C CNN "Key"
 	1    9250 1000
 	0    1    1    0   
 $EndComp
@@ -206,8 +211,9 @@ U 1 1 5D9C147A
 P 9250 1200
 F 0 "R6" V 9350 1200 50  0000 C CNN
 F 1 "5.1K" V 9250 1200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1200 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 9180 1200 50  0001 C CNN
 F 3 "~" H 9250 1200 50  0001 C CNN
+F 4 "res-0402-5k1" H 9250 1200 50  0001 C CNN "Key"
 	1    9250 1200
 	0    1    1    0   
 $EndComp
@@ -238,8 +244,9 @@ U 1 1 5D9C6F51
 P 9250 1800
 F 0 "R7" V 9350 1800 50  0000 C CNN
 F 1 "36K" V 9250 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 1800 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 9180 1800 50  0001 C CNN
 F 3 "~" H 9250 1800 50  0001 C CNN
+F 4 "res-0402-36k" H 9250 1800 50  0001 C CNN "Key"
 	1    9250 1800
 	0    1    1    0   
 $EndComp
@@ -274,6 +281,7 @@ F 0 "J3" H 7950 5400 50  0000 L CNN
 F 1 "USBC_CC" H 7600 5300 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8000 5600 50  0001 C CNN
 F 3 "~" H 8000 5600 50  0001 C CNN
+F 4 "conn-th-01in-2-1-hdr" H 8000 5600 50  0001 C CNN "Key"
 	1    8000 5600
 	1    0    0    1   
 $EndComp
@@ -297,56 +305,56 @@ Wire Wire Line
 	8300 4600 8300 4700
 Connection ~ 8300 4700
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D2
 U 1 1 5F18F900
 P 1900 1650
-F 0 "D?" H 1900 1424 50  0000 C CNN
+F 0 "D2" H 1900 1424 50  0000 C CNN
 F 1 "~~800mVf" H 1900 1525 50  0000 C CNN
-F 2 "" V 1900 1650 60  0000 C CNN
-F 3 "" V 1900 1650 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 1900 1650 60  0001 C CNN
+F 3 "" V 1900 1650 60  0001 C CNN
 	1    1900 1650
 	-1   0    0    1   
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D1
 U 1 1 5F18F906
 P 1900 1300
-F 0 "D?" H 1900 1526 50  0000 C CNN
+F 0 "D1" H 1900 1526 50  0000 C CNN
 F 1 "~~800mVf" H 1900 1425 50  0000 C CNN
-F 2 "" V 1900 1300 60  0000 C CNN
-F 3 "" V 1900 1300 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 1900 1300 60  0001 C CNN
+F 3 "" V 1900 1300 60  0001 C CNN
 	1    1900 1300
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D10
 U 1 1 5F197440
 P 8850 1800
-F 0 "D?" H 8850 2026 50  0000 C CNN
+F 0 "D10" H 8850 2026 50  0000 C CNN
 F 1 "~~800mVf" H 8850 1925 50  0000 C CNN
-F 2 "" V 8850 1800 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 8850 1800 60  0001 C CNN
 F 3 "" V 8850 1800 60  0000 C CNN
 	1    8850 1800
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D9
 U 1 1 5F19744A
 P 8850 1200
-F 0 "D?" H 8850 1316 50  0000 C CNN
+F 0 "D9" H 8850 1316 50  0000 C CNN
 F 1 "~~800mVf" H 8850 1417 50  0000 C CNN
-F 2 "" V 8850 1200 60  0000 C CNN
-F 3 "" V 8850 1200 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 8850 1200 60  0001 C CNN
+F 3 "" V 8850 1200 60  0001 C CNN
 	1    8850 1200
 	-1   0    0    1   
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D8
 U 1 1 5F197454
 P 8850 1000
-F 0 "D?" H 8850 1226 50  0000 C CNN
+F 0 "D8" H 8850 1226 50  0000 C CNN
 F 1 "~~800mVf" H 8850 1125 50  0000 C CNN
-F 2 "" V 8850 1000 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 8850 1000 60  0001 C CNN
 F 3 "" V 8850 1000 60  0000 C CNN
 	1    8850 1000
 	1    0    0    -1  
@@ -354,26 +362,28 @@ $EndComp
 Text Label 5750 1300 2    50   ~ 0
 USBC_DP_PUPD
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 5F1AB400
 P 6450 1100
-F 0 "R?" V 6550 1100 50  0000 C CNN
+F 0 "R4" V 6550 1100 50  0000 C CNN
 F 1 "1.1K" V 6450 1100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 1100 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 6380 1100 50  0001 C CNN
 F 3 "~" H 6450 1100 50  0001 C CNN
+F 4 "res-0402-1k1" H 6450 1100 50  0001 C CNN "Key"
 	1    6450 1100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6150 1100 6300 1100
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 5F1AB40B
 P 6450 1300
-F 0 "R?" V 6550 1300 50  0000 C CNN
+F 0 "R9" V 6550 1300 50  0000 C CNN
 F 1 "12K" V 6450 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 1300 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 6380 1300 50  0001 C CNN
 F 3 "~" H 6450 1300 50  0001 C CNN
+F 4 "res-0402-12k" H 6450 1300 50  0001 C CNN "Key"
 	1    6450 1300
 	0    1    1    0   
 $EndComp
@@ -397,26 +407,28 @@ Wire Wire Line
 	6800 1300 6700 1300
 Connection ~ 6700 1300
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 5F1AB41F
 P 6450 1850
-F 0 "R?" V 6550 1850 50  0000 C CNN
+F 0 "R10" V 6550 1850 50  0000 C CNN
 F 1 "1.1K" V 6450 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 1850 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 6380 1850 50  0001 C CNN
 F 3 "~" H 6450 1850 50  0001 C CNN
+F 4 "res-0402-1k1" H 6450 1850 50  0001 C CNN "Key"
 	1    6450 1850
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	6150 1850 6300 1850
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 5F1AB42A
 P 6450 2050
-F 0 "R?" V 6550 2050 50  0000 C CNN
+F 0 "R11" V 6550 2050 50  0000 C CNN
 F 1 "12K" V 6450 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6380 2050 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 6380 2050 50  0001 C CNN
 F 3 "~" H 6450 2050 50  0001 C CNN
+F 4 "res-0402-12k" H 6450 2050 50  0001 C CNN "Key"
 	1    6450 2050
 	0    1    1    0   
 $EndComp
@@ -454,59 +466,60 @@ D- 1.1k pullup for \nlow speed device\nmode USB1.0
 Text Notes 7250 2300 0    50   ~ 0
 D+,D- 12k pulldown \nfor host mode
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D7
 U 1 1 5F1AB446
 P 6050 2050
-F 0 "D?" H 6050 2166 50  0000 C CNN
+F 0 "D7" H 6050 2166 50  0000 C CNN
 F 1 "~~800mVf" H 6050 2267 50  0000 C CNN
-F 2 "" V 6050 2050 60  0000 C CNN
-F 3 "" V 6050 2050 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 6050 2050 60  0001 C CNN
+F 3 "" V 6050 2050 60  0001 C CNN
 	1    6050 2050
 	-1   0    0    1   
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D6
 U 1 1 5F1AB450
 P 6050 1850
-F 0 "D?" H 6050 2076 50  0000 C CNN
+F 0 "D6" H 6050 2076 50  0000 C CNN
 F 1 "~~800mVf" H 6050 1975 50  0000 C CNN
-F 2 "" V 6050 1850 60  0000 C CNN
-F 3 "" V 6050 1850 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 6050 1850 60  0001 C CNN
+F 3 "" V 6050 1850 60  0001 C CNN
 	1    6050 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D5
 U 1 1 5F1AB45A
 P 6050 1300
-F 0 "D?" H 6050 1416 50  0000 C CNN
+F 0 "D5" H 6050 1416 50  0000 C CNN
 F 1 "~~800mVf" H 6050 1517 50  0000 C CNN
-F 2 "" V 6050 1300 60  0000 C CNN
-F 3 "" V 6050 1300 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 6050 1300 60  0001 C CNN
+F 3 "" V 6050 1300 60  0001 C CNN
 	1    6050 1300
 	-1   0    0    1   
 $EndComp
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D4
 U 1 1 5F1AB464
 P 6050 1100
-F 0 "D?" H 6050 1326 50  0000 C CNN
+F 0 "D4" H 6050 1326 50  0000 C CNN
 F 1 "~~800mVf" H 6050 1225 50  0000 C CNN
-F 2 "" V 6050 1100 60  0000 C CNN
-F 3 "" V 6050 1100 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 6050 1100 60  0001 C CNN
+F 3 "" V 6050 1100 60  0001 C CNN
 	1    6050 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 1850 2700 1850
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 5F1C94E0
 P 2350 1650
-F 0 "R?" V 2450 1650 50  0000 C CNN
+F 0 "R3" V 2450 1650 50  0000 C CNN
 F 1 "12K" V 2350 1650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 1650 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 2280 1650 50  0001 C CNN
 F 3 "~" H 2350 1650 50  0001 C CNN
+F 4 "res-0402-12k" H 2350 1650 50  0001 C CNN "Key"
 	1    2350 1650
 	0    1    1    0   
 $EndComp
@@ -520,13 +533,13 @@ Wire Wire Line
 Wire Wire Line
 	2000 1650 2200 1650
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D3
 U 1 1 5F1E14A7
 P 1900 1850
-F 0 "D?" H 1900 1966 50  0000 C CNN
+F 0 "D3" H 1900 1966 50  0000 C CNN
 F 1 "~~800mVf" H 1900 2067 50  0000 C CNN
-F 2 "" V 1900 1850 60  0000 C CNN
-F 3 "" V 1900 1850 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 1900 1850 60  0001 C CNN
+F 3 "" V 1900 1850 60  0001 C CNN
 	1    1900 1850
 	-1   0    0    1   
 $EndComp
@@ -553,13 +566,14 @@ CC1
 Text Label 8400 4400 2    50   ~ 0
 CC2
 $Comp
-L Connector_Generic:Conn_02x01 J?
+L Connector_Generic:Conn_02x01 J7
 U 1 1 5F231D9C
 P 5250 5950
-F 0 "J?" H 5300 6170 50  0000 C CNN
-F 1 "AUX_5V" H 5300 6077 50  0000 C CNN
-F 2 "" H 5250 5950 50  0001 C CNN
-F 3 "~" H 5250 5950 50  0001 C CNN
+F 0 "J7" H 5300 6170 50  0000 C CNN
+F 1 "AUX5V" H 5300 6077 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 5250 5950 50  0001 C CNN
+F 3 "" H 5250 5950 50  0001 C CNN
+F 4 "conn-th-01in-1-2-rec" H 5250 5950 50  0001 C CNN "Key"
 	1    5250 5950
 	1    0    0    -1  
 $EndComp
@@ -572,10 +586,10 @@ Wire Wire Line
 Wire Wire Line
 	5650 5950 5650 5850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR05
 U 1 1 5F239B10
 P 4950 6050
-F 0 "#PWR?" H 4950 5800 50  0001 C CNN
+F 0 "#PWR05" H 4950 5800 50  0001 C CNN
 F 1 "GND" H 4955 5874 50  0000 C CNN
 F 2 "" H 4950 6050 50  0001 C CNN
 F 3 "" H 4950 6050 50  0001 C CNN
@@ -583,10 +597,10 @@ F 3 "" H 4950 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR07
 U 1 1 5F23DA86
 P 5650 5850
-F 0 "#PWR?" H 5650 5700 50  0001 C CNN
+F 0 "#PWR07" H 5650 5700 50  0001 C CNN
 F 1 "+5V" H 5665 6026 50  0000 C CNN
 F 2 "" H 5650 5850 50  0001 C CNN
 F 3 "" H 5650 5850 50  0001 C CNN
@@ -594,13 +608,14 @@ F 3 "" H 5650 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x01 J?
+L Connector_Generic:Conn_02x01 J4
 U 1 1 5F23DFCA
 P 2350 4250
-F 0 "J?" V 2447 4160 50  0000 R CNN
-F 1 "JP_USBA_VBUS" V 2354 4160 50  0000 R CNN
-F 2 "" H 2350 4250 50  0001 C CNN
-F 3 "~" H 2350 4250 50  0001 C CNN
+F 0 "J4" V 2447 4160 50  0000 R CNN
+F 1 "JVBUSA" V 2354 4160 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2350 4250 50  0001 C CNN
+F 3 "" H 2350 4250 50  0001 C CNN
+F 4 "conn-th-01in-2-1-hdr" H 2350 4250 50  0001 C CNN "Key"
 	1    2350 4250
 	0    -1   -1   0   
 $EndComp
@@ -609,10 +624,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 3950 2350 3850
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR03
 U 1 1 5F2497BF
 P 2350 3850
-F 0 "#PWR?" H 2350 3700 50  0001 C CNN
+F 0 "#PWR03" H 2350 3700 50  0001 C CNN
 F 1 "+5V" H 2365 4026 50  0000 C CNN
 F 2 "" H 2350 3850 50  0001 C CNN
 F 3 "" H 2350 3850 50  0001 C CNN
@@ -620,13 +635,14 @@ F 3 "" H 2350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x01 J?
+L Connector_Generic:Conn_02x01 J8
 U 1 1 5F249C83
 P 8400 3800
-F 0 "J?" V 8497 3710 50  0000 R CNN
-F 1 "JP_USBC_VBUS" V 8404 3710 50  0000 R CNN
-F 2 "" H 8400 3800 50  0001 C CNN
-F 3 "~" H 8400 3800 50  0001 C CNN
+F 0 "J8" V 8497 3710 50  0000 R CNN
+F 1 "JVBUSC" V 8404 3710 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8400 3800 50  0001 C CNN
+F 3 "" H 8400 3800 50  0001 C CNN
+F 4 "conn-th-01in-2-1-hdr" H 8400 3800 50  0001 C CNN "Key"
 	1    8400 3800
 	0    -1   -1   0   
 $EndComp
@@ -636,10 +652,10 @@ Connection ~ 8400 4100
 Wire Wire Line
 	8400 3500 8400 3400
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR09
 U 1 1 5F255309
 P 8400 3400
-F 0 "#PWR?" H 8400 3250 50  0001 C CNN
+F 0 "#PWR09" H 8400 3250 50  0001 C CNN
 F 1 "+5V" H 8415 3576 50  0000 C CNN
 F 2 "" H 8400 3400 50  0001 C CNN
 F 3 "" H 8400 3400 50  0001 C CNN
@@ -647,13 +663,14 @@ F 3 "" H 8400 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x01 J?
+L Connector_Generic:Conn_02x01 J6
 U 1 1 5F255815
 P 5200 4150
-F 0 "J?" H 5250 4370 50  0000 C CNN
-F 1 "JP_USB_DM" H 5250 4277 50  0000 C CNN
-F 2 "" H 5200 4150 50  0001 C CNN
-F 3 "~" H 5200 4150 50  0001 C CNN
+F 0 "J6" H 5250 4370 50  0000 C CNN
+F 1 "JDM" H 5250 4277 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5200 4150 50  0001 C CNN
+F 3 "" H 5200 4150 50  0001 C CNN
+F 4 "conn-th-01in-2-1-hdr" H 5200 4150 50  0001 C CNN "Key"
 	1    5200 4150
 	1    0    0    -1  
 $EndComp
@@ -662,13 +679,14 @@ Wire Wire Line
 Wire Wire Line
 	5500 4150 5600 4150
 $Comp
-L Connector_Generic:Conn_02x01 J?
+L Connector_Generic:Conn_02x01 J5
 U 1 1 5F25E553
 P 5200 3750
-F 0 "J?" H 5250 3970 50  0000 C CNN
-F 1 "JP_USB_DP" H 5250 3877 50  0000 C CNN
-F 2 "" H 5200 3750 50  0001 C CNN
-F 3 "~" H 5200 3750 50  0001 C CNN
+F 0 "J5" H 5250 3970 50  0000 C CNN
+F 1 "JDP" H 5250 3877 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5200 3750 50  0001 C CNN
+F 3 "" H 5200 3750 50  0001 C CNN
+F 4 "conn-th-01in-2-1-hdr" H 5200 3750 50  0001 C CNN "Key"
 	1    5200 3750
 	1    0    0    -1  
 $EndComp
@@ -690,8 +708,9 @@ U 1 1 5D9C6F5E
 P 9250 2000
 F 0 "R8" V 9350 2000 50  0000 C CNN
 F 1 "5.1K" V 9250 2000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 2000 50  0001 C CNN
+F 2 "pkl_dipol:R_0402" V 9180 2000 50  0001 C CNN
 F 3 "~" H 9250 2000 50  0001 C CNN
+F 4 "res-0402-5k1" H 9250 2000 50  0001 C CNN "Key"
 	1    9250 2000
 	0    1    1    0   
 $EndComp
@@ -720,10 +739,10 @@ USBC_VBUS
 Text Notes 8400 3000 0    100  ~ 0
 USB-C Connector
 $Comp
-L pkl_misc:USBLC6-2 U?
+L pkl_misc:USBLC6-2 U1
 U 1 1 5F10064E
 P 3550 4900
-F 0 "U?" H 3550 5295 60  0000 C CNN
+F 0 "U1" H 3550 5295 60  0000 C CNN
 F 1 "USBLC6-2" H 3550 5185 60  0000 C CNN
 F 2 "pkl_housings_sot:SOT-666" H 3550 5185 60  0001 C CNN
 F 3 "" H 3550 4900 60  0000 C CNN
@@ -757,10 +776,10 @@ Wire Wire Line
 Wire Wire Line
 	4150 4900 4150 5200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5F15467D
 P 4150 5200
-F 0 "#PWR?" H 4150 4950 50  0001 C CNN
+F 0 "#PWR04" H 4150 4950 50  0001 C CNN
 F 1 "GND" H 4155 5024 50  0000 C CNN
 F 2 "" H 4150 5200 50  0001 C CNN
 F 3 "" H 4150 5200 50  0001 C CNN
@@ -775,10 +794,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 4600 2950 4600
 $Comp
-L pkl_misc:USBLC6-2 U?
+L pkl_misc:USBLC6-2 U2
 U 1 1 5F181321
 P 6900 4900
-F 0 "U?" H 6900 5295 60  0000 C CNN
+F 0 "U2" H 6900 5295 60  0000 C CNN
 F 1 "USBLC6-2" H 6900 5185 60  0000 C CNN
 F 2 "pkl_housings_sot:SOT-666" H 6900 5185 60  0001 C CNN
 F 3 "" H 6900 4900 60  0000 C CNN
@@ -817,10 +836,10 @@ xUSBC_DP
 Text Label 8100 5000 2    50   ~ 0
 xUSBC_DM
 $Comp
-L power:GND #PWR?
+L power:GND #PWR08
 U 1 1 5F1A430F
 P 6300 5200
-F 0 "#PWR?" H 6300 4950 50  0001 C CNN
+F 0 "#PWR08" H 6300 4950 50  0001 C CNN
 F 1 "GND" H 6305 5024 50  0000 C CNN
 F 2 "" H 6300 5200 50  0001 C CNN
 F 3 "" H 6300 5200 50  0001 C CNN
@@ -832,12 +851,12 @@ Wire Wire Line
 Wire Wire Line
 	8650 2000 8750 2000
 $Comp
-L pkl_device:pkl_Diode_Small D?
+L pkl_device:pkl_Diode_Small D11
 U 1 1 5F197436
 P 8850 2000
-F 0 "D?" H 8850 2116 50  0000 C CNN
+F 0 "D11" H 8850 2116 50  0000 C CNN
 F 1 "~~800mVf" H 8850 2217 50  0000 C CNN
-F 2 "" V 8850 2000 60  0000 C CNN
+F 2 "pkl_dipol:D_SOD-523" V 8850 2000 60  0001 C CNN
 F 3 "" V 8850 2000 60  0000 C CNN
 	1    8850 2000
 	-1   0    0    1   
@@ -863,4 +882,40 @@ Text Notes 1850 950  0    50   ~ 0
 1.5k Equivalent
 Text Notes 9450 2400 0    50   ~ 0
 These CC resistors will probably work as is\nwe still might need to recalculate.
+$Comp
+L Device:CP C1
+U 1 1 5F221909
+P 5300 6450
+F 0 "C1" H 5420 6497 50  0000 L CNN
+F 1 "150u" H 5420 6404 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 5300 6450 50  0001 C CNN
+F 3 "https://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxf" H 5300 6450 50  0001 C CNN
+F 4 "cap-poly-5x3_9-150u" H 5300 6450 50  0001 C CNN "Key"
+F 5 "United Chemi-Con" H 5300 6450 50  0001 C CNN "Manufacturer"
+F 6 "APXF6R3ARA151ME40G" H 5300 6450 50  0001 C CNN "MFN"
+	1    5300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5F223B8D
+P 5300 6300
+F 0 "#PWR0101" H 5300 6150 50  0001 C CNN
+F 1 "+5V" H 5315 6476 50  0000 C CNN
+F 2 "" H 5300 6300 50  0001 C CNN
+F 3 "" H 5300 6300 50  0001 C CNN
+	1    5300 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F223EBA
+P 5300 6600
+F 0 "#PWR0102" H 5300 6350 50  0001 C CNN
+F 1 "GND" H 5305 6424 50  0000 C CNN
+F 2 "" H 5300 6600 50  0001 C CNN
+F 3 "" H 5300 6600 50  0001 C CNN
+	1    5300 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
