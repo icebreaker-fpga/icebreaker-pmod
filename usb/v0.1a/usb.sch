@@ -742,8 +742,8 @@ $Comp
 L pkl_misc:USBLC6-2 U1
 U 1 1 5F10064E
 P 3550 4900
-F 0 "U1" H 3550 5295 60  0000 C CNN
-F 1 "USBLC6-2" H 3550 5185 60  0000 C CNN
+F 0 "U1" H 3550 5250 60  0000 C CNN
+F 1 "USBLC6-2" H 3550 5150 60  0000 C CNN
 F 2 "pkl_housings_sot:SOT-666" H 3550 5185 60  0001 C CNN
 F 3 "" H 3550 4900 60  0000 C CNN
 F 4 "tvs-diode-sot666" H 3550 4900 50  0001 C CNN "Key"
@@ -751,10 +751,6 @@ F 5 "ANY" H 3550 4900 50  0001 C CNN "Source"
 	1    3550 4900
 	-1   0    0    -1  
 $EndComp
-Text Label 2350 4800 0    50   ~ 0
-xUSBA_DP
-Text Label 2350 4900 0    50   ~ 0
-xUSBA_DM
 Wire Wire Line
 	2250 4800 3050 4800
 Wire Wire Line
@@ -797,8 +793,8 @@ $Comp
 L pkl_misc:USBLC6-2 U2
 U 1 1 5F181321
 P 6900 4900
-F 0 "U2" H 6900 5295 60  0000 C CNN
-F 1 "USBLC6-2" H 6900 5185 60  0000 C CNN
+F 0 "U2" H 6900 5250 60  0000 C CNN
+F 1 "USBLC6-2" H 6900 5150 60  0000 C CNN
 F 2 "pkl_housings_sot:SOT-666" H 6900 5185 60  0001 C CNN
 F 3 "" H 6900 4900 60  0000 C CNN
 F 4 "tvs-diode-sot666" H 6900 4900 50  0001 C CNN "Key"
@@ -831,10 +827,6 @@ Wire Wire Line
 Wire Wire Line
 	7400 4800 8400 4800
 Connection ~ 8400 4800
-Text Label 8100 4800 2    50   ~ 0
-xUSBC_DP
-Text Label 8100 5000 2    50   ~ 0
-xUSBC_DM
 $Comp
 L power:GND #PWR08
 U 1 1 5F1A430F
@@ -887,12 +879,9 @@ L Device:CP C1
 U 1 1 5F221909
 P 5300 6450
 F 0 "C1" H 5420 6497 50  0000 L CNN
-F 1 "150u" H 5420 6404 50  0000 L CNN
+F 1 "DNP" H 5420 6404 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 5300 6450 50  0001 C CNN
-F 3 "https://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=pxf" H 5300 6450 50  0001 C CNN
-F 4 "cap-poly-5x3_9-150u" H 5300 6450 50  0001 C CNN "Key"
-F 5 "United Chemi-Con" H 5300 6450 50  0001 C CNN "Manufacturer"
-F 6 "APXF6R3ARA151ME40G" H 5300 6450 50  0001 C CNN "MFN"
+F 3 "" H 5300 6450 50  0001 C CNN
 	1    5300 6450
 	1    0    0    -1  
 $EndComp
@@ -918,4 +907,38 @@ F 3 "" H 5300 6600 50  0001 C CNN
 	1    5300 6600
 	1    0    0    -1  
 $EndComp
+Text Notes 3950 7600 0    50   ~ 0
+C1 Note: In theory, if we are a host we need to provide high capacitance.\nThe problem is that in most configs we source 5V from a USB device.\nIf we populate this with a 120uF cap we will trip every USB\novercurrent protection. So if we want to be standard complient\nwe would need to add a controller chip that prevents inrush current.\nThis is supposed to be a simple Pmod, and I doubt it will be fully spec\ncomplient. But if you want to play with adding caps, the footprint\nis all yours, and if you want to make it more spec complient\nPRs are welcome. ;) Signed: esden
+Wire Wire Line
+	6400 5000 6400 5200
+Wire Wire Line
+	6400 5200 7400 5200
+Wire Wire Line
+	7400 5200 7400 5000
+Connection ~ 6400 5000
+Connection ~ 7400 5000
+Wire Wire Line
+	6400 4800 6400 4600
+Wire Wire Line
+	6400 4600 7400 4600
+Wire Wire Line
+	7400 4600 7400 4800
+Connection ~ 6400 4800
+Connection ~ 7400 4800
+Wire Wire Line
+	3050 4800 3050 4600
+Wire Wire Line
+	3050 4600 4050 4600
+Wire Wire Line
+	4050 4600 4050 4800
+Connection ~ 3050 4800
+Connection ~ 4050 4800
+Wire Wire Line
+	3050 5000 3050 5200
+Wire Wire Line
+	3050 5200 4050 5200
+Wire Wire Line
+	4050 5200 4050 5000
+Connection ~ 3050 5000
+Connection ~ 4050 5000
 $EndSCHEMATC
