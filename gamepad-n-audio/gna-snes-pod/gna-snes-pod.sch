@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "iCEBreaker PMOD - Gamepad & Audio - Molex SL Pod"
 Date ""
-Rev "V1.0a"
+Rev "V1.0b"
 Comp "1BitSquared"
 Comment1 "2020 (C) 1BitSquared <info@1bitsquared.com>"
 Comment2 "2020 (C) Piotr Esden-Tempski <piotr@esden.net>"
