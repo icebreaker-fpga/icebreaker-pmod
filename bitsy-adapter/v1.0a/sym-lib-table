@@ -17,5 +17,5 @@
   (lib (name pkl_conn)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_conn.lib)(options "")(descr ""))
   (lib (name pkl_analog_devices)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_analog_devices.lib)(options "")(descr ""))
   (lib (name pkl_st)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_st.lib)(options "")(descr ""))
-  (lib (name pkl_module)(type Legacy)(uri C:/Users/jordi/Documents/Git/icebreaker-fpga/icebreaker-pmod/lib/pkl/pkl_module.lib)(options "")(descr ""))
+  (lib (name pkl_module)(type Legacy)(uri ${KIPRJMOD}/../../lib/pkl/pkl_module.lib)(options "")(descr ""))
 )
