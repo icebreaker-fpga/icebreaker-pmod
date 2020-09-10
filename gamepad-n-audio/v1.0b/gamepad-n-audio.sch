@@ -638,6 +638,7 @@ F 0 "C14" H 5240 4997 50  0000 L CNN
 F 1 "4n7" H 5240 4904 50  0000 L CNN
 F 2 "pkl_dipol:C_1206" H 5150 4950 60  0001 C CNN
 F 3 "" H 5150 4950 60  0000 C CNN
+F 4 "cap-cer-1206-4n7" H 5150 4950 50  0001 C CNN "Key"
 	1    5150 4950
 	1    0    0    -1  
 $EndComp
@@ -678,6 +679,7 @@ F 0 "U5" H 4050 5245 60  0000 C CNN
 F 1 "74AUP2G3404" H 4050 5135 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4050 4750 60  0001 C CNN
 F 3 "" H 4050 4750 60  0001 C CNN
+F 4 "ic-sot363-74aup2g3404" H 4050 4750 50  0001 C CNN "Key"
 	1    4050 4750
 	1    0    0    -1  
 $EndComp
@@ -749,6 +751,7 @@ F 0 "FB2" H 3652 4297 50  0000 L CNN
 F 1 "600" H 3652 4204 50  0000 L CNN
 F 2 "pkl_dipol:L_0402" V 3480 4250 50  0001 C CNN
 F 3 "~" H 3550 4250 50  0001 C CNN
+F 4 "ferrite-0402-600" H 3550 4250 50  0001 C CNN "Key"
 	1    3550 4250
 	1    0    0    -1  
 $EndComp
@@ -773,6 +776,7 @@ F 0 "C17" H 4740 4797 50  0000 L CNN
 F 1 "4n7" H 4740 4704 50  0000 L CNN
 F 2 "pkl_dipol:C_1206" H 4650 4750 60  0001 C CNN
 F 3 "" H 4650 4750 60  0000 C CNN
+F 4 "cap-cer-1206-4n7" H 4650 4750 50  0001 C CNN "Key"
 	1    4650 4750
 	0    1    1    0   
 $EndComp
@@ -830,6 +834,7 @@ F 1 "100u" V 6989 4550 50  0000 C CNN
 F 2 "pkl_dipol:C_1206" V 6997 4550 60  0001 C CNN
 F 3 "" H 6850 4550 60  0000 C CNN
 F 4 "6.4V or higher" H 6850 4550 50  0001 C CNN "Characteristics"
+F 5 "cap-cer-1206-100u" H 6850 4550 50  0001 C CNN "Key"
 	1    6850 4550
 	0    -1   -1   0   
 $EndComp
@@ -842,6 +847,7 @@ F 1 "100u" V 7081 4750 50  0000 C CNN
 F 2 "pkl_dipol:C_1206" V 6997 4750 60  0001 C CNN
 F 3 "" H 6850 4750 60  0000 C CNN
 F 4 "6.3V or higher" H 6850 4750 50  0001 C CNN "Characteristics"
+F 5 "cap-cer-1206-100u" H 6850 4750 50  0001 C CNN "Key"
 	1    6850 4750
 	0    -1   1    0   
 $EndComp
@@ -865,6 +871,7 @@ F 0 "C18" H 5190 6447 50  0000 L CNN
 F 1 "4n7" H 5190 6354 50  0000 L CNN
 F 2 "pkl_dipol:C_1206" H 5100 6400 60  0001 C CNN
 F 3 "" H 5100 6400 60  0000 C CNN
+F 4 "cap-cer-1206-4n7" H 5100 6400 50  0001 C CNN "Key"
 	1    5100 6400
 	1    0    0    -1  
 $EndComp
@@ -890,6 +897,7 @@ F 0 "U4" H 4000 6695 60  0000 C CNN
 F 1 "74AUP2G3404" H 4000 6585 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4000 6200 60  0001 C CNN
 F 3 "" H 4000 6200 60  0001 C CNN
+F 4 "ic-sot363-74aup2g3404" H 4000 6200 50  0001 C CNN "Key"
 	1    4000 6200
 	1    0    0    -1  
 $EndComp
@@ -961,6 +969,7 @@ F 0 "FB1" H 3602 5747 50  0000 L CNN
 F 1 "600" H 3602 5654 50  0000 L CNN
 F 2 "pkl_dipol:L_0402" V 3430 5700 50  0001 C CNN
 F 3 "~" H 3500 5700 50  0001 C CNN
+F 4 "ferrite-0402-600" H 3500 5700 50  0001 C CNN "Key"
 	1    3500 5700
 	1    0    0    -1  
 $EndComp
@@ -985,6 +994,7 @@ F 0 "C16" H 4690 6247 50  0000 L CNN
 F 1 "4n7" H 4690 6154 50  0000 L CNN
 F 2 "pkl_dipol:C_1206" H 4600 6200 60  0001 C CNN
 F 3 "" H 4600 6200 60  0000 C CNN
+F 4 "cap-cer-1206-4n7" H 4600 6200 50  0001 C CNN "Key"
 	1    4600 6200
 	0    1    1    0   
 $EndComp
@@ -1039,6 +1049,7 @@ F 0 "J2" H 7160 4819 50  0000 R CNN
 F 1 "Switchcraft_35RAPC4BHN3" H 7160 4726 50  0000 R CNN
 F 2 "pkl_connectors:Switchcraft_35RAPC4BHN3" H 7700 4850 50  0001 C CNN
 F 3 "~" H 7700 4850 50  0001 C CNN
+F 4 "conn-3_5mm-jack-35rapc4bhn3" H 7450 4750 50  0001 C CNN "Key"
 	1    7450 4750
 	-1   0    0    -1  
 $EndComp
@@ -1052,6 +1063,7 @@ F 0 "J3" H 7200 2720 50  0000 C CNN
 F 1 "Gamepads" H 7200 2627 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical" H 7150 2300 50  0001 C CNN
 F 3 "~" H 7150 2300 50  0001 C CNN
+F 4 "conn-th-01in-6-2-hdr-shr" H 7150 2300 50  0001 C CNN "Key"
 	1    7150 2300
 	1    0    0    -1  
 $EndComp

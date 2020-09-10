@@ -45,6 +45,7 @@ F 0 "J3" H 2600 4370 50  0000 C CNN
 F 1 "Gamepads" H 2600 4277 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical" H 2550 3950 50  0001 C CNN
 F 3 "~" H 2550 3950 50  0001 C CNN
+F 4 "conn-th-01in-6-2-hdr-shr" H 2550 3950 50  0001 C CNN "Key"
 	1    2550 3950
 	1    0    0    -1  
 $EndComp
@@ -119,6 +120,7 @@ F 0 "J1" H 5430 2092 50  0000 L CNN
 F 1 "Gamepad" H 5430 1999 50  0000 L CNN
 F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 2050 50  0001 C CNN
 F 3 "~" H 5350 2050 50  0001 C CNN
+F 4 "conn-th-5-1-ra-sl70551-0004" H 5350 2050 50  0001 C CNN "Key"
 	1    5350 2050
 	1    0    0    -1  
 $EndComp
@@ -224,6 +226,7 @@ F 0 "J2" H 5430 3392 50  0000 L CNN
 F 1 "Gamepad" H 5430 3299 50  0000 L CNN
 F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 3350 50  0001 C CNN
 F 3 "~" H 5350 3350 50  0001 C CNN
+F 4 "conn-th-5-1-ra-sl70551-0004" H 5350 3350 50  0001 C CNN "Key"
 	1    5350 3350
 	1    0    0    -1  
 $EndComp
@@ -307,6 +310,7 @@ F 0 "J4" H 5430 4692 50  0000 L CNN
 F 1 "Gamepad" H 5430 4599 50  0000 L CNN
 F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 4650 50  0001 C CNN
 F 3 "~" H 5350 4650 50  0001 C CNN
+F 4 "conn-th-5-1-ra-sl70551-0004" H 5350 4650 50  0001 C CNN "Key"
 	1    5350 4650
 	1    0    0    -1  
 $EndComp
@@ -390,6 +394,7 @@ F 0 "J5" H 5430 5992 50  0000 L CNN
 F 1 "Gamepad" H 5430 5899 50  0000 L CNN
 F 2 "pkl_connectors:Molex_SL_70551-0004_1x5_P2.54mm_Horizontal" H 5350 5950 50  0001 C CNN
 F 3 "~" H 5350 5950 50  0001 C CNN
+F 4 "conn-th-5-1-ra-sl70551-0004" H 5350 5950 50  0001 C CNN "Key"
 	1    5350 5950
 	1    0    0    -1  
 $EndComp

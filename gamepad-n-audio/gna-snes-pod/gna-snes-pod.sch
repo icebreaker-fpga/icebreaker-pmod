@@ -45,6 +45,7 @@ F 0 "J3" H 2600 4370 50  0000 C CNN
 F 1 "Gamepads" H 2600 4277 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical" H 2550 3950 50  0001 C CNN
 F 3 "~" H 2550 3950 50  0001 C CNN
+F 4 "conn-th-01in-6-2-hdr-shr" H 2550 3950 50  0001 C CNN "Key"
 	1    2550 3950
 	1    0    0    -1  
 $EndComp
@@ -429,6 +430,7 @@ F 0 "J1" H 5430 1992 50  0000 L CNN
 F 1 "SNES" H 5430 1899 50  0000 L CNN
 F 2 "pkl_connectors:SNES" H 5350 1950 50  0001 C CNN
 F 3 "~" H 5350 1950 50  0001 C CNN
+F 4 "conn-th-snes" H 5350 1950 50  0001 C CNN "Key"
 	1    5350 1950
 	1    0    0    -1  
 $EndComp
@@ -442,6 +444,7 @@ F 0 "J2" H 5430 3492 50  0000 L CNN
 F 1 "SNES" H 5430 3399 50  0000 L CNN
 F 2 "pkl_connectors:SNES" H 5350 3450 50  0001 C CNN
 F 3 "~" H 5350 3450 50  0001 C CNN
+F 4 "conn-th-snes" H 5350 3450 50  0001 C CNN "Key"
 	1    5350 3450
 	1    0    0    -1  
 $EndComp
@@ -455,6 +458,7 @@ F 0 "J4" H 5430 4992 50  0000 L CNN
 F 1 "SNES" H 5430 4899 50  0000 L CNN
 F 2 "pkl_connectors:SNES" H 5350 4950 50  0001 C CNN
 F 3 "~" H 5350 4950 50  0001 C CNN
+F 4 "conn-th-snes" H 5350 4950 50  0001 C CNN "Key"
 	1    5350 4950
 	1    0    0    -1  
 $EndComp
@@ -468,6 +472,7 @@ F 0 "J5" H 5430 6492 50  0000 L CNN
 F 1 "SNES" H 5430 6399 50  0000 L CNN
 F 2 "pkl_connectors:SNES" H 5350 6450 50  0001 C CNN
 F 3 "~" H 5350 6450 50  0001 C CNN
+F 4 "conn-th-snes" H 5350 6450 50  0001 C CNN "Key"
 	1    5350 6450
 	1    0    0    -1  
 $EndComp
