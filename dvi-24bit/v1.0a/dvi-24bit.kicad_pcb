@@ -218,6 +218,7 @@
 
   (module pkl_logos:null_Logo_SilkS_7.5mm (layer B.Cu) (tedit 5E7ECECC) (tstamp 5E8ED105)
     (at 48.1 37.1 90)
+    (attr virtual)
     (fp_text reference REF** (at 0 -5 90) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
