@@ -312,6 +312,7 @@ F 0 "D2" H 1900 1424 50  0000 C CNN
 F 1 "~~800mVf" H 1900 1525 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 1900 1650 60  0001 C CNN
 F 3 "" V 1900 1650 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 1900 1650 50  0001 C CNN "Key"
 	1    1900 1650
 	-1   0    0    1   
 $EndComp
@@ -323,6 +324,7 @@ F 0 "D1" H 1900 1526 50  0000 C CNN
 F 1 "~~800mVf" H 1900 1425 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 1900 1300 60  0001 C CNN
 F 3 "" V 1900 1300 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 1900 1300 50  0001 C CNN "Key"
 	1    1900 1300
 	1    0    0    -1  
 $EndComp
@@ -334,6 +336,7 @@ F 0 "D10" H 8850 2026 50  0000 C CNN
 F 1 "~~800mVf" H 8850 1925 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 8850 1800 60  0001 C CNN
 F 3 "" V 8850 1800 60  0000 C CNN
+F 4 "diode-shottky-sod523" H 8850 1800 50  0001 C CNN "Key"
 	1    8850 1800
 	1    0    0    -1  
 $EndComp
@@ -345,6 +348,7 @@ F 0 "D9" H 8850 1316 50  0000 C CNN
 F 1 "~~800mVf" H 8850 1417 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 8850 1200 60  0001 C CNN
 F 3 "" V 8850 1200 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 8850 1200 50  0001 C CNN "Key"
 	1    8850 1200
 	-1   0    0    1   
 $EndComp
@@ -356,6 +360,7 @@ F 0 "D8" H 8850 1226 50  0000 C CNN
 F 1 "~~800mVf" H 8850 1125 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 8850 1000 60  0001 C CNN
 F 3 "" V 8850 1000 60  0000 C CNN
+F 4 "diode-shottky-sod523" H 8850 1000 50  0001 C CNN "Key"
 	1    8850 1000
 	1    0    0    -1  
 $EndComp
@@ -473,6 +478,7 @@ F 0 "D7" H 6050 2166 50  0000 C CNN
 F 1 "~~800mVf" H 6050 2267 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 6050 2050 60  0001 C CNN
 F 3 "" V 6050 2050 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 6050 2050 50  0001 C CNN "Key"
 	1    6050 2050
 	-1   0    0    1   
 $EndComp
@@ -484,6 +490,7 @@ F 0 "D6" H 6050 2076 50  0000 C CNN
 F 1 "~~800mVf" H 6050 1975 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 6050 1850 60  0001 C CNN
 F 3 "" V 6050 1850 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 6050 1850 50  0001 C CNN "Key"
 	1    6050 1850
 	1    0    0    -1  
 $EndComp
@@ -495,6 +502,7 @@ F 0 "D5" H 6050 1416 50  0000 C CNN
 F 1 "~~800mVf" H 6050 1517 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 6050 1300 60  0001 C CNN
 F 3 "" V 6050 1300 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 6050 1300 50  0001 C CNN "Key"
 	1    6050 1300
 	-1   0    0    1   
 $EndComp
@@ -506,6 +514,7 @@ F 0 "D4" H 6050 1326 50  0000 C CNN
 F 1 "~~800mVf" H 6050 1225 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 6050 1100 60  0001 C CNN
 F 3 "" V 6050 1100 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 6050 1100 50  0001 C CNN "Key"
 	1    6050 1100
 	1    0    0    -1  
 $EndComp
@@ -540,6 +549,7 @@ F 0 "D3" H 1900 1966 50  0000 C CNN
 F 1 "~~800mVf" H 1900 2067 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 1900 1850 60  0001 C CNN
 F 3 "" V 1900 1850 60  0001 C CNN
+F 4 "diode-shottky-sod523" H 1900 1850 50  0001 C CNN "Key"
 	1    1900 1850
 	-1   0    0    1   
 $EndComp
@@ -573,7 +583,7 @@ F 0 "J7" H 5300 6170 50  0000 C CNN
 F 1 "AUX5V" H 5300 6077 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 5250 5950 50  0001 C CNN
 F 3 "" H 5250 5950 50  0001 C CNN
-F 4 "conn-th-01in-1-2-rec" H 5250 5950 50  0001 C CNN "Key"
+F 4 "conn-th-01in-2-1-rec" H 5250 5950 50  0001 C CNN "Key"
 	1    5250 5950
 	1    0    0    -1  
 $EndComp
@@ -850,6 +860,7 @@ F 0 "D11" H 8850 2116 50  0000 C CNN
 F 1 "~~800mVf" H 8850 2217 50  0000 C CNN
 F 2 "pkl_dipol:D_SOD-523" V 8850 2000 60  0001 C CNN
 F 3 "" V 8850 2000 60  0000 C CNN
+F 4 "diode-shottky-sod523" H 8850 2000 50  0001 C CNN "Key"
 	1    8850 2000
 	-1   0    0    1   
 $EndComp
@@ -882,6 +893,7 @@ F 0 "C1" H 5420 6497 50  0000 L CNN
 F 1 "DNP" H 5420 6404 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_5x3.9" H 5300 6450 50  0001 C CNN
 F 3 "" H 5300 6450 50  0001 C CNN
+F 4 "cap-poly-5x3_9-150u" H 5300 6450 50  0001 C CNN "Key"
 	1    5300 6450
 	1    0    0    -1  
 $EndComp
