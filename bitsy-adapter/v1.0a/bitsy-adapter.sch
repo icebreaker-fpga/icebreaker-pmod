@@ -29,7 +29,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J1
 U 1 1 5F39FAF5
 P 9200 2200
 F 0 "J1" H 9250 2617 50  0000 C CNN
-F 1 "PMOD1A" H 9250 2526 50  0000 C CNN
+F 1 "PMOD1" H 9250 2526 50  0000 C CNN
 F 2 "pkl_pin_headers:PinSocket_2x06_P2.54mm_Horizontal_Top_Bottom" H 9200 2200 50  0001 C CNN
 F 3 "~" H 9200 2200 50  0001 C CNN
 	1    9200 2200
@@ -84,48 +84,40 @@ Wire Wire Line
 Wire Wire Line
 	9500 3600 10100 3600
 Wire Wire Line
-	10300 3500 10700 3500
-Wire Wire Line
-	10300 3600 10700 3600
-Text Label 10700 3500 2    50   ~ 0
+	10300 5100 10700 5100
+Text Label 10700 5100 2    50   ~ 0
 P10
-Text Label 10700 3600 2    50   ~ 0
-P12
 Wire Wire Line
 	9500 3700 10100 3700
 Wire Wire Line
 	9500 3800 10100 3800
 Wire Wire Line
-	10300 3700 10700 3700
-Wire Wire Line
-	10300 3800 10700 3800
-Text Label 10700 3700 2    50   ~ 0
-P14
-Text Label 10700 3800 2    50   ~ 0
+	10300 5300 10700 5300
+Text Label 10700 5300 2    50   ~ 0
 P23
 Wire Wire Line
 	9500 5000 10100 5000
 Wire Wire Line
 	9500 5100 10100 5100
 Wire Wire Line
-	10300 5000 10700 5000
+	10300 3700 10700 3700
 Wire Wire Line
-	10300 5100 10700 5100
-Text Label 10700 5000 2    50   ~ 0
-P16
-Text Label 10700 5100 2    50   ~ 0
-P19
+	10300 3600 10700 3600
+Text Label 10700 3700 2    50   ~ 0
+P15
+Text Label 10700 3600 2    50   ~ 0
+P18
 Wire Wire Line
 	9500 5200 10100 5200
 Wire Wire Line
 	9500 5300 10100 5300
 Wire Wire Line
-	10300 5200 10700 5200
+	10300 3500 10700 3500
 Wire Wire Line
-	10300 5300 10700 5300
-Text Label 10700 5200 2    50   ~ 0
-P22
-Text Label 10700 5300 2    50   ~ 0
+	10300 3800 10700 3800
+Text Label 10700 3500 2    50   ~ 0
+P21
+Text Label 10700 3800 2    50   ~ 0
 P20
 $Comp
 L power:+3V3 #PWR0102
@@ -220,34 +212,34 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0115
 U 1 1 5F432D28
-P 9000 6000
-F 0 "#PWR0115" H 9000 5850 50  0001 C CNN
-F 1 "+5V" V 9015 6128 50  0000 L CNN
-F 2 "" H 9000 6000 50  0001 C CNN
-F 3 "" H 9000 6000 50  0001 C CNN
-	1    9000 6000
+P 9000 4500
+F 0 "#PWR0115" H 9000 4350 50  0001 C CNN
+F 1 "+5V" V 9015 4628 50  0000 L CNN
+F 2 "" H 9000 4500 50  0001 C CNN
+F 3 "" H 9000 4500 50  0001 C CNN
+	1    9000 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0116
 U 1 1 5F432D32
-P 9500 6000
-F 0 "#PWR0116" H 9500 5750 50  0001 C CNN
-F 1 "GND" V 9505 5872 50  0000 R CNN
-F 2 "" H 9500 6000 50  0001 C CNN
-F 3 "" H 9500 6000 50  0001 C CNN
-	1    9500 6000
+P 9500 4500
+F 0 "#PWR0116" H 9500 4250 50  0001 C CNN
+F 1 "GND" V 9505 4372 50  0000 R CNN
+F 2 "" H 9500 4500 50  0001 C CNN
+F 3 "" H 9500 4500 50  0001 C CNN
+	1    9500 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x01 J5
 U 1 1 5F432D3C
-P 9200 6000
-F 0 "J5" H 9250 6217 50  0000 C CNN
-F 1 "5V AUX" H 9250 6126 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 9200 6000 50  0001 C CNN
-F 3 "~" H 9200 6000 50  0001 C CNN
-	1    9200 6000
+P 9200 4500
+F 0 "J5" H 9250 4717 50  0000 C CNN
+F 1 "5V AUX" H 9250 4626 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical" H 9200 4500 50  0001 C CNN
+F 3 "~" H 9200 4500 50  0001 C CNN
+	1    9200 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -255,7 +247,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J2
 U 1 1 5F438A9F
 P 9200 3700
 F 0 "J2" H 9250 4117 50  0000 C CNN
-F 1 "PMOD1B" H 9250 4026 50  0000 C CNN
+F 1 "PMOD2" H 9250 4026 50  0000 C CNN
 F 2 "pkl_pin_headers:PinSocket_2x06_P2.54mm_Horizontal_Top_Bottom" H 9200 3700 50  0001 C CNN
 F 3 "~" H 9200 3700 50  0001 C CNN
 	1    9200 3700
@@ -266,7 +258,7 @@ L Connector_Generic:Conn_02x06_Top_Bottom J3
 U 1 1 5F439685
 P 9200 5200
 F 0 "J3" H 9250 5617 50  0000 C CNN
-F 1 "PMOD2" H 9250 5526 50  0000 C CNN
+F 1 "PMOD3" H 9250 5526 50  0000 C CNN
 F 2 "pkl_pin_headers:PinSocket_2x06_P2.54mm_Horizontal_Top_Bottom" H 9200 5200 50  0001 C CNN
 F 3 "~" H 9200 5200 50  0001 C CNN
 	1    9200 5200
@@ -572,7 +564,7 @@ U 1 1 5F42151D
 P 11000 6950
 F 0 "LOGO1" V 11200 6975 60  0001 C CNN
 F 1 "1BitSquared" H 11153 6950 40  0001 L CNN
-F 2 "pkl_logos:1b2_Logo_SilkS_4mm" H 11000 6950 60  0001 C CNN
+F 2 "pkl_logos:1b2_Logo_SilkS_6.5mm" H 11000 6950 60  0001 C CNN
 F 3 "" H 11000 6950 60  0000 C CNN
 	1    11000 6950
 	1    0    0    -1  
@@ -837,40 +829,38 @@ F 3 "" H 8900 1900 50  0001 C CNN
 	1    8900 1900
 	1    0    0    -1  
 $EndComp
-Text Label 7800 5300 0    50   ~ 0
+Text Label 7800 3800 0    50   ~ 0
 P17
-Text Label 7800 5200 0    50   ~ 0
-P21
-Wire Wire Line
-	8200 5300 7800 5300
-Wire Wire Line
-	8200 5200 7800 5200
-Text Label 7800 5100 0    50   ~ 0
-P18
-Text Label 7800 5000 0    50   ~ 0
-P15
-Wire Wire Line
-	8200 5100 7800 5100
-Wire Wire Line
-	8200 5000 7800 5000
-Text Label 7800 3700 0    50   ~ 0
-P13
 Wire Wire Line
 	8200 3800 7800 3800
 Wire Wire Line
+	8200 3500 7800 3500
+Text Label 7800 3600 0    50   ~ 0
+P19
+Text Label 7800 3700 0    50   ~ 0
+P16
+Wire Wire Line
+	8200 3600 7800 3600
+Wire Wire Line
 	8200 3700 7800 3700
+Text Label 7800 5000 0    50   ~ 0
+P14
+Wire Wire Line
+	8200 5300 7800 5300
+Wire Wire Line
+	8200 5000 7800 5000
 Wire Wire Line
 	8400 3800 9000 3800
 Wire Wire Line
 	8400 3700 9000 3700
-Text Label 7800 3600 0    50   ~ 0
+Text Label 7800 5200 0    50   ~ 0
 P11
-Text Label 7800 3500 0    50   ~ 0
+Text Label 7800 5100 0    50   ~ 0
 P9
 Wire Wire Line
-	8200 3600 7800 3600
+	8200 5200 7800 5200
 Wire Wire Line
-	8200 3500 7800 3500
+	8200 5100 7800 5100
 Wire Wire Line
 	8400 3600 9000 3600
 Wire Wire Line
@@ -904,30 +894,14 @@ F 3 "" H 8300 2100 60  0000 C CNN
 	3    8300 2100
 	0    -1   -1   0   
 $EndComp
-Text Label 8600 2000 0    50   ~ 0
-P1A1
-Text Label 8600 2100 0    50   ~ 0
-P1A2
-Text Label 8600 2200 0    50   ~ 0
-P1A3
-Text Label 8600 2300 0    50   ~ 0
-P1A4
-Text Label 9900 2000 2    50   ~ 0
-P1A7
-Text Label 9900 2100 2    50   ~ 0
-P1A8
-Text Label 9900 2200 2    50   ~ 0
-P1A9
-Text Label 9900 2300 2    50   ~ 0
-P1A10
 Text Label 8600 3800 0    50   ~ 0
-P1B4
+J2P4
 Text Label 8600 3700 0    50   ~ 0
-P1B3
+J2P3
 Text Label 8600 3600 0    50   ~ 0
-P1B2
+J2P2
 Text Label 8600 3500 0    50   ~ 0
-P1B1
+J2P1
 Wire Wire Line
 	8400 5000 9000 5000
 Wire Wire Line
@@ -937,29 +911,55 @@ Wire Wire Line
 Wire Wire Line
 	8400 5300 9000 5300
 Text Label 9900 3500 2    50   ~ 0
-P1B7
+J2P7
 Text Label 9900 3600 2    50   ~ 0
-P1B8
+J2P8
 Text Label 9900 3700 2    50   ~ 0
-P1B9
+J2P9
 Text Label 9900 3800 2    50   ~ 0
-P1B10
+J2P10
 Text Label 8600 5000 0    50   ~ 0
-P2_1
+J3P1
 Text Label 8600 5100 0    50   ~ 0
-P2_2
+J3P2
 Text Label 8600 5200 0    50   ~ 0
-P2_3
+J3P3
 Text Label 8600 5300 0    50   ~ 0
-P2_4
+J3P4
 Text Label 9900 5000 2    50   ~ 0
-P2_7
+J3P7
 Text Label 9900 5100 2    50   ~ 0
-P2_8
+J3P8
 Text Label 9900 5200 2    50   ~ 0
-P2_9
+J3P9
 Text Label 9900 5300 2    50   ~ 0
-P2_10
-Text Label 7800 3800 0    50   ~ 0
+J3P10
+Text Label 7800 5300 0    50   ~ 0
 P8
+Text Label 7800 3500 0    50   ~ 0
+P22
+Text Label 9900 2000 2    50   ~ 0
+J1P7
+Text Label 9900 2100 2    50   ~ 0
+J1P8
+Text Label 9900 2200 2    50   ~ 0
+J1P9
+Text Label 9900 2300 2    50   ~ 0
+J1P10
+Text Label 8600 2300 0    50   ~ 0
+J1P4
+Text Label 8600 2200 0    50   ~ 0
+J1P3
+Text Label 8600 2100 0    50   ~ 0
+J1P2
+Text Label 8600 2000 0    50   ~ 0
+J1P1
+Text Label 10700 5000 2    50   ~ 0
+P13
+Wire Wire Line
+	10300 5000 10700 5000
+Text Label 10700 5200 2    50   ~ 0
+P12
+Wire Wire Line
+	10300 5200 10700 5200
 $EndSCHEMATC
