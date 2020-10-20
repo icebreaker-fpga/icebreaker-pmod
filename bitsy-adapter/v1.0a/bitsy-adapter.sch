@@ -567,36 +567,6 @@ F 3 "~" H 1500 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5F3ED57C
-P 5800 5000
-F 0 "J6" H 5880 5042 50  0000 L CNN
-F 1 "IO3" H 5880 4951 50  0000 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5800 5000 50  0001 C CNN
-F 3 "~" H 5800 5000 50  0001 C CNN
-	1    5800 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 5F3F0966
-P 5800 5200
-F 0 "J7" H 5880 5242 50  0000 L CNN
-F 1 "IO2" H 5880 5151 50  0000 L CNN
-F 2 "pkl_pin_headers:Pin_Header_Straight_Round_1x01" H 5800 5200 50  0001 C CNN
-F 3 "~" H 5800 5200 50  0001 C CNN
-	1    5800 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5600 5000 5300 5000
-Wire Wire Line
-	5600 5200 5300 5200
-Text Label 5300 5000 0    50   ~ 0
-IO3
-Text Label 5300 5200 0    50   ~ 0
-IO2
-$Comp
 L pkl_logos:1BitSquared LOGO1
 U 1 1 5F42151D
 P 11000 6950
