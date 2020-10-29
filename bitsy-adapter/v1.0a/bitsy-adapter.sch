@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iCEBreaker Bitsy PMOD Adapter"
-Date "2020-08-17"
+Date "2020-10-28"
 Rev "v1.0a"
 Comp "1BitSquared"
 Comment1 "License: CC BY-SA 4.0"
@@ -13,17 +13,6 @@ Comment2 "© 2020 1BitSquared <info@1bitsquared.com>"
 Comment3 "© 2020 Jordi Pakey-Rodriguez <jordi@1bitsquared.com>"
 Comment4 ""
 $EndDescr
-$Comp
-L pkl_module:iCEBreaker_Bitsy A1
-U 1 1 5F39DB86
-P 6000 4000
-F 0 "A1" H 6000 4867 50  0000 C CNN
-F 1 "iCEBreaker_Bitsy" H 6000 4776 50  0000 C CNN
-F 2 "pkl_module:iCEBreaker_Bitsy" H 6000 4000 50  0001 C CNN
-F 3 "" H 6000 4000 50  0001 C CNN
-	1    6000 4000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J1
 U 1 1 5F39FAF5
@@ -34,28 +23,6 @@ F 2 "pkl_pin_headers:PinSocket_2x06_P2.54mm_Horizontal_Top_Bottom" H 9200 2200 5
 F 3 "~" H 9200 2200 50  0001 C CNN
 	1    9200 2200
 	1    0    0    -1  
-$EndComp
-$Comp
-L pkl_device:pkl_R4_Small R1
-U 2 1 5F3A93FB
-P 10200 2000
-F 0 "R1" V 10150 2150 50  0000 C CNN
-F 1 "33E" V 10150 1850 50  0000 C CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 10200 2000 60  0001 C CNN
-F 3 "" H 10200 2000 60  0000 C CNN
-	2    10200 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L pkl_device:pkl_R4_Small R1
-U 4 1 5F3AA949
-P 10200 2100
-F 0 "R1" V 10150 2250 50  0000 C CNN
-F 1 "33E" V 10150 1950 50  0000 C CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 10200 2100 60  0001 C CNN
-F 3 "" H 10200 2100 60  0000 C CNN
-	4    10200 2100
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9500 2000 10100 2000
@@ -265,145 +232,58 @@ F 3 "~" H 9200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5300 3500 5600 3500
+	5200 3400 5500 3400
 Wire Wire Line
-	5300 3600 5600 3600
+	5200 3600 5500 3600
 Wire Wire Line
-	5300 3700 5600 3700
+	5200 3700 5500 3700
 Wire Wire Line
-	5300 3800 5600 3800
+	5200 3800 5500 3800
 Wire Wire Line
-	5300 3900 5600 3900
+	5200 3900 5500 3900
 Wire Wire Line
-	5300 4000 5600 4000
+	5200 4000 5500 4000
 Wire Wire Line
-	5300 4100 5600 4100
+	5200 4100 5500 4100
 Wire Wire Line
-	5300 4200 5600 4200
+	5200 4200 5500 4200
 Wire Wire Line
-	5300 4300 5600 4300
+	5200 4300 5500 4300
 Wire Wire Line
-	5300 4400 5600 4400
+	5200 4400 5500 4400
 Wire Wire Line
-	5300 4500 5600 4500
-Wire Wire Line
-	5300 4600 5600 4600
-Wire Wire Line
-	5300 4700 5600 4700
-Text Label 5300 3600 0    50   ~ 0
+	5200 4600 5500 4600
+Text Label 5200 3500 0    50   ~ 0
 P1
-Text Label 5300 3800 0    50   ~ 0
+Text Label 5200 3700 0    50   ~ 0
 P3
-Text Label 5300 4000 0    50   ~ 0
+Text Label 5200 3900 0    50   ~ 0
 P5
-Wire Wire Line
-	6400 4700 6700 4700
-Wire Wire Line
-	6400 4600 6700 4600
-Wire Wire Line
-	6400 4500 6700 4500
-Wire Wire Line
-	6400 4400 6700 4400
-Wire Wire Line
-	6400 4300 6700 4300
-Wire Wire Line
-	6400 4200 6700 4200
-Wire Wire Line
-	6400 4100 6700 4100
-Wire Wire Line
-	6400 4000 6700 4000
-Wire Wire Line
-	6400 3900 6700 3900
-Wire Wire Line
-	6400 3800 6700 3800
-Wire Wire Line
-	6400 3700 6700 3700
 $Comp
 L power:GND #PWR0117
 U 1 1 5F49A9B3
-P 5300 3400
-F 0 "#PWR0117" H 5300 3150 50  0001 C CNN
-F 1 "GND" V 5305 3272 50  0000 R CNN
-F 2 "" H 5300 3400 50  0001 C CNN
-F 3 "" H 5300 3400 50  0001 C CNN
-	1    5300 3400
+P 5200 3300
+F 0 "#PWR0117" H 5200 3050 50  0001 C CNN
+F 1 "GND" V 5205 3172 50  0000 R CNN
+F 2 "" H 5200 3300 50  0001 C CNN
+F 3 "" H 5200 3300 50  0001 C CNN
+	1    5200 3300
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 3400 5300 3400
-$Comp
-L power:+5V #PWR0118
-U 1 1 5F49FF18
-P 6700 3400
-F 0 "#PWR0118" H 6700 3250 50  0001 C CNN
-F 1 "+5V" V 6715 3528 50  0000 L CNN
-F 2 "" H 6700 3400 50  0001 C CNN
-F 3 "" H 6700 3400 50  0001 C CNN
-	1    6700 3400
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6400 3400 6700 3400
-$Comp
-L power:GND #PWR0119
-U 1 1 5F4A5716
-P 6700 3500
-F 0 "#PWR0119" H 6700 3250 50  0001 C CNN
-F 1 "GND" V 6705 3372 50  0000 R CNN
-F 2 "" H 6700 3500 50  0001 C CNN
-F 3 "" H 6700 3500 50  0001 C CNN
-	1    6700 3500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6400 3500 6700 3500
-$Comp
-L power:+3.3V #PWR0120
-U 1 1 5F4AADAD
-P 6700 3600
-F 0 "#PWR0120" H 6700 3450 50  0001 C CNN
-F 1 "+3.3V" V 6715 3728 50  0000 L CNN
-F 2 "" H 6700 3600 50  0001 C CNN
-F 3 "" H 6700 3600 50  0001 C CNN
-	1    6700 3600
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6400 3600 6700 3600
-Text Label 5300 4100 0    50   ~ 0
+	5500 3300 5200 3300
+Text Label 5200 4000 0    50   ~ 0
 P6
-Text Label 5300 4300 0    50   ~ 0
+Text Label 5200 4200 0    50   ~ 0
 P8
-Text Label 5300 4500 0    50   ~ 0
+Text Label 5200 4400 0    50   ~ 0
 P10
-Text Label 5300 4700 0    50   ~ 0
+Text Label 5200 4600 0    50   ~ 0
 P12
-Text Label 6700 4600 2    50   ~ 0
-P14
-Text Label 5300 4400 0    50   ~ 0
+Text Label 5200 4300 0    50   ~ 0
 P9
-Text Label 5300 4600 0    50   ~ 0
+Text Label 5200 4500 0    50   ~ 0
 P11
-Text Label 6700 4700 2    50   ~ 0
-P13
-Text Label 6700 4500 2    50   ~ 0
-P15
-Text Label 6700 4400 2    50   ~ 0
-P16
-Text Label 6700 4300 2    50   ~ 0
-P17
-Text Label 6700 4100 2    50   ~ 0
-P19
-Text Label 6700 3900 2    50   ~ 0
-P21
-Text Label 6700 3700 2    50   ~ 0
-P23
-Text Label 6700 4200 2    50   ~ 0
-P18
-Text Label 6700 4000 2    50   ~ 0
-P20
-Text Label 6700 3800 2    50   ~ 0
-P22
 $Comp
 L pkl_device:pkl_R4_Small R2
 U 2 1 5F4F897F
@@ -564,20 +444,20 @@ U 1 1 5F42151D
 P 11000 6950
 F 0 "LOGO1" V 11200 6975 60  0001 C CNN
 F 1 "1BitSquared" H 11153 6950 40  0001 L CNN
-F 2 "pkl_logos:1b2_Logo_SilkS_6.5mm" H 11000 6950 60  0001 C CNN
+F 2 "pkl_logos:1b2_Logo_SilkS_7.5mm" H 11000 6950 60  0001 C CNN
 F 3 "" H 11000 6950 60  0000 C CNN
 	1    11000 6950
 	1    0    0    -1  
 $EndComp
-Text Label 5300 4200 0    50   ~ 0
+Text Label 5200 4100 0    50   ~ 0
 P7
 Text Label 10700 2300 2    50   ~ 0
 P7
-Text Label 5300 3900 0    50   ~ 0
+Text Label 5200 3800 0    50   ~ 0
 P4
-Text Label 5300 3700 0    50   ~ 0
+Text Label 5200 3600 0    50   ~ 0
 P2
-Text Label 5300 3500 0    50   ~ 0
+Text Label 5200 3400 0    50   ~ 0
 P0
 $Comp
 L power:GND #PWR0114
@@ -715,17 +595,6 @@ F 1 "33E" V 8350 2150 50  0000 C CNN
 F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8300 2300 60  0001 C CNN
 F 3 "" H 8300 2300 60  0000 C CNN
 	3    8300 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L pkl_device:pkl_R4_Small R1
-U 1 1 5F3A88C4
-P 8300 2000
-F 0 "R1" V 8350 2150 50  0000 C CNN
-F 1 "33E" V 8350 1850 50  0000 C CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8300 2000 60  0001 C CNN
-F 3 "" H 8300 2000 60  0000 C CNN
-	1    8300 2000
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -883,17 +752,6 @@ Wire Wire Line
 	8400 2100 9000 2100
 Wire Wire Line
 	8400 2000 9000 2000
-$Comp
-L pkl_device:pkl_R4_Small R1
-U 3 1 5F3AA1EC
-P 8300 2100
-F 0 "R1" V 8350 2250 50  0000 C CNN
-F 1 "33E" V 8350 1950 50  0000 C CNN
-F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8300 2100 60  0001 C CNN
-F 3 "" H 8300 2100 60  0000 C CNN
-	3    8300 2100
-	0    -1   -1   0   
-$EndComp
 Text Label 8600 3800 0    50   ~ 0
 J2P4
 Text Label 8600 3700 0    50   ~ 0
@@ -962,4 +820,247 @@ Text Label 10700 5200 2    50   ~ 0
 P12
 Wire Wire Line
 	10300 5200 10700 5200
+Wire Wire Line
+	5200 4500 5500 4500
+Wire Wire Line
+	5200 3500 5500 3500
+Wire Wire Line
+	6500 4600 6800 4600
+Wire Wire Line
+	6500 4500 6800 4500
+Wire Wire Line
+	6500 4400 6800 4400
+Wire Wire Line
+	6500 4300 6800 4300
+Wire Wire Line
+	6500 4200 6800 4200
+Wire Wire Line
+	6500 4100 6800 4100
+Wire Wire Line
+	6500 4000 6800 4000
+Wire Wire Line
+	6500 3900 6800 3900
+Wire Wire Line
+	6500 3800 6800 3800
+Wire Wire Line
+	6500 3700 6800 3700
+Wire Wire Line
+	6500 3600 6800 3600
+$Comp
+L power:+5V #PWR0118
+U 1 1 5F49FF18
+P 6800 3300
+F 0 "#PWR0118" H 6800 3150 50  0001 C CNN
+F 1 "+5V" V 6815 3428 50  0000 L CNN
+F 2 "" H 6800 3300 50  0001 C CNN
+F 3 "" H 6800 3300 50  0001 C CNN
+	1    6800 3300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6500 3300 6800 3300
+$Comp
+L power:GND #PWR0119
+U 1 1 5F4A5716
+P 6800 3400
+F 0 "#PWR0119" H 6800 3150 50  0001 C CNN
+F 1 "GND" V 6805 3272 50  0000 R CNN
+F 2 "" H 6800 3400 50  0001 C CNN
+F 3 "" H 6800 3400 50  0001 C CNN
+	1    6800 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6500 3400 6800 3400
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5F4AADAD
+P 6800 3500
+F 0 "#PWR0120" H 6800 3350 50  0001 C CNN
+F 1 "+3.3V" V 6815 3628 50  0000 L CNN
+F 2 "" H 6800 3500 50  0001 C CNN
+F 3 "" H 6800 3500 50  0001 C CNN
+	1    6800 3500
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6500 3500 6800 3500
+Text Label 6800 4500 2    50   ~ 0
+P14
+Text Label 6800 4600 2    50   ~ 0
+P13
+Text Label 6800 4400 2    50   ~ 0
+P15
+Text Label 6800 4300 2    50   ~ 0
+P16
+Text Label 6800 4200 2    50   ~ 0
+P17
+Text Label 6800 4000 2    50   ~ 0
+P19
+Text Label 6800 3800 2    50   ~ 0
+P21
+Text Label 6800 3600 2    50   ~ 0
+P23
+Text Label 6800 4100 2    50   ~ 0
+P18
+Text Label 6800 3900 2    50   ~ 0
+P20
+Text Label 6800 3700 2    50   ~ 0
+P22
+$Comp
+L pkl_device:pkl_R4_Small R1
+U 3 1 5F3AA1EC
+P 8300 2100
+F 0 "R1" V 8350 2250 50  0000 C CNN
+F 1 "33E" V 8350 1950 50  0000 C CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8300 2100 60  0001 C CNN
+F 3 "" H 8300 2100 60  0000 C CNN
+	3    8300 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pkl_device:pkl_R4_Small R1
+U 4 1 5F3AA949
+P 10200 2100
+F 0 "R1" V 10150 2250 50  0000 C CNN
+F 1 "33E" V 10150 1950 50  0000 C CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 10200 2100 60  0001 C CNN
+F 3 "" H 10200 2100 60  0000 C CNN
+	4    10200 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L pkl_device:pkl_R4_Small R1
+U 1 1 5F3A88C4
+P 8300 2000
+F 0 "R1" V 8350 2150 50  0000 C CNN
+F 1 "33E" V 8350 1850 50  0000 C CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 8300 2000 60  0001 C CNN
+F 3 "" H 8300 2000 60  0000 C CNN
+	1    8300 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L pkl_device:pkl_R4_Small R1
+U 2 1 5F3A93FB
+P 10200 2000
+F 0 "R1" V 10150 2150 50  0000 C CNN
+F 1 "33E" V 10150 1850 50  0000 C CNN
+F 2 "pkl_dipol:R_Array_Convex_4x0402" H 10200 2000 60  0001 C CNN
+F 3 "" H 10200 2000 60  0000 C CNN
+	2    10200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5FA4ABF8
+P 6000 5200
+F 0 "#PWR0121" H 6000 4950 50  0001 C CNN
+F 1 "GND" H 6005 5027 50  0000 C CNN
+F 2 "" H 6000 5200 50  0001 C CNN
+F 3 "" H 6000 5200 50  0001 C CNN
+	1    6000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0122
+U 1 1 5FA4C208
+P 5400 4900
+F 0 "#PWR0122" H 5400 4750 50  0001 C CNN
+F 1 "+3V3" H 5415 5073 50  0000 C CNN
+F 2 "" H 5400 4900 50  0001 C CNN
+F 3 "" H 5400 4900 50  0001 C CNN
+	1    5400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_module:iCEBreaker_Bitsy A1
+U 1 1 5F9C978E
+P 6000 4000
+F 0 "A1" H 6000 4967 50  0000 C CNN
+F 1 "iCEBreaker_Bitsy" H 6000 4876 50  0000 C CNN
+F 2 "pkl_module:iCEBreaker_Bitsy" H 6000 4000 50  0001 C CNN
+F 3 "" H 6000 4000 50  0001 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 4900 5900 5000
+Wire Wire Line
+	5900 5000 5400 5000
+Wire Wire Line
+	5400 5000 5400 4900
+Wire Wire Line
+	6200 4900 6200 5000
+Wire Wire Line
+	6100 4900 6100 5100
+Text Label 6500 5000 2    50   ~ 0
+CDONE
+Text Label 6500 5100 2    50   ~ 0
+CRESET
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 5FA94276
+P 6900 5100
+F 0 "JP1" H 6900 5335 50  0000 C CNN
+F 1 "CRESET" H 6900 5244 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 5100 50  0001 C CNN
+F 3 "~" H 6900 5100 50  0001 C CNN
+	1    6900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5000 6500 5000
+Wire Wire Line
+	6100 5100 6700 5100
+Wire Wire Line
+	6000 5200 6000 4900
+$Comp
+L power:GND #PWR0123
+U 1 1 5FAAD57C
+P 7200 5200
+F 0 "#PWR0123" H 7200 4950 50  0001 C CNN
+F 1 "GND" H 7205 5027 50  0000 C CNN
+F 2 "" H 7200 5200 50  0001 C CNN
+F 3 "" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 5200 7200 5100
+Wire Wire Line
+	7200 5100 7100 5100
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5FBE4C9F
+P 1500 2500
+F 0 "FID1" H 1585 2546 50  0000 L CNN
+F 1 "Fiducial" H 1585 2455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 1500 2500 50  0001 C CNN
+F 3 "~" H 1500 2500 50  0001 C CNN
+	1    1500 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5FBEF138
+P 2000 2500
+F 0 "FID2" H 2085 2546 50  0000 L CNN
+F 1 "Fiducial" H 2085 2455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2000 2500 50  0001 C CNN
+F 3 "~" H 2000 2500 50  0001 C CNN
+	1    2000 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5FBEF3BF
+P 2500 2500
+F 0 "FID3" H 2585 2546 50  0000 L CNN
+F 1 "Fiducial" H 2585 2455 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2500 2500 50  0001 C CNN
+F 3 "~" H 2500 2500 50  0001 C CNN
+	1    2500 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
