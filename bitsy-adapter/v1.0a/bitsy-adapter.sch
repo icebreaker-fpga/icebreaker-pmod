@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iCEBreaker Bitsy PMOD Adapter"
-Date "2020-10-28"
+Date "2020-10-30"
 Rev "v1.0a"
 Comp "1BitSquared"
 Comment1 "License: CC BY-SA 4.0"
@@ -232,57 +232,55 @@ F 3 "~" H 9200 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5200 3400 5500 3400
+	5300 2200 5500 2200
 Wire Wire Line
-	5200 3600 5500 3600
+	5300 2400 5500 2400
 Wire Wire Line
-	5200 3700 5500 3700
+	5300 2500 5500 2500
 Wire Wire Line
-	5200 3800 5500 3800
+	5300 2600 5500 2600
 Wire Wire Line
-	5200 3900 5500 3900
+	5300 2700 5500 2700
 Wire Wire Line
-	5200 4000 5500 4000
+	5300 2800 5500 2800
 Wire Wire Line
-	5200 4100 5500 4100
+	5300 2900 5500 2900
 Wire Wire Line
-	5200 4200 5500 4200
+	5300 3000 5500 3000
 Wire Wire Line
-	5200 4300 5500 4300
+	5300 3100 5500 3100
 Wire Wire Line
-	5200 4400 5500 4400
+	5300 3200 5500 3200
 Wire Wire Line
-	5200 4600 5500 4600
-Text Label 5200 3500 0    50   ~ 0
+	5300 3400 5500 3400
+Text Label 5300 2300 0    50   ~ 0
 P1
-Text Label 5200 3700 0    50   ~ 0
+Text Label 5300 2500 0    50   ~ 0
 P3
-Text Label 5200 3900 0    50   ~ 0
+Text Label 5300 2700 0    50   ~ 0
 P5
 $Comp
 L power:GND #PWR0117
 U 1 1 5F49A9B3
-P 5200 3300
-F 0 "#PWR0117" H 5200 3050 50  0001 C CNN
-F 1 "GND" V 5205 3172 50  0000 R CNN
-F 2 "" H 5200 3300 50  0001 C CNN
-F 3 "" H 5200 3300 50  0001 C CNN
-	1    5200 3300
-	0    1    1    0   
+P 5500 2100
+F 0 "#PWR0117" H 5500 1850 50  0001 C CNN
+F 1 "GND" V 5505 1972 50  0000 R CNN
+F 2 "" H 5500 2100 50  0001 C CNN
+F 3 "" H 5500 2100 50  0001 C CNN
+	1    5500 2100
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	5500 3300 5200 3300
-Text Label 5200 4000 0    50   ~ 0
+Text Label 5300 2800 0    50   ~ 0
 P6
-Text Label 5200 4200 0    50   ~ 0
+Text Label 5300 3000 0    50   ~ 0
 P8
-Text Label 5200 4400 0    50   ~ 0
+Text Label 5300 3200 0    50   ~ 0
 P10
-Text Label 5200 4600 0    50   ~ 0
+Text Label 5300 3400 0    50   ~ 0
 P12
-Text Label 5200 4300 0    50   ~ 0
+Text Label 5300 3100 0    50   ~ 0
 P9
-Text Label 5200 4500 0    50   ~ 0
+Text Label 5300 3300 0    50   ~ 0
 P11
 $Comp
 L pkl_device:pkl_R4_Small R2
@@ -444,20 +442,20 @@ U 1 1 5F42151D
 P 11000 6950
 F 0 "LOGO1" V 11200 6975 60  0001 C CNN
 F 1 "1BitSquared" H 11153 6950 40  0001 L CNN
-F 2 "pkl_logos:1b2_Logo_SilkS_7.5mm" H 11000 6950 60  0001 C CNN
+F 2 "pkl_logos:1b2_Logo_SilkS_6.5mm" H 11000 6950 60  0001 C CNN
 F 3 "" H 11000 6950 60  0000 C CNN
 	1    11000 6950
 	1    0    0    -1  
 $EndComp
-Text Label 5200 4100 0    50   ~ 0
+Text Label 5300 2900 0    50   ~ 0
 P7
 Text Label 10700 2300 2    50   ~ 0
 P7
-Text Label 5200 3800 0    50   ~ 0
+Text Label 5300 2600 0    50   ~ 0
 P4
-Text Label 5200 3600 0    50   ~ 0
+Text Label 5300 2400 0    50   ~ 0
 P2
-Text Label 5200 3400 0    50   ~ 0
+Text Label 5300 2200 0    50   ~ 0
 P0
 $Comp
 L power:GND #PWR0114
@@ -821,92 +819,31 @@ P12
 Wire Wire Line
 	10300 5200 10700 5200
 Wire Wire Line
-	5200 4500 5500 4500
+	5300 3300 5500 3300
 Wire Wire Line
-	5200 3500 5500 3500
-Wire Wire Line
-	6500 4600 6800 4600
-Wire Wire Line
-	6500 4500 6800 4500
-Wire Wire Line
-	6500 4400 6800 4400
-Wire Wire Line
-	6500 4300 6800 4300
-Wire Wire Line
-	6500 4200 6800 4200
-Wire Wire Line
-	6500 4100 6800 4100
-Wire Wire Line
-	6500 4000 6800 4000
-Wire Wire Line
-	6500 3900 6800 3900
-Wire Wire Line
-	6500 3800 6800 3800
-Wire Wire Line
-	6500 3700 6800 3700
-Wire Wire Line
-	6500 3600 6800 3600
+	5300 2300 5500 2300
 $Comp
 L power:+5V #PWR0118
 U 1 1 5F49FF18
-P 6800 3300
-F 0 "#PWR0118" H 6800 3150 50  0001 C CNN
-F 1 "+5V" V 6815 3428 50  0000 L CNN
-F 2 "" H 6800 3300 50  0001 C CNN
-F 3 "" H 6800 3300 50  0001 C CNN
-	1    6800 3300
+P 6500 2100
+F 0 "#PWR0118" H 6500 1950 50  0001 C CNN
+F 1 "+5V" V 6515 2228 50  0000 L CNN
+F 2 "" H 6500 2100 50  0001 C CNN
+F 3 "" H 6500 2100 50  0001 C CNN
+	1    6500 2100
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	6500 3300 6800 3300
 $Comp
 L power:GND #PWR0119
 U 1 1 5F4A5716
-P 6800 3400
-F 0 "#PWR0119" H 6800 3150 50  0001 C CNN
-F 1 "GND" V 6805 3272 50  0000 R CNN
-F 2 "" H 6800 3400 50  0001 C CNN
-F 3 "" H 6800 3400 50  0001 C CNN
-	1    6800 3400
+P 6500 2200
+F 0 "#PWR0119" H 6500 1950 50  0001 C CNN
+F 1 "GND" V 6505 2072 50  0000 R CNN
+F 2 "" H 6500 2200 50  0001 C CNN
+F 3 "" H 6500 2200 50  0001 C CNN
+	1    6500 2200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6500 3400 6800 3400
-$Comp
-L power:+3.3V #PWR0120
-U 1 1 5F4AADAD
-P 6800 3500
-F 0 "#PWR0120" H 6800 3350 50  0001 C CNN
-F 1 "+3.3V" V 6815 3628 50  0000 L CNN
-F 2 "" H 6800 3500 50  0001 C CNN
-F 3 "" H 6800 3500 50  0001 C CNN
-	1    6800 3500
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	6500 3500 6800 3500
-Text Label 6800 4500 2    50   ~ 0
-P14
-Text Label 6800 4600 2    50   ~ 0
-P13
-Text Label 6800 4400 2    50   ~ 0
-P15
-Text Label 6800 4300 2    50   ~ 0
-P16
-Text Label 6800 4200 2    50   ~ 0
-P17
-Text Label 6800 4000 2    50   ~ 0
-P19
-Text Label 6800 3800 2    50   ~ 0
-P21
-Text Label 6800 3600 2    50   ~ 0
-P23
-Text Label 6800 4100 2    50   ~ 0
-P18
-Text Label 6800 3900 2    50   ~ 0
-P20
-Text Label 6800 3700 2    50   ~ 0
-P22
 $Comp
 L pkl_device:pkl_R4_Small R1
 U 3 1 5F3AA1EC
@@ -951,85 +888,25 @@ F 3 "" H 10200 2000 60  0000 C CNN
 	2    10200 2000
 	0    1    1    0   
 $EndComp
-$Comp
-L power:GND #PWR0121
-U 1 1 5FA4ABF8
-P 6000 5200
-F 0 "#PWR0121" H 6000 4950 50  0001 C CNN
-F 1 "GND" H 6005 5027 50  0000 C CNN
-F 2 "" H 6000 5200 50  0001 C CNN
-F 3 "" H 6000 5200 50  0001 C CNN
-	1    6000 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0122
-U 1 1 5FA4C208
-P 5400 4900
-F 0 "#PWR0122" H 5400 4750 50  0001 C CNN
-F 1 "+3V3" H 5415 5073 50  0000 C CNN
-F 2 "" H 5400 4900 50  0001 C CNN
-F 3 "" H 5400 4900 50  0001 C CNN
-	1    5400 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L pkl_module:iCEBreaker_Bitsy A1
-U 1 1 5F9C978E
-P 6000 4000
-F 0 "A1" H 6000 4967 50  0000 C CNN
-F 1 "iCEBreaker_Bitsy" H 6000 4876 50  0000 C CNN
-F 2 "pkl_module:iCEBreaker_Bitsy" H 6000 4000 50  0001 C CNN
-F 3 "" H 6000 4000 50  0001 C CNN
-	1    6000 4000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 4900 5900 5000
-Wire Wire Line
-	5900 5000 5400 5000
-Wire Wire Line
-	5400 5000 5400 4900
-Wire Wire Line
-	6200 4900 6200 5000
-Wire Wire Line
-	6100 4900 6100 5100
-Text Label 6500 5000 2    50   ~ 0
+Text Label 6600 3900 2    50   ~ 0
 CDONE
-Text Label 6500 5100 2    50   ~ 0
+Text Label 6600 4000 2    50   ~ 0
 CRESET
 $Comp
 L Jumper:Jumper_2_Open JP1
 U 1 1 5FA94276
-P 6900 5100
-F 0 "JP1" H 6900 5335 50  0000 C CNN
-F 1 "CRESET" H 6900 5244 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 5100 50  0001 C CNN
-F 3 "~" H 6900 5100 50  0001 C CNN
-	1    6900 5100
+P 6900 4000
+F 0 "JP1" H 6900 4235 50  0000 C CNN
+F 1 "CRESET" H 6900 4144 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 4000 50  0001 C CNN
+F 3 "~" H 6900 4000 50  0001 C CNN
+	1    6900 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 5000 6500 5000
+	6300 3900 6600 3900
 Wire Wire Line
-	6100 5100 6700 5100
-Wire Wire Line
-	6000 5200 6000 4900
-$Comp
-L power:GND #PWR0123
-U 1 1 5FAAD57C
-P 7200 5200
-F 0 "#PWR0123" H 7200 4950 50  0001 C CNN
-F 1 "GND" H 7205 5027 50  0000 C CNN
-F 2 "" H 7200 5200 50  0001 C CNN
-F 3 "" H 7200 5200 50  0001 C CNN
-	1    7200 5200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 5200 7200 5100
-Wire Wire Line
-	7200 5100 7100 5100
+	6300 4000 6700 4000
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5FBE4C9F
@@ -1062,5 +939,142 @@ F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 2500 2500 50  0001 C CNN
 F 3 "~" H 2500 2500 50  0001 C CNN
 	1    2500 2500
 	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_module:iCEBreaker_Bitsy A1
+U 1 1 5F9EB11E
+P 6000 2700
+F 0 "A1" H 6000 3567 50  0000 C CNN
+F 1 "iCEBreaker_Bitsy" H 6000 3476 50  0000 C CNN
+F 2 "pkl_module:iCEBreaker_Bitsy" H 6000 2700 50  0001 C CNN
+F 3 "https://docs.icebreaker-fpga.org" H 6000 2600 50  0001 C CNN
+	1    6000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_module:iCEBreaker_Bitsy A1
+U 2 1 5F9EC147
+P 6000 4100
+F 0 "A1" H 6057 4567 50  0000 C CNN
+F 1 "iCEBreaker_Bitsy" H 6057 4476 50  0000 C CNN
+F 2 "pkl_module:iCEBreaker_Bitsy" H 6000 4100 50  0001 C CNN
+F 3 "https://docs.icebreaker-fpga.org" H 6000 4000 50  0001 C CNN
+	2    6000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L pkl_module:iCEBreaker_Bitsy A1
+U 3 1 5FA056E9
+P 6000 4700
+F 0 "A1" H 6230 4796 50  0000 L CNN
+F 1 "iCEBreaker_Bitsy" H 6230 4705 50  0000 L CNN
+F 2 "pkl_module:iCEBreaker_Bitsy" H 6000 4700 50  0001 C CNN
+F 3 "https://docs.icebreaker-fpga.org" H 6000 4600 50  0001 C CNN
+	3    6000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FA27AC9
+P 6300 4200
+F 0 "#PWR?" H 6300 4050 50  0001 C CNN
+F 1 "+3.3V" V 6315 4328 50  0000 L CNN
+F 2 "" H 6300 4200 50  0001 C CNN
+F 3 "" H 6300 4200 50  0001 C CNN
+	1    6300 4200
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA280F2
+P 6300 4100
+F 0 "#PWR?" H 6300 3850 50  0001 C CNN
+F 1 "GND" V 6305 3972 50  0000 R CNN
+F 2 "" H 6300 4100 50  0001 C CNN
+F 3 "" H 6300 4100 50  0001 C CNN
+	1    6300 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA693AF
+P 7100 4000
+F 0 "#PWR?" H 7100 3750 50  0001 C CNN
+F 1 "GND" V 7105 3872 50  0000 R CNN
+F 2 "" H 7100 4000 50  0001 C CNN
+F 3 "" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 4500 5300 4500
+Wire Wire Line
+	5700 4600 5300 4600
+Wire Wire Line
+	5700 4700 5300 4700
+Wire Wire Line
+	5700 4800 5300 4800
+Text Label 5300 4500 0    50   ~ 0
+SPI_CS
+Text Label 5300 4600 0    50   ~ 0
+SPI_SCK
+Text Label 5300 4700 0    50   ~ 0
+SPI_CIPO
+Text Label 5300 4800 0    50   ~ 0
+SPI_COPI
+Text Label 6700 2500 2    50   ~ 0
+P22
+Text Label 6700 2700 2    50   ~ 0
+P20
+Text Label 6700 2900 2    50   ~ 0
+P18
+Text Label 6700 2400 2    50   ~ 0
+P23
+Text Label 6700 2600 2    50   ~ 0
+P21
+Text Label 6700 2800 2    50   ~ 0
+P19
+Text Label 6700 3000 2    50   ~ 0
+P17
+Text Label 6700 3100 2    50   ~ 0
+P16
+Text Label 6700 3200 2    50   ~ 0
+P15
+Text Label 6700 3400 2    50   ~ 0
+P13
+Text Label 6700 3300 2    50   ~ 0
+P14
+Wire Wire Line
+	6500 2400 6700 2400
+Wire Wire Line
+	6500 2500 6700 2500
+Wire Wire Line
+	6500 2600 6700 2600
+Wire Wire Line
+	6500 2700 6700 2700
+Wire Wire Line
+	6500 2800 6700 2800
+Wire Wire Line
+	6500 2900 6700 2900
+Wire Wire Line
+	6500 3000 6700 3000
+Wire Wire Line
+	6500 3100 6700 3100
+Wire Wire Line
+	6500 3200 6700 3200
+Wire Wire Line
+	6500 3300 6700 3300
+Wire Wire Line
+	6500 3400 6700 3400
+$Comp
+L power:+3.3V #PWR0120
+U 1 1 5F4AADAD
+P 6500 2300
+F 0 "#PWR0120" H 6500 2150 50  0001 C CNN
+F 1 "+3.3V" V 6515 2428 50  0000 L CNN
+F 2 "" H 6500 2300 50  0001 C CNN
+F 3 "" H 6500 2300 50  0001 C CNN
+	1    6500 2300
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
