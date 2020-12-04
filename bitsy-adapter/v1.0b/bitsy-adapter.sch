@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "iCEBreaker Bitsy PMOD Adapter"
-Date "2020-11-23"
+Date "2020-12-03"
 Rev "v1.0b"
 Comp "1BitSquared"
 Comment1 "License: CC BY-SA 4.0"
@@ -895,12 +895,12 @@ CRESET
 $Comp
 L Jumper:Jumper_2_Open JP1
 U 1 1 5FA94276
-P 6900 4000
-F 0 "JP1" H 6900 4235 50  0000 C CNN
-F 1 "CRESET" H 6900 4144 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 4000 50  0001 C CNN
-F 3 "~" H 6900 4000 50  0001 C CNN
-	1    6900 4000
+P 6900 4300
+F 0 "JP1" H 6900 4535 50  0000 C CNN
+F 1 "CRESET" H 6900 4444 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6900 4300 50  0001 C CNN
+F 3 "~" H 6900 4300 50  0001 C CNN
+	1    6900 4300
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -949,17 +949,6 @@ F 1 "GND" V 6305 3972 50  0000 R CNN
 F 2 "" H 6300 4100 50  0001 C CNN
 F 3 "" H 6300 4100 50  0001 C CNN
 	1    6300 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0123
-U 1 1 5FA693AF
-P 7100 4000
-F 0 "#PWR0123" H 7100 3750 50  0001 C CNN
-F 1 "GND" V 7105 3872 50  0000 R CNN
-F 2 "" H 7100 4000 50  0001 C CNN
-F 3 "" H 7100 4000 50  0001 C CNN
-	1    7100 4000
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -1133,4 +1122,34 @@ F 3 "" H 10000 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6300 4200
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FC738FB
+P 6900 4000
+F 0 "SW1" H 6900 4285 50  0000 C CNN
+F 1 "CRESET" H 6900 4194 50  0000 C CNN
+F 2 "pkl_buttons_switches:SW_SPST_3x4x2.5" H 6900 4200 50  0001 C CNN
+F 3 "~" H 6900 4200 50  0001 C CNN
+	1    6900 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4300 6700 4000
+Connection ~ 6700 4000
+$Comp
+L power:GND #PWR0121
+U 1 1 5FC7C53C
+P 7100 4400
+F 0 "#PWR0121" H 7100 4150 50  0001 C CNN
+F 1 "GND" H 7105 4227 50  0000 C CNN
+F 2 "" H 7100 4400 50  0001 C CNN
+F 3 "" H 7100 4400 50  0001 C CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4300 7100 4000
+Connection ~ 7100 4300
+Wire Wire Line
+	7100 4400 7100 4300
 $EndSCHEMATC
