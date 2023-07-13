@@ -73,12 +73,12 @@ $EndComp
 $Comp
 L power:+3V3 #PWR02
 U 1 1 5ADF2EA6
-P 1500 3350
-F 0 "#PWR02" H 1500 3200 50  0001 C CNN
-F 1 "+3V3" H 1515 3526 50  0000 C CNN
-F 2 "" H 1500 3350 50  0001 C CNN
-F 3 "" H 1500 3350 50  0001 C CNN
-	1    1500 3350
+P 1500 3700
+F 0 "#PWR02" H 1500 3550 50  0001 C CNN
+F 1 "+3V3" H 1515 3876 50  0000 C CNN
+F 2 "" H 1500 3700 50  0001 C CNN
+F 3 "" H 1500 3700 50  0001 C CNN
+	1    1500 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -276,7 +276,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2700 5600 2700
 Text Label 5600 2600 2    50   ~ 0
-G3
+G5
 Wire Wire Line
 	5700 2500 5600 2500
 Wire Wire Line
@@ -287,9 +287,6 @@ Wire Wire Line
 	5700 2200 5600 2200
 Wire Wire Line
 	5600 2500 5600 2400
-Connection ~ 5600 2300
-Wire Wire Line
-	5600 2300 5600 2200
 Connection ~ 5600 2400
 Wire Wire Line
 	5600 2400 5600 2300
@@ -300,7 +297,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 1900 5600 1900
 Text Label 5600 1800 2    50   ~ 0
-R3
+R4
 Wire Wire Line
 	5700 3000 5600 3000
 Wire Wire Line
@@ -311,12 +308,6 @@ Wire Wire Line
 	5700 3300 5600 3300
 Wire Wire Line
 	5600 3300 5600 3200
-Connection ~ 5600 3100
-Wire Wire Line
-	5600 3100 5600 3000
-Connection ~ 5600 3200
-Wire Wire Line
-	5600 3200 5600 3100
 Wire Wire Line
 	5700 3500 5600 3500
 Wire Wire Line
@@ -324,7 +315,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 3700 5600 3700
 Text Label 5600 3400 2    50   ~ 0
-B3
+B4
 Wire Wire Line
 	5700 4100 5600 4100
 Wire Wire Line
@@ -335,9 +326,6 @@ Wire Wire Line
 	5700 3800 5600 3800
 Wire Wire Line
 	5600 4100 5600 4000
-Connection ~ 5600 3900
-Wire Wire Line
-	5600 3900 5600 3800
 Connection ~ 5600 4000
 Wire Wire Line
 	5600 4000 5600 3900
@@ -1021,18 +1009,6 @@ F 3 "" H 10400 2250 50  0001 C CNN
 	1    10400 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L dvi-16bit-rescue:pkl_jumper_nc-pkl_misc-dvi-12bit-rescue J3
-U 1 1 5B3C515D
-P 1500 3600
-F 0 "J3" V 1445 3690 60  0000 L CNN
-F 1 "jmp" V 1555 3690 60  0000 L CNN
-F 2 "pkl_jumpers:J_NC_0603_30" V 1610 3690 60  0001 L CNN
-F 3 "" H 1500 3600 60  0000 C CNN
-F 4 "ANY" H 1500 3600 50  0001 C CNN "Source"
-	1    1500 3600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	2200 3800 1500 3800
 Wire Wire Line
@@ -1057,47 +1033,17 @@ Wire Wire Line
 Wire Wire Line
 	5300 4100 5300 4200
 Connection ~ 5600 4100
-$Comp
-L Connector_Generic:Conn_02x01 J4
-U 1 1 5B491EFC
-P 1800 2600
-F 0 "J4" H 1850 2820 50  0000 C CNN
-F 1 "5V" H 1850 2727 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 1800 2600 50  0001 C CNN
-F 3 "~" H 1800 2600 50  0001 C CNN
-F 4 "conn-th-01in-2-1-rec" H 1800 2600 50  0001 C CNN "Key"
-F 5 "ANY" H 1800 2600 50  0001 C CNN "Source"
-	1    1800 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1600 2600 1500 2600
-Wire Wire Line
-	1500 2600 1500 2800
-Wire Wire Line
-	2100 2600 2200 2600
-Wire Wire Line
-	2200 2600 2200 2500
-$Comp
-L power:+5V #PWR0121
-U 1 1 5B4BB4F9
-P 2200 2500
-F 0 "#PWR0121" H 2200 2350 50  0001 C CNN
-F 1 "+5V" H 2215 2676 50  0000 C CNN
-F 2 "" H 2200 2500 50  0001 C CNN
-F 3 "" H 2200 2500 50  0001 C CNN
-	1    2200 2500
-	1    0    0    -1  
-$EndComp
+	2400 2750 2400 2950
 $Comp
 L power:GND #PWR0122
 U 1 1 5B4BB542
-P 1500 2800
-F 0 "#PWR0122" H 1500 2550 50  0001 C CNN
-F 1 "GND" H 1505 2624 50  0000 C CNN
-F 2 "" H 1500 2800 50  0001 C CNN
-F 3 "" H 1500 2800 50  0001 C CNN
-	1    1500 2800
+P 2400 2950
+F 0 "#PWR0122" H 2400 2700 50  0001 C CNN
+F 1 "GND" H 2405 2774 50  0000 C CNN
+F 2 "" H 2400 2950 50  0001 C CNN
+F 3 "" H 2400 2950 50  0001 C CNN
+	1    2400 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1262,8 +1208,6 @@ Text Label 5600 5800 2    50   ~ 0
 DSEL-SDA
 Wire Wire Line
 	1500 3700 1500 3800
-Wire Wire Line
-	1500 3350 1500 3500
 Text Label 7600 3200 0    50   ~ 0
 TFADJ
 $Comp
@@ -1377,29 +1321,29 @@ Wire Wire Line
 Wire Wire Line
 	2100 4200 2300 4200
 Text Label 2300 5900 0    50   ~ 0
-B0
-Text Label 2300 5700 0    50   ~ 0
-B3
-Text Label 1400 5800 2    50   ~ 0
 B1
-Text Label 1400 5700 2    50   ~ 0
+Text Label 2300 5700 0    50   ~ 0
+B4
+Text Label 1400 5800 2    50   ~ 0
 B2
+Text Label 1400 5700 2    50   ~ 0
+B3
 Text Label 1400 4400 2    50   ~ 0
-G0
-Text Label 2300 4400 0    50   ~ 0
-G1
-Text Label 1400 4300 2    50   ~ 0
 G2
-Text Label 2300 4300 0    50   ~ 0
+Text Label 2300 4400 0    50   ~ 0
 G3
+Text Label 1400 4300 2    50   ~ 0
+G4
+Text Label 2300 4300 0    50   ~ 0
+G5
 Text Label 1400 4200 2    50   ~ 0
-R0
-Text Label 2300 4200 0    50   ~ 0
 R1
-Text Label 1400 4100 2    50   ~ 0
+Text Label 2300 4200 0    50   ~ 0
 R2
-Text Label 2300 4100 0    50   ~ 0
+Text Label 1400 4100 2    50   ~ 0
 R3
+Text Label 2300 4100 0    50   ~ 0
+R4
 Wire Wire Line
 	5600 1800 5700 1800
 Wire Wire Line
@@ -1407,21 +1351,21 @@ Wire Wire Line
 Wire Wire Line
 	5600 3400 5700 3400
 Text Label 5600 2100 2    50   ~ 0
-R0
-Text Label 5600 2000 2    50   ~ 0
 R1
-Text Label 5600 1900 2    50   ~ 0
+Text Label 5600 2000 2    50   ~ 0
 R2
+Text Label 5600 1900 2    50   ~ 0
+R3
 Text Label 5600 2900 2    50   ~ 0
-G0
-Text Label 5600 2800 2    50   ~ 0
-G1
-Text Label 5600 2700 2    50   ~ 0
 G2
+Text Label 5600 2800 2    50   ~ 0
+G3
+Text Label 5600 2700 2    50   ~ 0
+G4
 Text Label 5600 3500 2    50   ~ 0
-B2
+B3
 Text Label 5600 3600 2    50   ~ 0
-B1
+B2
 $Comp
 L dvi-16bit-rescue:pkl_double_jumper_ncno-pkl_misc-dvi-12bit-rescue J5
 U 1 1 5C5DF288
@@ -1454,19 +1398,6 @@ Wire Wire Line
 	9800 2400 9800 2250
 Wire Wire Line
 	7700 3900 7700 5200
-$Comp
-L dvi-16bit-rescue:pkl_C_Small-pkl_device-dvi-12bit-rescue C11
-U 1 1 5D249C88
-P 8100 4500
-F 0 "C11" V 8150 4550 50  0000 L CNN
-F 1 "100n" V 8150 4250 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 8192 4407 60  0001 L CNN
-F 3 "" H 8100 4500 60  0000 C CNN
-F 4 "cap-cer-0402-100n" H 8100 4500 50  0001 C CNN "Key"
-F 5 "ANY" H 8100 4500 50  0001 C CNN "Source"
-	1    8100 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8100 4300 8100 4400
 Connection ~ 8100 4300
@@ -1653,7 +1584,7 @@ Wire Wire Line
 	4400 4800 4800 4800
 Connection ~ 4800 4800
 Text Label 5600 3700 2    50   ~ 0
-B0
+B1
 Wire Notes Line
 	4500 2800 2650 2800
 Wire Notes Line
@@ -1664,4 +1595,59 @@ Wire Notes Line
 	4500 1500 4500 2800
 Text Notes 3150 1700 0    50   ~ 0
 DNP\nOptional 3v3 supply
+Text Label 5600 2200 2    50   ~ 0
+R0
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J4
+U 1 1 64C0CD5B
+P 1800 2750
+F 0 "J4" H 1850 2975 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1850 2976 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 1800 2750 50  0001 C CNN
+F 3 "~" H 1800 2750 50  0001 C CNN
+	1    1800 2750
+	1    0    0    -1  
+$EndComp
+Text Label 2200 2850 0    50   ~ 0
+R0
+Wire Wire Line
+	2100 2850 2200 2850
+$Comp
+L Device:C_Small C11
+U 1 1 5D249C88
+P 8100 4500
+F 0 "C11" V 8150 4550 50  0000 L CNN
+F 1 "100n" V 8150 4250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8192 4407 60  0001 L CNN
+F 3 "" H 8100 4500 60  0001 C CNN
+F 4 "" H 8100 4500 50  0001 C CNN "Key"
+F 5 "" H 8100 4500 50  0001 C CNN "Source"
+	1    8100 4500
+	1    0    0    -1  
+$EndComp
+Text Label 5600 3000 2    50   ~ 0
+G1
+Text Label 5600 3100 2    50   ~ 0
+G0
+Text Label 1500 2850 2    50   ~ 0
+G1
+Wire Wire Line
+	1500 2850 1600 2850
+Text Label 1500 2750 2    50   ~ 0
+G0
+Wire Wire Line
+	1500 2750 1600 2750
+Wire Wire Line
+	2100 2750 2400 2750
+Text Label 5600 3800 2    50   ~ 0
+B0
+Text Label 1500 2650 2    50   ~ 0
+B0
+Wire Wire Line
+	2100 2650 2400 2650
+Wire Wire Line
+	2400 2650 2400 2750
+Connection ~ 2400 2750
+Wire Wire Line
+	1500 2650 1600 2650
 $EndSCHEMATC
