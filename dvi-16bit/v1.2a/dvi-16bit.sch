@@ -434,15 +434,15 @@ F 5 "ANY" H 7900 3600 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvi-16bit-rescue:pkl_C_Small-pkl_device-dvi-12bit-rescue C6
+L Device:C_Small C6
 U 1 1 5AFD5EBB
 P 8100 3600
 F 0 "C6" V 8150 3650 50  0000 L CNN
 F 1 "100n" V 8150 3350 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 8192 3507 60  0001 L CNN
-F 3 "" H 8100 3600 60  0000 C CNN
-F 4 "cap-cer-0402-100n" H 8100 3600 50  0001 C CNN "Key"
-F 5 "ANY" H 8100 3600 50  0001 C CNN "Source"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8192 3507 60  0001 L CNN
+F 3 "" H 8100 3600 60  0001 C CNN
+F 4 "" H 8100 3600 50  0001 C CNN "Key"
+F 5 "" H 8100 3600 50  0001 C CNN "Source"
 	1    8100 3600
 	1    0    0    -1  
 $EndComp
@@ -460,15 +460,15 @@ F 5 "ANY" H 8300 3600 50  0001 C CNN "Source"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvi-16bit-rescue:pkl_C_Small-pkl_device-dvi-12bit-rescue C10
+L Device:C_Small C10
 U 1 1 5AFDA5D4
 P 8300 5400
 F 0 "C10" V 8350 5450 50  0000 L CNN
 F 1 "100n" V 8350 5150 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 8392 5307 60  0001 L CNN
-F 3 "" H 8300 5400 60  0000 C CNN
-F 4 "cap-cer-0402-100n" H 8300 5400 50  0001 C CNN "Key"
-F 5 "ANY" H 8300 5400 50  0001 C CNN "Source"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8392 5307 60  0001 L CNN
+F 3 "" H 8300 5400 60  0001 C CNN
+F 4 "" H 8300 5400 50  0001 C CNN "Key"
+F 5 "" H 8300 5400 50  0001 C CNN "Source"
 	1    8300 5400
 	1    0    0    -1  
 $EndComp
@@ -842,15 +842,15 @@ Wire Wire Line
 Wire Wire Line
 	4800 4800 5700 4800
 $Comp
-L dvi-16bit-rescue:pkl_R_Small-pkl_device-dvi-12bit-rescue R3
+L Device:R_Small R3
 U 1 1 5B2C7F22
 P 4800 4400
 F 0 "R3" V 4800 4350 50  0000 L CNN
 F 1 "10k" V 4850 4500 50  0000 L CNN
-F 2 "pkl_dipol:R_0402" H 4859 4307 60  0001 L CNN
-F 3 "" H 4800 4400 60  0000 C CNN
-F 4 "res-0402-10k" H 4800 4400 50  0001 C CNN "Key"
-F 5 "ANY" H 4800 4400 50  0001 C CNN "Source"
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4859 4307 60  0001 L CNN
+F 3 "" H 4800 4400 60  0001 C CNN
+F 4 "" H 4800 4400 50  0001 C CNN "Key"
+F 5 "" H 4800 4400 50  0001 C CNN "Source"
 	1    4800 4400
 	1    0    0    -1  
 $EndComp
@@ -1034,16 +1034,16 @@ Wire Wire Line
 	5300 4100 5300 4200
 Connection ~ 5600 4100
 Wire Wire Line
-	2400 2750 2400 2950
+	2400 3050 2400 3250
 $Comp
 L power:GND #PWR0122
 U 1 1 5B4BB542
-P 2400 2950
-F 0 "#PWR0122" H 2400 2700 50  0001 C CNN
-F 1 "GND" H 2405 2774 50  0000 C CNN
-F 2 "" H 2400 2950 50  0001 C CNN
-F 3 "" H 2400 2950 50  0001 C CNN
-	1    2400 2950
+P 2400 3250
+F 0 "#PWR0122" H 2400 3000 50  0001 C CNN
+F 1 "GND" H 2405 3074 50  0000 C CNN
+F 2 "" H 2400 3250 50  0001 C CNN
+F 3 "" H 2400 3250 50  0001 C CNN
+	1    2400 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1554,17 +1554,6 @@ Text Label 5600 5400 2    50   ~ 0
 DK2
 Text Label 5600 5500 2    50   ~ 0
 DK1
-$Comp
-L dvi-16bit-rescue:pkl_jumper-pkl_misc-dvi-12bit-rescue J10
-U 1 1 5D74A0AB
-P 4400 6000
-F 0 "J10" H 4350 6050 50  0000 R CNN
-F 1 "sj" H 4500 6050 50  0000 L CNN
-F 2 "pkl_jumpers:J_0603" H 4400 6000 60  0001 C CNN
-F 3 "" H 4400 6000 60  0000 C CNN
-	1    4400 6000
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4400 6100 4400 6300
 $Comp
@@ -1600,18 +1589,18 @@ R0
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J4
 U 1 1 64C0CD5B
-P 1800 2750
-F 0 "J4" H 1850 2975 50  0000 C CNN
-F 1 "Conn_02x03_Odd_Even" H 1850 2976 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 1800 2750 50  0001 C CNN
-F 3 "~" H 1800 2750 50  0001 C CNN
-	1    1800 2750
+P 1800 3050
+F 0 "J4" H 1850 3275 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 1850 3276 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 1800 3050 50  0001 C CNN
+F 3 "~" H 1800 3050 50  0001 C CNN
+	1    1800 3050
 	1    0    0    -1  
 $EndComp
-Text Label 2200 2850 0    50   ~ 0
+Text Label 2200 3150 0    50   ~ 0
 R0
 Wire Wire Line
-	2100 2850 2200 2850
+	2100 3150 2200 3150
 $Comp
 L Device:C_Small C11
 U 1 1 5D249C88
@@ -1629,25 +1618,36 @@ Text Label 5600 3000 2    50   ~ 0
 G1
 Text Label 5600 3100 2    50   ~ 0
 G0
-Text Label 1500 2850 2    50   ~ 0
+Text Label 1500 3150 2    50   ~ 0
 G1
 Wire Wire Line
-	1500 2850 1600 2850
-Text Label 1500 2750 2    50   ~ 0
+	1500 3150 1600 3150
+Text Label 1500 3050 2    50   ~ 0
 G0
 Wire Wire Line
-	1500 2750 1600 2750
+	1500 3050 1600 3050
 Wire Wire Line
-	2100 2750 2400 2750
+	2100 3050 2400 3050
 Text Label 5600 3800 2    50   ~ 0
 B0
-Text Label 1500 2650 2    50   ~ 0
+Text Label 1500 2950 2    50   ~ 0
 B0
 Wire Wire Line
-	2100 2650 2400 2650
+	2100 2950 2400 2950
 Wire Wire Line
-	2400 2650 2400 2750
-Connection ~ 2400 2750
+	2400 2950 2400 3050
+Connection ~ 2400 3050
 Wire Wire Line
-	1500 2650 1600 2650
+	1500 2950 1600 2950
+$Comp
+L Device:Jumper_NO_Small J10
+U 1 1 651B16C4
+P 4400 6000
+F 0 "J10" H 4200 6050 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 4445 6048 50  0001 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4400 6000 50  0001 C CNN
+F 3 "~" H 4400 6000 50  0001 C CNN
+	1    4400 6000
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
