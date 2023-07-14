@@ -504,15 +504,15 @@ Wire Wire Line
 Wire Wire Line
 	7600 3200 7600 2300
 $Comp
-L dvi-16bit-rescue:pkl_R_Small-pkl_device-dvi-12bit-rescue R9
+L Device:R_Small R9
 U 1 1 5B0DC406
 P 7600 2200
 F 0 "R9" H 7659 2247 50  0000 L CNN
 F 1 "510E" H 7659 2154 50  0000 L CNN
-F 2 "pkl_dipol:R_0402" H 7659 2107 60  0001 L CNN
-F 3 "" H 7600 2200 60  0000 C CNN
-F 4 "res-0402-510" H 7600 2200 50  0001 C CNN "Key"
-F 5 "ANY" H 7600 2200 50  0001 C CNN "Source"
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 7659 2107 60  0001 L CNN
+F 3 "" H 7600 2200 60  0001 C CNN
+F 4 "" H 7600 2200 50  0001 C CNN "Key"
+F 5 "" H 7600 2200 50  0001 C CNN "Source"
 	1    7600 2200
 	1    0    0    -1  
 $EndComp
@@ -668,28 +668,28 @@ Wire Wire Line
 Wire Wire Line
 	8900 3400 8900 3300
 $Comp
-L dvi-16bit-rescue:pkl_C_Small-pkl_device-dvi-12bit-rescue C9
+L Device:C_Small C9
 U 1 1 5B1E6CEE
 P 8300 4500
 F 0 "C9" V 8350 4550 50  0000 L CNN
 F 1 "100n" V 8350 4250 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 8392 4407 60  0001 L CNN
-F 3 "" H 8300 4500 60  0000 C CNN
-F 4 "cap-cer-0402-100n" H 8300 4500 50  0001 C CNN "Key"
-F 5 "ANY" H 8300 4500 50  0001 C CNN "Source"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8392 4407 60  0001 L CNN
+F 3 "" H 8300 4500 60  0001 C CNN
+F 4 "" H 8300 4500 50  0001 C CNN "Key"
+F 5 "" H 8300 4500 50  0001 C CNN "Source"
 	1    8300 4500
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvi-16bit-rescue:pkl_C-pkl_device-dvi-12bit-rescue C15
+L Device:C_Small C15
 U 1 1 5B1E6D2A
 P 8500 4500
 F 0 "C15" V 8550 4550 50  0000 L CNN
 F 1 "10u" V 8550 4250 50  0000 L CNN
-F 2 "pkl_dipol:C_0603" H 8592 4407 60  0001 L CNN
-F 3 "" H 8500 4500 60  0000 C CNN
-F 4 "cap-cer-0603-10u" H 8500 4500 50  0001 C CNN "Key"
-F 5 "ANY" H 8500 4500 50  0001 C CNN "Source"
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8592 4407 60  0001 L CNN
+F 3 "" H 8500 4500 60  0001 C CNN
+F 4 "" H 8500 4500 50  0001 C CNN "Key"
+F 5 "" H 8500 4500 50  0001 C CNN "Source"
 	1    8500 4500
 	1    0    0    -1  
 $EndComp
@@ -708,15 +708,15 @@ Wire Wire Line
 	8300 4300 8300 4400
 Connection ~ 8300 4300
 $Comp
-L dvi-16bit-rescue:pkl_L_Small-pkl_device-dvi-12bit-rescue L2
+L Device:L_Small L2
 U 1 1 5B2038E0
 P 8700 4300
 F 0 "L2" V 8890 4300 50  0000 C CNN
 F 1 "600" V 8797 4300 50  0000 C CNN
-F 2 "pkl_dipol:L_0402" H 8749 4207 60  0001 L CNN
-F 3 "" V 8700 4300 60  0000 C CNN
-F 4 "ferrite-0402-600" H 8700 4300 50  0001 C CNN "Key"
-F 5 "ANY" H 8700 4300 50  0001 C CNN "Source"
+F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8749 4207 60  0001 L CNN
+F 3 "" V 8700 4300 60  0001 C CNN
+F 4 "" H 8700 4300 50  0001 C CNN "Key"
+F 5 "" H 8700 4300 50  0001 C CNN "Source"
 	1    8700 4300
 	0    -1   -1   0   
 $EndComp
@@ -1211,15 +1211,15 @@ Wire Wire Line
 Text Label 7600 3200 0    50   ~ 0
 TFADJ
 $Comp
-L dvi-16bit-rescue:pkl_C_Small-pkl_device-dvi-12bit-rescue C7
+L Device:C_Small C7
 U 1 1 5AFDA5AA
 P 8100 5400
 F 0 "C7" V 8150 5450 50  0000 L CNN
 F 1 "100n" V 8150 5150 50  0000 L CNN
-F 2 "pkl_dipol:C_0402" H 8192 5307 60  0001 L CNN
-F 3 "" H 8100 5400 60  0000 C CNN
-F 4 "cap-cer-0402-100n" H 8100 5400 50  0001 C CNN "Key"
-F 5 "ANY" H 8100 5400 50  0001 C CNN "Source"
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8192 5307 60  0001 L CNN
+F 3 "" H 8100 5400 60  0001 C CNN
+F 4 "" H 8100 5400 50  0001 C CNN "Key"
+F 5 "" H 8100 5400 50  0001 C CNN "Source"
 	1    8100 5400
 	1    0    0    -1  
 $EndComp
@@ -1622,21 +1622,14 @@ Text Label 1500 3150 2    50   ~ 0
 G1
 Wire Wire Line
 	1500 3150 1600 3150
-Text Label 1500 3050 2    50   ~ 0
+Text Label 2200 2950 0    50   ~ 0
 G0
-Wire Wire Line
-	1500 3050 1600 3050
 Wire Wire Line
 	2100 3050 2400 3050
 Text Label 5600 3800 2    50   ~ 0
 B0
 Text Label 1500 2950 2    50   ~ 0
 B0
-Wire Wire Line
-	2100 2950 2400 2950
-Wire Wire Line
-	2400 2950 2400 3050
-Connection ~ 2400 3050
 Wire Wire Line
 	1500 2950 1600 2950
 $Comp
@@ -1650,4 +1643,21 @@ F 3 "~" H 4400 6000 50  0001 C CNN
 	1    4400 6000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	1100 3050 1100 2950
+Wire Wire Line
+	1100 3050 1600 3050
+$Comp
+L power:+5V #PWR?
+U 1 1 64CDB0FD
+P 1100 2950
+F 0 "#PWR?" H 1100 2800 50  0001 C CNN
+F 1 "+5V" H 1115 3126 50  0000 C CNN
+F 2 "" H 1100 2950 50  0001 C CNN
+F 3 "" H 1100 2950 50  0001 C CNN
+	1    1100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2950 2200 2950
 $EndSCHEMATC
