@@ -1597,7 +1597,7 @@ F 3 "~" H 1800 3050 50  0001 C CNN
 	1    1800 3050
 	1    0    0    -1  
 $EndComp
-Text Label 2200 3150 0    50   ~ 0
+Text Label 1500 3150 2    50   ~ 0
 R0
 Wire Wire Line
 	2100 3150 2200 3150
@@ -1618,7 +1618,7 @@ Text Label 5600 3000 2    50   ~ 0
 G1
 Text Label 5600 3100 2    50   ~ 0
 G0
-Text Label 1500 3150 2    50   ~ 0
+Text Label 2200 3150 0    50   ~ 0
 G1
 Wire Wire Line
 	1500 3150 1600 3150
