@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "iCEBreaker PMOD - 12bit DVI"
+Title "iCEBreaker PMOD - 16bit DVI"
 Date ""
-Rev "V1.1a"
+Rev "V1.2a"
 Comp "1BitSquared"
 Comment1 "(C) 2018-2021 Piotr Esden-Tempski <piotr@esden.net>"
 Comment2 "(C) 2018-2021 1BitSquared <info@1bitsquared.com>"
-Comment3 "License: CC-BY-SA V4.0"
-Comment4 ""
+Comment3 "(C) 2023 J.Bilander <jorgen.bilander@gmail.com>"
+Comment4 "License: CC-BY-SA V4.0"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_02x06_Top_Bottom J2
@@ -105,10 +105,10 @@ HS
 Text Label 2300 5800 0    50   ~ 0
 CLK
 $Comp
-L Connector:HDMI_A_1.4 J6
+L Connector:HDMI_A_1.4 J4
 U 1 1 5AF0393B
 P 10100 3700
-F 0 "J6" H 10530 3747 50  0000 L CNN
+F 0 "J4" H 10530 3747 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 10530 3654 50  0000 L CNN
 F 2 "pkl_connectors:HDMI-10029449-111RLF" H 10125 3700 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 10125 3700 50  0001 C CNN
@@ -725,12 +725,12 @@ TVDD
 $Comp
 L power:+3V3 #PWR0114
 U 1 1 5B2C7F74
-P 4400 4200
-F 0 "#PWR0114" H 4400 4050 50  0001 C CNN
-F 1 "+3V3" V 4400 4400 50  0000 C CNN
-F 2 "" H 4400 4200 50  0001 C CNN
-F 3 "" H 4400 4200 50  0001 C CNN
-	1    4400 4200
+P 3800 4200
+F 0 "#PWR0114" H 3800 4050 50  0001 C CNN
+F 1 "+3V3" V 3800 4400 50  0000 C CNN
+F 2 "" H 3800 4200 50  0001 C CNN
+F 3 "" H 3800 4200 50  0001 C CNN
+	1    3800 4200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1043,10 +1043,10 @@ Connection ~ 7800 3800
 Wire Wire Line
 	7800 3800 7800 4300
 $Comp
-L dvi-16bit-rescue:SII164-pkl_lattice-dvi-12bit-rescue U2
+L dvi-16bit-rescue:SII164-pkl_lattice-dvi-12bit-rescue U1
 U 1 1 5AF0790E
 P 6500 3600
-F 0 "U2" H 6500 5930 50  0000 C CNN
+F 0 "U1" H 6500 5930 50  0000 C CNN
 F 1 "SII164" H 6500 5837 50  0000 C CNN
 F 2 "pkl_housings_qfp:TQFP-64-1EP_10x10mm_P0.5mm_EP5x5mm" H 6550 1250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tfp410.pdf" H 6550 1250 50  0001 C CNN
@@ -1056,56 +1056,21 @@ F 5 "ic-tqfp64-tfp410" H 700 0   50  0001 C CNN "Key"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dvi-16bit-rescue:pkl_double_jumper-pkl_misc-dvi-12bit-rescue J8
-U 1 1 5D36E9CC
-P 4000 6000
-F 0 "J8" H 3900 6050 50  0000 R CNN
-F 1 "sj" H 4200 6050 50  0000 R CNN
-F 2 "pkl_jumpers:J_0903" H 3950 6000 50  0001 C CNN
-F 3 "" H 3950 6000 50  0001 C CNN
-	1    4000 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L dvi-16bit-rescue:pkl_double_jumper-pkl_misc-dvi-12bit-rescue J7
-U 1 1 5D3730B1
-P 3800 6000
-F 0 "J7" H 3700 6050 50  0000 R CNN
-F 1 "sj" H 4000 6050 50  0000 R CNN
-F 2 "pkl_jumpers:J_0903" H 3750 6000 50  0001 C CNN
-F 3 "" H 3750 6000 50  0001 C CNN
-	1    3800 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L dvi-16bit-rescue:pkl_double_jumper-pkl_misc-dvi-12bit-rescue J9
-U 1 1 5D44E723
-P 4200 6000
-F 0 "J9" H 4100 6050 50  0000 R CNN
-F 1 "sj" H 4400 6050 50  0000 R CNN
-F 2 "pkl_jumpers:J_0903" H 4150 6000 50  0001 C CNN
-F 3 "" H 4150 6000 50  0001 C CNN
-	1    4200 6000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0129
-U 1 1 5D4AC2D5
-P 4200 6300
-F 0 "#PWR0129" H 4200 6050 50  0001 C CNN
-F 1 "GND" V 4200 6100 50  0000 C CNN
-F 2 "" H 4200 6300 50  0001 C CNN
-F 3 "" H 4200 6300 50  0001 C CNN
-	1    4200 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 5500 5700 5500
-$Comp
 L power:+3V3 #PWR0130
 U 1 1 5D4D1AD6
+P 4400 4200
+F 0 "#PWR0130" H 4400 4050 50  0001 C CNN
+F 1 "+3V3" V 4400 4400 50  0000 C CNN
+F 2 "" H 4400 4200 50  0001 C CNN
+F 3 "" H 4400 4200 50  0001 C CNN
+	1    4400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0132
+U 1 1 5D50A665
 P 4200 4200
-F 0 "#PWR0130" H 4200 4050 50  0001 C CNN
+F 0 "#PWR0132" H 4200 4050 50  0001 C CNN
 F 1 "+3V3" V 4200 4400 50  0000 C CNN
 F 2 "" H 4200 4200 50  0001 C CNN
 F 3 "" H 4200 4200 50  0001 C CNN
@@ -1113,71 +1078,16 @@ F 3 "" H 4200 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0131
-U 1 1 5D4F74FC
-P 4000 6300
-F 0 "#PWR0131" H 4000 6050 50  0001 C CNN
-F 1 "GND" V 4000 6100 50  0000 C CNN
-F 2 "" H 4000 6300 50  0001 C CNN
-F 3 "" H 4000 6300 50  0001 C CNN
-	1    4000 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3V3 #PWR0132
-U 1 1 5D50A665
+L power:+3V3 #PWR0133
+U 1 1 5D55961C
 P 4000 4200
-F 0 "#PWR0132" H 4000 4050 50  0001 C CNN
+F 0 "#PWR0133" H 4000 4050 50  0001 C CNN
 F 1 "+3V3" V 4000 4400 50  0000 C CNN
 F 2 "" H 4000 4200 50  0001 C CNN
 F 3 "" H 4000 4200 50  0001 C CNN
 	1    4000 4200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 5300 5700 5300
-Wire Wire Line
-	4100 5400 5700 5400
-$Comp
-L power:+3V3 #PWR0133
-U 1 1 5D55961C
-P 3800 4200
-F 0 "#PWR0133" H 3800 4050 50  0001 C CNN
-F 1 "+3V3" V 3800 4400 50  0000 C CNN
-F 2 "" H 3800 4200 50  0001 C CNN
-F 3 "" H 3800 4200 50  0001 C CNN
-	1    3800 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0134
-U 1 1 5D55997D
-P 3800 6300
-F 0 "#PWR0134" H 3800 6050 50  0001 C CNN
-F 1 "GND" V 3800 6100 50  0000 C CNN
-F 2 "" H 3800 6300 50  0001 C CNN
-F 3 "" H 3800 6300 50  0001 C CNN
-	1    3800 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 6000 4300 5500
-Wire Wire Line
-	4200 5800 4200 4200
-Wire Wire Line
-	4200 6200 4200 6300
-Wire Wire Line
-	4100 6000 4100 5400
-Wire Wire Line
-	4000 6300 4000 6200
-Wire Wire Line
-	3800 6200 3800 6300
-Wire Wire Line
-	3900 5300 3900 6000
-Wire Wire Line
-	4000 5800 4000 4200
-Wire Wire Line
-	3800 5800 3800 4200
 Text Label 5600 5300 2    50   ~ 0
 DK3
 Text Label 5600 5400 2    50   ~ 0
@@ -1185,29 +1095,27 @@ DK2
 Text Label 5600 5500 2    50   ~ 0
 DK1
 Wire Wire Line
-	4400 6100 4400 6300
+	3800 5150 3800 5350
 $Comp
 L power:GND #PWR0135
 U 1 1 5D75FBF4
-P 4400 6300
-F 0 "#PWR0135" H 4400 6050 50  0001 C CNN
-F 1 "GND" V 4400 6100 50  0000 C CNN
-F 2 "" H 4400 6300 50  0001 C CNN
-F 3 "" H 4400 6300 50  0001 C CNN
-	1    4400 6300
+P 3800 5350
+F 0 "#PWR0135" H 3800 5100 50  0001 C CNN
+F 1 "GND" V 3800 5150 50  0000 C CNN
+F 2 "" H 3800 5350 50  0001 C CNN
+F 3 "" H 3800 5350 50  0001 C CNN
+	1    3800 5350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 5900 4400 4800
 Text Label 5600 3700 2    50   ~ 0
 B1
 Text Label 5600 2200 2    50   ~ 0
 R0
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J4
+L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 64C0CD5B
 P 1800 3050
-F 0 "J4" H 1850 3275 50  0000 C CNN
+F 0 "J3" H 1850 3275 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 1850 3276 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal" H 1800 3050 50  0001 C CNN
 F 3 "~" H 1800 3050 50  0001 C CNN
@@ -1250,14 +1158,14 @@ B0
 Wire Wire Line
 	1500 2950 1600 2950
 $Comp
-L Device:Jumper_NO_Small J10
+L Device:Jumper_NO_Small JP4
 U 1 1 651B16C4
-P 4400 6000
-F 0 "J10" H 4200 6050 50  0000 L CNN
-F 1 "Jumper_NO_Small" V 4445 6048 50  0001 L CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 4400 6000 50  0001 C CNN
-F 3 "~" H 4400 6000 50  0001 C CNN
-	1    4400 6000
+P 3800 5050
+F 0 "JP4" H 3600 5000 50  0000 L CNN
+F 1 "Jumper_NO_Small" V 3845 5098 50  0001 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 3800 5050 50  0001 C CNN
+F 3 "~" H 3800 5050 50  0001 C CNN
+	1    3800 5050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1301,31 +1209,24 @@ $Comp
 L Device:R_Pack04 RN1
 U 1 1 64BB8A3D
 P 4800 4450
-F 0 "RN1" H 4650 4850 50  0000 L CNN
-F 1 "R_Pack04" H 4650 4950 50  0000 L CNN
+F 0 "RN1" V 4500 4350 50  0000 L CNN
+F 1 "R_Pack04" H 4650 4950 50  0001 L CNN
 F 2 "dvi-16bit:RESCAF80P320X160X60-8N" V 5075 4450 50  0001 C CNN
 F 3 "~" H 4800 4450 50  0001 C CNN
 	1    4800 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4400 4300 4400 4200
-Wire Wire Line
-	4400 4500 4400 4800
-Connection ~ 4400 4800
-Wire Wire Line
-	4400 4800 5700 4800
 $Comp
 L Device:R_Small R1
 U 1 1 5B2C7F22
-P 4400 4400
-F 0 "R1" V 4400 4350 50  0000 L CNN
-F 1 "10k" V 4450 4500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 4459 4307 60  0001 L CNN
-F 3 "" H 4400 4400 60  0001 C CNN
-F 4 "" H 4400 4400 50  0001 C CNN "Key"
-F 5 "" H 4400 4400 50  0001 C CNN "Source"
-	1    4400 4400
+P 3800 4450
+F 0 "R1" V 3800 4400 50  0000 L CNN
+F 1 "10k" V 3850 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 3859 4357 60  0001 L CNN
+F 3 "" H 3800 4450 60  0001 C CNN
+F 4 "" H 3800 4450 50  0001 C CNN "Key"
+F 5 "" H 3800 4450 50  0001 C CNN "Source"
+	1    3800 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1350,31 +1251,29 @@ Wire Wire Line
 $Comp
 L Device:R_Small R2
 U 1 1 5B14D068
-P 5050 4400
-F 0 "R2" V 5050 4350 50  0000 L CNN
-F 1 "33k" V 5100 4500 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5109 4307 60  0001 L CNN
-F 3 "" H 5050 4400 60  0001 C CNN
-F 4 "" H 5050 4400 50  0001 C CNN "Key"
-F 5 "" H 5050 4400 50  0001 C CNN "Source"
-	1    5050 4400
+P 5050 4450
+F 0 "R2" V 5050 4400 50  0000 L CNN
+F 1 "33k" V 5100 4550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 5109 4357 60  0001 L CNN
+F 3 "" H 5050 4450 60  0001 C CNN
+F 4 "" H 5050 4450 50  0001 C CNN "Key"
+F 5 "" H 5050 4450 50  0001 C CNN "Source"
+	1    5050 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5050 4200 5050 4300
+	5050 4250 5050 4350
 $Comp
 L power:+3V3 #PWR0106
 U 1 1 5B0794DD
-P 5050 4200
-F 0 "#PWR0106" H 5050 4050 50  0001 C CNN
-F 1 "+3V3" V 5050 4400 50  0000 C CNN
-F 2 "" H 5050 4200 50  0001 C CNN
-F 3 "" H 5050 4200 50  0001 C CNN
-	1    5050 4200
+P 5050 4250
+F 0 "#PWR0106" H 5050 4100 50  0001 C CNN
+F 1 "+3V3" V 5050 4450 50  0000 C CNN
+F 2 "" H 5050 4250 50  0001 C CNN
+F 3 "" H 5050 4250 50  0001 C CNN
+	1    5050 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 4500 5050 4600
 Connection ~ 5050 4600
 Wire Wire Line
 	4600 4250 4700 4250
@@ -1404,10 +1303,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 5800 5700 5800
 $Comp
-L Jumper:SolderJumper_3_Bridged12 J5
+L Jumper:SolderJumper_3_Bridged12 JP5
 U 1 1 6510DFD2
 P 10100 2400
-F 0 "J5" H 10100 2513 50  0000 C CNN
+F 0 "JP5" H 10100 2513 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 10100 2514 50  0001 C CNN
 F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10100 2400 50  0001 C CNN
 F 3 "~" H 10100 2400 50  0001 C CNN
@@ -1429,4 +1328,66 @@ F 5 "" H 8700 3400 50  0001 C CNN "Source"
 	1    8700 3400
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3800 4800 5700 4800
+Wire Wire Line
+	5050 4550 5050 4600
+Wire Wire Line
+	3800 4550 3800 4800
+Wire Wire Line
+	3800 4200 3800 4350
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 64D11861
+P 4000 5050
+F 0 "JP3" H 3800 5000 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 4045 5118 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4000 5050 50  0001 C CNN
+F 3 "~" H 4000 5050 50  0001 C CNN
+	1    4000 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 5300 4000 5200
+Wire Wire Line
+	4000 5300 5700 5300
+Wire Wire Line
+	4000 4200 4000 4900
+Wire Wire Line
+	3800 4800 3800 4950
+Connection ~ 3800 4800
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 64E388F2
+P 4200 5050
+F 0 "JP2" H 4000 5000 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 4245 5118 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4200 5050 50  0001 C CNN
+F 3 "~" H 4200 5050 50  0001 C CNN
+	1    4200 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 5400 4200 5200
+Wire Wire Line
+	4200 5400 5700 5400
+Wire Wire Line
+	4200 4900 4200 4200
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 64E9D33D
+P 4400 5050
+F 0 "JP1" H 4200 5000 50  0000 L CNN
+F 1 "SolderJumper_2_Open" V 4445 5118 50  0001 L CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4400 5050 50  0001 C CNN
+F 3 "~" H 4400 5050 50  0001 C CNN
+	1    4400 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 4900 4400 4200
+Wire Wire Line
+	4400 5500 4400 5200
+Wire Wire Line
+	4400 5500 5700 5500
 $EndSCHEMATC
