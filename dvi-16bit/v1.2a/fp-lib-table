@@ -25,4 +25,5 @@
   (lib (name pkl_samtec)(type KiCad)(uri ${KIPRJMOD}/../../lib/pkl/pkl_samtec.pretty)(options "")(descr ""))
   (lib (name pkl_st)(type KiCad)(uri ${KIPRJMOD}/../../lib/pkl/pkl_st.pretty)(options "")(descr ""))
   (lib (name pkl_tag_connect)(type KiCad)(uri ${KIPRJMOD}/../../lib/pkl/pkl_tag_connect.pretty)(options "")(descr ""))
+  (lib (name dvi-16bit)(type KiCad)(uri ${KIPRJMOD}/dvi-16bit.pretty)(options "")(descr ""))
 )
