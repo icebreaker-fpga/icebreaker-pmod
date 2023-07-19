@@ -1282,17 +1282,6 @@ Wire Wire Line
 	4900 5800 4900 4650
 Wire Wire Line
 	4900 5800 5700 5800
-$Comp
-L Jumper:SolderJumper_3_Bridged12 JP5
-U 1 1 6510DFD2
-P 10100 2400
-F 0 "JP5" H 10100 2513 50  0000 C CNN
-F 1 "SolderJumper_3_Bridged12" H 10100 2514 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 10100 2400 50  0001 C CNN
-F 3 "~" H 10100 2400 50  0001 C CNN
-	1    10100 2400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10100 2550 10100 2600
 $Comp
@@ -1390,4 +1379,170 @@ Wire Wire Line
 	7300 3200 7750 3200
 Wire Wire Line
 	7750 2950 7750 3200
+$Comp
+L dvi-16bit:LM2775 U2
+U 1 1 64BA0BB1
+P 8400 1650
+F 0 "U2" H 8400 2265 50  0000 C CNN
+F 1 "LM2775" H 8400 2174 50  0000 C CNN
+F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias" H 8950 2100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2775.pdf" H 8950 2000 50  0001 L CNN
+	1    8400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 64BA2342
+P 8400 2300
+F 0 "#PWR0113" H 8400 2050 50  0001 C CNN
+F 1 "GND" H 8405 2124 50  0000 C CNN
+F 2 "" H 8400 2300 50  0001 C CNN
+F 3 "" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 64BB35C0
+P 8800 900
+F 0 "#PWR0115" H 8800 650 50  0001 C CNN
+F 1 "GND" H 8805 724 50  0000 C CNN
+F 2 "" H 8800 900 50  0001 C CNN
+F 3 "" H 8800 900 50  0001 C CNN
+	1    8800 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 900  9100 900 
+Wire Wire Line
+	9100 900  9100 1300
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 64C12D7B
+P 9100 1850
+F 0 "#PWR0118" H 9100 1700 50  0001 C CNN
+F 1 "+3V3" H 9115 2026 50  0000 C CNN
+F 2 "" H 9100 1850 50  0001 C CNN
+F 3 "" H 9100 1850 50  0001 C CNN
+	1    9100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0124
+U 1 1 64C59637
+P 7300 1100
+F 0 "#PWR0124" H 7300 950 50  0001 C CNN
+F 1 "+3V3" H 7315 1276 50  0000 C CNN
+F 2 "" H 7300 1100 50  0001 C CNN
+F 3 "" H 7300 1100 50  0001 C CNN
+	1    7300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 64C7DCC7
+P 9300 1250
+F 0 "C12" H 9200 1350 50  0000 L CNN
+F 1 "10u" H 9150 1150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9392 1157 60  0001 L CNN
+F 3 "" H 9300 1250 60  0001 C CNN
+F 4 "" H 9300 1250 50  0001 C CNN "Key"
+F 5 "" H 9300 1250 50  0001 C CNN "Source"
+	1    9300 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1600 9300 1600
+Wire Wire Line
+	9100 1400 9300 1400
+Wire Wire Line
+	9300 1100 9300 900 
+Wire Wire Line
+	9300 900  9100 900 
+Connection ~ 9100 900 
+Connection ~ 9300 1400
+Wire Wire Line
+	9300 1600 9300 1400
+$Comp
+L Device:C C13
+U 1 1 64D353B2
+P 9550 1350
+F 0 "C13" H 9450 1450 50  0000 L CNN
+F 1 "10u" H 9400 1250 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9642 1257 60  0001 L CNN
+F 3 "" H 9550 1350 60  0001 C CNN
+F 4 "" H 9550 1350 50  0001 C CNN "Key"
+F 5 "" H 9550 1350 50  0001 C CNN "Source"
+	1    9550 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 1500 9550 1500
+Wire Wire Line
+	9550 1200 9550 900 
+Wire Wire Line
+	9550 900  9300 900 
+Connection ~ 9300 900 
+Wire Wire Line
+	9100 1850 9300 1850
+Wire Wire Line
+	9300 1850 9300 1600
+Connection ~ 9300 1600
+Wire Wire Line
+	9550 1500 9550 2550
+Wire Wire Line
+	9550 2550 10100 2550
+Connection ~ 9550 1500
+Text Label 9550 1950 0    50   ~ 0
++5V-HDMI
+$Comp
+L Jumper:SolderJumper_3_Open JP5
+U 1 1 64DED158
+P 10100 2400
+F 0 "JP5" H 10100 2513 50  0000 C CNN
+F 1 "SolderJumper_3_Open" H 10100 2514 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 10100 2400 50  0001 C CNN
+F 3 "~" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 10100 2550
+$Comp
+L Device:C C14
+U 1 1 64E413F5
+P 7500 1450
+F 0 "C14" H 7400 1550 50  0000 L CNN
+F 1 "1u" H 7350 1350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7592 1357 60  0001 L CNN
+F 3 "" H 7500 1450 60  0001 C CNN
+F 4 "" H 7500 1450 50  0001 C CNN "Key"
+F 5 "" H 7500 1450 50  0001 C CNN "Source"
+	1    7500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 1600 7700 1750
+Wire Wire Line
+	7700 1750 7300 1750
+Wire Wire Line
+	7700 1300 7700 1150
+Wire Wire Line
+	7700 1150 7300 1150
+Wire Wire Line
+	7300 1100 7300 1150
+Connection ~ 7300 1150
+Wire Wire Line
+	7300 1150 7300 1750
+Wire Wire Line
+	7500 1300 7650 1300
+Wire Wire Line
+	7650 1300 7650 1400
+Wire Wire Line
+	7650 1400 7700 1400
+Wire Wire Line
+	7500 1600 7650 1600
+Wire Wire Line
+	7650 1600 7650 1500
+Wire Wire Line
+	7650 1500 7700 1500
 $EndSCHEMATC
