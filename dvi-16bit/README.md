@@ -39,6 +39,24 @@ R3 | 91k | 0603 | DNP (Do not populate) unless you want configure for low-swing 
 R4 | 10k | 0603 | Pull-down resistor for ISEL/RSTn.
 R5 | 510 Ω | 0603 | TFADJ-resistor for DVI-compliant V(SWING) range. (505-515) Min/Max.
 RN1 | Resistor pack 10k (CAY16-103J4LF) | 1206 | [CAY16-103J4LF](https://www.digikey.com/en/products/detail/bourns-inc/CAY16-103J4LF/431579) Pull-ups for EDGE/HTPLG, PDn, BSEL/SCL and Pull-down for DSEL/SDA.
+C1 | 10uF | 1206 | 5V Decoupling capacitor for external VIN 5V header.
+C2-C8 | 100nF | 0603 | 3V3 Decoupling capacitor.
+C9-C11 | 10uF | 0805 | 3V3 Decoupling capacitor.
+C12-C13 | 10uF | 0805 | 3V3 Decoupling capacitor for LM2775 if populated.
+C14 | 1uF | 0805 | 3V3 Decoupling capacitor for LM2775 if populated.
+
+
+JP settings:
+
+* JP4 (DKEN), When the I2C bus is disabled which it is with R4 pull-down (ISEL = low) and the de-skew mode enabled (DKEN = high, JP4 open), the three inputs JP3,JP2,JP1 become the de-skew inputs DK[3:1], used to adjust the setup and hold times of the pixel data inputs DATA[23:0], relative to the clock input IDCK±
+
+All three DK[3:1] inputs support 3.3-V CMOS signal levels and contain weak pulldown resistors so that if left unconnected, no solder-blob, they default to all low.
+
+* JP3 (DK3), Sets the de-skew input bit 7. Default low, solder-blob to set it high.
+* JP2 (DK2), Sets the de-skew input bit 6. Default low, solder-blob to set it high.
+* JP1 (DK1), Sets the de-skew input bit 5. Default low, solder-blob to set it high.
+
+
 
 
 
