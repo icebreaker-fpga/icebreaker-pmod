@@ -1,5 +1,26 @@
 # DVI 16-bit (RGB565)
-My Redesign of the Icebreaker DVI PMOD to 16-bit (RGB565) PCB with handsolder footprints.
+My Re-design of the Icebreaker DVI PMOD to 16-bit (RGB565) PCB with handsolder footprints.
+
+***
+
+<a href="pics/dvi-16bit_v1.2a_pic1.png">
+<img src="pics/dvi-16bit_v1.2a_pic1.png" width="600" height="485">
+</a>
+<br />
+<a href="pics/dvi-16bit_v1.2a_pic2.png">
+<img src="pics/dvi-16bit_v1.2a_pic2.png" width="298" height="345">
+</a>
+<a href="pics/dvi-16bit_v1.2a_pic3.png">
+<img src="pics/dvi-16bit_v1.2a_pic3.png" width="298" height="345">
+</a>
+<br />
+<a href="pics/dvi-16bit_v1.2a_pic4.png">
+<img src="pics/dvi-16bit_v1.2a_pic4.png" width="600" height="256">
+</a>
+<br />
+<a href="pics/dvi-16bit_v1.2a_pic5.png">
+<img src="pics/dvi-16bit_v1.2a_pic5.png" width="600" height="202">
+</a>
 
 ***
 
