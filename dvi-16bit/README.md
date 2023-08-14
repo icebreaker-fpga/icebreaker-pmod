@@ -44,13 +44,22 @@ C2-C8 | 100nF | 0603 | 3V3 Decoupling capacitor.
 C9-C11 | 10uF | 0805 | 3V3 Decoupling capacitor.
 C12-C13 | 10uF | 0805 | 3V3 Decoupling capacitor for LM2775 if populated.
 C14 | 1uF | 0805 | 3V3 Decoupling capacitor for LM2775 if populated.
+JP4 | JP-header | 2.00mm (2 x 1) Pin Male Header | DKEN-setting by 2.00mm jumper-block
 
 
 JP settings:
 
-* JP4 (DKEN), When the I2C bus is disabled which it is with R4 pull-down (ISEL = low) and the de-skew mode enabled (DKEN = high, JP4 open), the three inputs JP3,JP2,JP1 become the de-skew inputs DK[3:1], used to adjust the setup and hold times of the pixel data inputs DATA[23:0], relative to the clock input IDCK±
+* JP4 (DKEN) 
+  When the I2C bus is disabled which it is with R4 pull-down (ISEL = low) this JP has the following function:<br />
+  * DKEN = LOW (Jumper closed), then default De-skewing setting is used.
+  * DKEN = HIGH (Jumper open), the DK[3:1] is used as the De-skewing setting. The De-skewing increments are TSTEP. Please see Data De-skew Table below.
+  Adjusts the setup and hold times of the pixel data inputs DATA[23:0], relative to the clock input IDCK±
 
-All three DK[3:1] inputs support 3.3-V CMOS signal levels and contain weak pulldown resistors so that if left unconnected, no solder-blob, they default to all low.
+<a href="pics/dvi-16bit_v1.2a_pic6.png">
+<img src="pics/dvi-16bit_v1.2a_pic6.png" width="864" height="289">
+</a>
+
+All three DK[3:1] inputs support 3.3V CMOS signal levels and contain weak pulldown resistors so that if left unconnected, no solder-blob on JP-pad, they default to all low.
 
 * JP3 (DK3), Sets the de-skew input bit 7. Default low, solder-blob to set it high.
 * JP2 (DK2), Sets the de-skew input bit 6. Default low, solder-blob to set it high.
