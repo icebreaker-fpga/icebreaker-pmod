@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2775
+D Voltage Regulators - Switching Regulators Switched Capacitor 5V Boost Converter 8-WSON -40 to 85
+F http://www.ti.com/lit/ds/symlink/lm2775.pdf
+$ENDCMP
+#
+#End Doc Library
