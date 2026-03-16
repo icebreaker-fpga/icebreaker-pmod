@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name dvi-16bit)(type Legacy)(uri ${KIPRJMOD}/dvi-16bit.lib)(options "")(descr ""))
+)
